@@ -25,6 +25,16 @@ try {
     await pagina.waitForURL((u) => !/(buscape|zoom)\.com\.br/.test(u.hostname), { timeout: 30000 }).catch(() => {});
   }
   await pagina.waitForTimeout(4000);
+  // A Amazon às vezes mostra só uma tela "Continuar comprando" (checagem de robô). Clica e abre a página de novo.
+  for (let i = 0; i < 2; i++) {
+    const botao = pagina.getByText(/^\s*Continuar comprando\s*$/i).first();
+    if (!(await botao.isVisible().catch(() => false))) break;
+    await botao.click().catch(() => {});
+    await pagina.waitForLoadState("domcontentloaded").catch(() => {});
+    await pagina.waitForTimeout(2500);
+    await pagina.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 }).catch(() => {});
+    await pagina.waitForTimeout(4000);
+  }
   const texto = (await pagina.innerText("body")).replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n");
   // Na Amazon o nome do vendedor fica na linha de baixo de "Vendido por".
   const vendedor = [...new Set((texto.match(/(vendido e entregue por|enviado \/ vendido|vendido por|enviado por)[ :]*\n?[^\n]{0,100}/gi) || []).map((s) => s.replace(/\s+/g, " ").trim()))].slice(0, 10);

@@ -80,8 +80,9 @@ Termine com um relatório curto, em português (ele fica salvo em `logs/`), assi
 
 A coleta normal roda numa rotina do Claude Code na nuvem (Linux), no repositório GitHub do projeto. A página fica publicada pelo GitHub Pages a partir da branch `main`. Nesse caso:
 
+- **Toda rodada faz a coleta completa** das etapas 1 a 5, mesmo que já exista coleta de hoje (os preços mudam ao longo do dia). Nesse caso, ela substitui o registro de hoje no `historico`.
 - **Antes da etapa 1:** rode `npm ci` (ou `npm install`) e depois `npx playwright-core install --with-deps chromium`, para o `scripts/abrir.mjs` funcionar. Se a instalação do navegador falhar, siga só com o WebFetch e conte isso no relatório.
-- **Depois da etapa 5:** salve o relatório em `logs/coleta-AAAA-MM-DD-manha.log` (antes das 14h no horário de Fortaleza) ou em `logs/coleta-AAAA-MM-DD-noite.log`. Depois rode `git add dados logs`, faça um commit com a mensagem `Coleta AAAA-MM-DD manha` (ou `noite`) e um `git push origin HEAD:main`. Se o push for recusado porque a `main` andou, rode `git pull --rebase origin main` e tente de novo. Só faça o commit se o `gerar.mjs` terminou com `Página atualizada`. Se não terminou, faça o commit só do log.
+- **Depois da etapa 5:** salve o relatório em `logs/coleta-AAAA-MM-DD-manha.log` (antes das 14h no horário de Fortaleza) ou em `logs/coleta-AAAA-MM-DD-noite.log`. Se o arquivo já existir, substitua. Depois rode `git add dados logs`, faça um commit com a mensagem `Coleta AAAA-MM-DD manha` (ou `noite`) e um `git push origin HEAD:main`. Se o push for recusado porque a `main` andou, rode `git pull --rebase origin main` e tente de novo. Só faça o commit se o `gerar.mjs` terminou com `Página atualizada`. Se não terminou, faça o commit só do log.
 - Nessa rotina, além dos JSON de `dados/`, você também grava `dados/radar.js` e `dados/radar.anterior.js` (pelo script, nunca à mão) e o log. Não altere mais nada.
 
 ## Formato dos arquivos
