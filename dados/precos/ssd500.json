@@ -1,22 +1,156 @@
 {
   "atualizado": "2026-11-07",
-  "menor": { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 602.1, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "Imagem Hitech", "tipo": "parceiro", "nota": 4.5, "avaliacoes": 4909, "reputacao": null } },
-  "qtdOfertas": 10,
+  "menor": {
+    "loja": "Amazon",
+    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+    "preco": 602.1,
+    "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+    "vendedor": {
+      "nome": "Imagem Hitech",
+      "tipo": "parceiro",
+      "nota": 4.5,
+      "avaliacoes": 4910,
+      "reputacao": null
+    }
+  },
+  "qtdOfertas": 20,
   "naoConferidas": [
-    { "loja": "Magazine Luiza", "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G", "preco": 694.41, "link": "https://www.buscape.com.br/lead?oid=1524429672" },
-    { "loja": "Magazine Luiza", "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G", "preco": 699.71, "link": "https://www.buscape.com.br/lead?oid=1520589680" }
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
+      "preco": 694.41,
+      "link": "https://www.buscape.com.br/lead?oid=1524429672"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
+      "preco": 699.71,
+      "link": "https://www.buscape.com.br/lead?oid=1520589680"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
+      "preco": 699.71,
+      "link": "https://www.buscape.com.br/lead?oid=1521228965"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "SSD 500gb Kingston Nv3, M.2 2280, PCie 4.0 Nvme, Leitura/gravação: 5000/3000 Mb/s, Snv3s/500g",
+      "preco": 899.99,
+      "link": "https://www.buscape.com.br/lead?oid=1370583190"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "SSD 500GB Kingston NV3 M.2 2280 NVMe PCIe 4.0 Até 5000MB/s SNV3S/500G",
+      "preco": 1189,
+      "link": "https://www.buscape.com.br/lead?oid=1580801971"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Ssd Kingston Nv3 M.2 2280 Nvme 4.0 500gb",
+      "preco": 1250.81,
+      "link": "https://www.buscape.com.br/lead?oid=1578227577"
+    }
   ],
   "ofertas": [
-    { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 602.1, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "Imagem Hitech", "tipo": "parceiro", "nota": 4.5, "avaliacoes": 4909, "reputacao": null } },
-    { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 616.49, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "MultiVendas Prime", "tipo": "parceiro", "nota": 4.5, "avaliacoes": 313, "reputacao": null } },
-    { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 628.15, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "Wolf System Informática", "tipo": "parceiro", "nota": 4.5, "avaliacoes": 493, "reputacao": null } },
-    { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 647.1, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "GPrime Games", "tipo": "parceiro", "nota": 5, "avaliacoes": 1046, "reputacao": null } },
-    { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 656.09, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "Top System Informática", "tipo": "parceiro", "nota": 5, "avaliacoes": 1169, "reputacao": null } },
-    { "loja": "Amazon", "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G", "preco": 679.5, "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1", "vendedor": { "nome": "InfoTop", "tipo": "parceiro", "nota": 4.5, "avaliacoes": 488, "reputacao": null } }
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+      "preco": 602.1,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Imagem Hitech",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 4910,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+      "preco": 616.49,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "MultiVendas Prime",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 313,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+      "preco": 628.15,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Wolf System Informática",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 493,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+      "preco": 647.1,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "GPrime Games",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 1046,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+      "preco": 656.09,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Top System Informática",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 1169,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
+      "preco": 679.5,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "InfoTop",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 488,
+        "reputacao": null
+      }
+    }
   ],
   "livelo": [
-    { "loja": "Kabum", "nome": "SSD 500gb Kingston Nv3, M.2 2280, PCie 4.0 Nvme, Leitura/gravação: 5000/3000 Mb/s, Snv3s/500g", "preco": 735.37, "link": "https://www.kabum.com.br/produto/645681/ssd-500gb-kingston-nv3-m-2-2280-pcie-4-0-nvme-leitura-gravacao-5000-3000-mb-s-snv3s-500g", "vendedor": "Kometa (parceiro da KaBuM!)", "pontos": 0, "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje o NV3 500 GB lá é vendido por parceiros (Kometa, nota 5)." },
-    { "loja": "Magalu", "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G", "preco": 694.41, "link": "https://www.buscape.com.br/lead?oid=1524429672", "vendedor": null, "pontos": 1, "obs": "A Magalu bloqueou a leitura, então o vendedor não foi conferido. A promoção acabou em 06/11: vendedor parceiro dá 1 ponto por real; se for a própria Magalu, são 2." }
+    {
+      "loja": "Kabum",
+      "nome": "SSD Kingston NV3, 500GB, M.2 2280, PCIe 4.0 x4, NVMe, Leitura: 5000 MB/s, Gravação: 3000 MB/s, Azul - SNV3S/500G",
+      "preco": 839.99,
+      "link": "https://www.kabum.com.br/produto/621161/ssd-kingston-nv3-500-gb-m-2-2280-pcie-4-0-x4-nvme-leitura-5000-mb-s-gravacao-3000-mb-s-azul-snv3s-500g",
+      "vendedor": "KaBuM!",
+      "pontos": 1,
+      "obs": "Vendido e entregue pela própria KaBuM!, então pontua 1 ponto por real (use o cupom LIVELO). Mais barato na KaBuM! hoje é a Kometa (parceiro, nota 5) por R$ 735,37, mas compra de parceiro não pontua."
+    },
+    {
+      "loja": "Magalu",
+      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
+      "preco": 694.41,
+      "link": "https://www.buscape.com.br/lead?oid=1524429672",
+      "vendedor": null,
+      "pontos": 1,
+      "obs": "A Magalu bloqueou a leitura, então o vendedor não foi conferido (o link indica marketplace/Olist). Vendedor parceiro dá 1 ponto por real; se for a própria Magalu, são 2."
+    }
   ],
   "historico": [
     {
@@ -33,10 +167,34 @@
       "m": 732.77,
       "p": 635.55
     },
-    { "d": "2026-10-24", "p": 635.55, "l": "Amazon", "lojas": 1, "m": 635.55 },
-    { "d": "2026-11-05", "p": 647.1, "l": "Amazon", "lojas": 1, "m": 647.1 },
-    { "d": "2026-11-06", "p": 602.1, "l": "Amazon", "lojas": 2, "m": 668.74 },
-    { "d": "2026-11-07", "p": 602.1, "l": "Amazon", "lojas": 2, "m": 668.74 }
+    {
+      "d": "2026-10-24",
+      "p": 635.55,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 635.55
+    },
+    {
+      "d": "2026-11-05",
+      "p": 647.1,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 647.1
+    },
+    {
+      "d": "2026-11-06",
+      "p": 602.1,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 668.74
+    },
+    {
+      "d": "2026-11-07",
+      "p": 602.1,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 668.74
+    }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",
   "meses": [

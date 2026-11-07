@@ -1,8 +1,0 @@
-Coleta na nuvem 2026-11-07 (noite, 15h em Fortaleza)
-
-- Instalação: npm ci e Chromium do Playwright ok.
-- Conferi de novo as páginas de vendedores da Amazon (SSD, memória, Deco X50, Robô H50 US) com o abrir.mjs: preços, vendedores e notas iguais aos já registrados. Nenhum preço mudou, então não alterei os JSON.
-- Menores preços: Memória R$ 755,84 (Amazon), SSD R$ 602,10 (Amazon), Deco X50 R$ 702,05 (Amazon), Robô H50 R$ 2.689,90 (Amazon). Diferença para ontem: zero.
-- Vendedores descartados: PWM (memória, R$ 716,05, importação de Singapura); Completa Lar (robô, R$ 2.659,90, nota 2 com 3 avaliações); celcomerce (robô, nota 2); CK INFO (SSD, 19 avaliações).
-- Falhas/não refeito nesta rodada: outras lojas (KaBuM, Magalu, Webcontinental etc.), Livelo e bônus de transferência não foram rechecados; valem os dados das 14h16. Robô H50 bivolt (B0GYW68HVQ) não retornou lista de vendedores.
-- gerar.mjs terminou com "Página atualizada".

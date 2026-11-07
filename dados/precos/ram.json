@@ -1,22 +1,144 @@
 {
   "atualizado": "2026-11-07",
-  "menor": { "loja": "Amazon", "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz", "preco": 755.84, "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1", "vendedor": { "nome": "NexTT", "tipo": "parceiro", "nota": 5, "avaliacoes": 767, "reputacao": null } },
-  "qtdOfertas": 4,
+  "menor": {
+    "loja": "Amazon",
+    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Laptop Notebook Memória RAM para Dell HP Lenovo - Embalagem OEM",
+    "preco": 755.25,
+    "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
+    "vendedor": {
+      "nome": "BM INFO",
+      "tipo": "parceiro",
+      "nota": 5,
+      "avaliacoes": 151,
+      "reputacao": null
+    }
+  },
+  "qtdOfertas": 18,
   "naoConferidas": [
-    { "loja": "Magazine Luiza", "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200", "preco": 783.75, "link": "https://www.buscape.com.br/lead?oid=1563661101" },
-    { "loja": "Magazine Luiza", "nome": "Memória Ram Para Notebook 16GB Samsung DDR4 3200Mhz 2Rx8 CL22 PC4 3200", "preco": 783.75, "link": "https://www.buscape.com.br/lead?oid=1575307319" },
-    { "loja": "Magazine Luiza", "nome": "Memória Ram Para Notebook 16GB Samsung DDR4 3200Mhz 2Rx8 CL22 PC4 3200", "preco": 783.75, "link": "https://www.buscape.com.br/lead?oid=1564087022" },
-    { "loja": "Magazine Luiza", "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200", "preco": 783.75, "link": "https://www.buscape.com.br/lead?oid=1564623238" }
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200",
+      "preco": 783.75,
+      "link": "https://www.buscape.com.br/lead?oid=1563661101"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Memória Ram Para Notebook 16GB Samsung DDR4 3200Mhz 2Rx8 CL22 PC4 3200",
+      "preco": 783.75,
+      "link": "https://www.buscape.com.br/lead?oid=1575307319"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Memória Ram Para Notebook 16GB Samsung DDR4 3200Mhz 2Rx8 CL22 PC4 3200",
+      "preco": 783.75,
+      "link": "https://www.buscape.com.br/lead?oid=1564087022"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200",
+      "preco": 783.75,
+      "link": "https://www.buscape.com.br/lead?oid=1564623238"
+    }
   ],
   "ofertas": [
-    { "loja": "Amazon", "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz", "preco": 755.84, "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1", "vendedor": { "nome": "NexTT", "tipo": "parceiro", "nota": 5, "avaliacoes": 767, "reputacao": null } },
-    { "loja": "Amazon", "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz", "preco": 755.84, "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1", "vendedor": { "nome": "GARZÔ", "tipo": "parceiro", "nota": 4.5, "avaliacoes": 152, "reputacao": null } },
-    { "loja": "KaBuM!", "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16", "preco": 837.35, "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16", "vendedor": { "nome": "Cavuca", "tipo": "parceiro", "nota": 4.7, "avaliacoes": 1000, "reputacao": null } },
-    { "loja": "KaBuM!", "nome": "Memória Notebook Kingston 16GB Ddr4 3200 Mhz 1,2v Sodimm - Kvr32s22s8/16", "preco": 849.15, "link": "https://www.kabum.com.br/produto/403550/memoria-para-notebook-kingston-16gb-3200mhz-ddr4-kvr32s22s8-16", "vendedor": { "nome": "Net Alfa Computadores", "tipo": "parceiro", "nota": 4.7, "avaliacoes": 1000, "reputacao": null } }
+    {
+      "loja": "Amazon",
+      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Laptop Notebook Memória RAM para Dell HP Lenovo - Embalagem OEM",
+      "preco": 755.25,
+      "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
+      "vendedor": {
+        "nome": "BM INFO",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 151,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
+      "preco": 837.35,
+      "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
+      "vendedor": {
+        "nome": "Cavuca",
+        "tipo": "parceiro",
+        "nota": 4.7,
+        "avaliacoes": 1000,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Para Notebook Samsung 16gb 3200mhz Ddr4 (sem Embalagem) 1rx8- M471a2g43ab2-cwe - 6939",
+      "preco": 840,
+      "link": "https://www.kabum.com.br/produto/992421/memoria-para-notebook-samsung-16gb-3200mhz-ddr4-sem-embalagem-1rx8-m471a2g43ab2-cwe-6939",
+      "vendedor": {
+        "nome": "Matron Informatica",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 1000,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Notebook Kingston 16GB Ddr4 3200 Mhz 1,2v Sodimm - Kvr32s22s8/16",
+      "preco": 849.15,
+      "link": "https://www.kabum.com.br/produto/403550/memoria-para-notebook-kingston-16gb-3200mhz-ddr4-kvr32s22s8-16",
+      "vendedor": {
+        "nome": "Net Alfa Computadores",
+        "tipo": "parceiro",
+        "nota": 4.7,
+        "avaliacoes": 1000,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Notebook Kingston, 16GB, DDR4 3200mhz - KVR32S22D8/16",
+      "preco": 869.9,
+      "link": "https://www.kabum.com.br/produto/464061/memoria-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22d8-16",
+      "vendedor": {
+        "nome": "EQUIPECLUB",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 1000,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Ram Crucial, 16gb, 3200mhz, Ddr4 - P/notebook - Ct16g4sfra32a",
+      "preco": 1002.71,
+      "link": "https://www.kabum.com.br/produto/1053587/memoria-ram-crucial-16gb-3200mhz-ddr4-p-notebook-ct16g4sfra32a",
+      "vendedor": {
+        "nome": "Vortex Suprimentos de Informática",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 672,
+        "reputacao": null
+      }
+    }
   ],
   "livelo": [
-    { "loja": "Kabum", "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16", "preco": 837.35, "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16", "vendedor": "Cavuca (parceiro da KaBuM!)", "pontos": 0, "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (Cavuca, nota 4,7)." },
-    { "loja": "Magalu", "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200", "preco": 783.75, "link": "https://www.buscape.com.br/lead?oid=1563661101", "vendedor": null, "pontos": 1, "obs": "A Magalu bloqueou a leitura, então o vendedor não foi conferido. A promoção acabou em 06/11: vendedor parceiro dá 1 ponto por real; se for a própria Magalu, são 2." }
+    {
+      "loja": "Kabum",
+      "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
+      "preco": 837.35,
+      "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
+      "vendedor": "Cavuca (parceiro da KaBuM!)",
+      "pontos": 0,
+      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da Cavuca, nota 4,7)."
+    },
+    {
+      "loja": "Magalu",
+      "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200",
+      "preco": 783.75,
+      "link": "https://www.buscape.com.br/lead?oid=1563661101",
+      "vendedor": null,
+      "pontos": 1,
+      "obs": "A Magalu bloqueou a leitura (erro 403), então a nota do vendedor não foi conferida. O link leva a um parceiro (Matros Informática): vendedor parceiro dá 1 ponto por real; se for a própria Magalu, são 2."
+    }
   ],
   "historico": [
     {
@@ -33,10 +155,34 @@
       "m": 912.2,
       "p": 769.4
     },
-    { "d": "2026-10-24", "p": 769.4, "l": "Amazon", "lojas": 2, "m": 912.2 },
-    { "d": "2026-11-05", "p": 755.84, "l": "Amazon", "lojas": 1, "m": 755.84 },
-    { "d": "2026-11-06", "p": 755.84, "l": "Amazon", "lojas": 1, "m": 755.84 },
-    { "d": "2026-11-07", "p": 755.84, "l": "Amazon", "lojas": 2, "m": 796.6 }
+    {
+      "d": "2026-10-24",
+      "p": 769.4,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 912.2
+    },
+    {
+      "d": "2026-11-05",
+      "p": 755.84,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 755.84
+    },
+    {
+      "d": "2026-11-06",
+      "p": 755.84,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 755.84
+    },
+    {
+      "d": "2026-11-07",
+      "p": 755.25,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 796.3
+    }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",
   "meses": [
