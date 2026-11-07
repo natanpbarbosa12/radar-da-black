@@ -1,7 +1,19 @@
 {
   "atualizado": "2026-11-07",
-  "menor": null,
-  "qtdOfertas": 0,
+  "menor": {
+    "loja": "Amazon",
+    "nome": "Xiaomi Robot Vacuum H50 US | Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Controle App Xiaomi Home, Versão US",
+    "preco": 2689.9,
+    "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
+    "vendedor": {
+      "nome": "Ultra Eletro SP",
+      "tipo": "parceiro",
+      "nota": 4.5,
+      "avaliacoes": 602,
+      "reputacao": null
+    }
+  },
+  "qtdOfertas": 1,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -28,7 +40,21 @@
       "link": "https://www.buscape.com.br/lead?oid=1578171732"
     }
   ],
-  "ofertas": [],
+  "ofertas": [
+    {
+      "loja": "Amazon",
+      "nome": "Xiaomi Robot Vacuum H50 US | Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Controle App Xiaomi Home, Versão US",
+      "preco": 2689.9,
+      "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Ultra Eletro SP",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 602,
+        "reputacao": null
+      }
+    }
+  ],
   "historico": [
     {
       "d": "2026-10-24",
@@ -46,6 +72,13 @@
     },
     {
       "d": "2026-11-06",
+      "p": 2689.9,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 2689.9
+    },
+    {
+      "d": "2026-11-07",
       "p": 2689.9,
       "l": "Amazon",
       "lojas": 1,
