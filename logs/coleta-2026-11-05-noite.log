@@ -1,0 +1,52 @@
+﻿Início: 2026-11-05 22:21
+--- Tentativa 1 (22:21)
+# Relatório da coleta: 05/11/2026
+
+O `gerar.mjs` validou os dados e terminou com **"Página atualizada"**.
+
+## Preços de hoje
+A comparação é com a última coleta registrada, de 24/10. Entre 25/10 e 04/11 não houve coleta.
+
+| Produto | Menor preço | Loja (vendedor) | Diferença |
+|---|---|---|---|
+| Memória 16 GB DDR4 | R$ 755,84 | Amazon (NexTT, nota 5, 766 avaliações) | −R$ 13,56 |
+| SSD NV3 500 GB | R$ 647,10 | Amazon (GPrime Games, nota 5, 1.045 avaliações) | +R$ 11,55 |
+| Deco X50, kit com 2 | R$ 702,05 | Amazon (zShops, nota 4,5, 2.005 avaliações) | −R$ 40,26 |
+| Robô Xiaomi H50 (US, 110V) | R$ 2.689,90 | Amazon (Ultra Eletro SP, nota 4,5, 602 avaliações) | +R$ 306,86 |
+| Panela PCC20 127V | **R$ 353,38** | Amazon (a própria Amazon vende) | **−R$ 145,62** |
+
+A panela está com 52% de desconto sobre o preço de tabela. Na loja da Electrolux ela sai por R$ 498,11 no Pix, e lá a compra rende pontos Livelo.
+
+## Livelo e Smiles
+- **Em promoção hoje:**
+  - Magalu: 3 pontos por real (parceiro dá 2), até 06/11.
+  - Fast Shop: 3 pontos por real, termina hoje.
+  - Midea: 3 pontos por real, até 09/11.
+  - Carrefour: 2 pontos por real, ou 4 para quem é do Clube Livelo, só hoje.
+- **Só para o Clube Livelo:** Electrolux dá 4 pontos por real até hoje. Quem não é do clube continua com 1.
+- **Mercado Livre:** a promoção de até 2 pontos por real vale só para Beleza e Cosméticos. Nos produtos do radar continua 0,5.
+- **Smiles:** não achei campanha de bônus ativa. A página de promoções da Smiles não tem nenhuma da Livelo, e a página de transferência da Livelo bloqueou a leitura (erro 403).
+
+## Ofertas mais baratas descartadas por causa do vendedor
+- **SSD:** Bhc Informatica a R$ 621,00 (só 42 avaliações) e NORYX a R$ 621,00 (vendedor novo). Também saiu a CK INFO, com 19 avaliações.
+- **Robô:** PACMAGAZZINE a R$ 2.457,00 (39 avaliações), celcomerce a R$ 2.638,09 (nota 2) e Completa Lar a R$ 2.659,90 (nota 2, 3 avaliações).
+- **Panela:**
+  - Magalu dentro da Amazon a R$ 472,72 e Loja Electrolux dentro da Amazon a R$ 494,90, as duas com nota 3,5.
+  - Outros quatro parceiros da Amazon, com menos de 100 avaliações ou nota baixa.
+  - Na Webcontinental, Fast Shop a R$ 540,13 e Loja Electrolux a R$ 549,90: a página mostra quem vende, mas não a nota do vendedor.
+- **Memória:**
+  - KaBuM!, vendido pela Net Alfa, a R$ 849,15: sem nota visível.
+  - Webcontinental, vendido pela Cavuca, a R$ 844,55: sem nota visível.
+  - Amazon, vendedor PWM: importação de Singapura.
+- **Deco X50:** HD Store a R$ 1.446,92 e Bits e Bytes a R$ 1.524,51 saíram por preço fora da faixa normal, não por causa do vendedor.
+
+## Falhas
+- **O navegador não funcionou:** a pasta `node_modules` sumiu do projeto, então o `node scripts/abrir.mjs` dá erro ao procurar o pacote `playwright-core`. Talvez o OneDrive tenha removido a pasta. Não reinstalei porque a coleta diária só pode mexer nos JSON. Para consertar, rode `npm install` na pasta do projeto.
+  - Para contornar, li a lista de vendedores da Amazon com um pequeno script em Node, numa pasta temporária fora do projeto. Pelo WebFetch, a Amazon devolvia erro 503.
+- **Magalu, KaBuM! e Fast Shop:** os links de oferta do Buscapé só abrem com o navegador. Por isso as ofertas da Magalu e da KaBuM! do SSD, da memória e do robô ficaram em "Vendedor não conferido". A Fast Shop também não abriu (erro 503).
+- **Comparação parcial:** sem o navegador, quase todas as ofertas válidas de hoje vieram da Amazon. A comparação entre lojas ficou menor que o normal.
+- **Robô:** a versão bivolt (B0GYW68HVQ) está sem oferta na Amazon hoje.
+
+Fontes da pesquisa sobre a Smiles: [Passageiro de Primeira](https://passageirodeprimeira.com/?p=567728), [Melhores Destinos](https://www.melhoresdestinos.com.br/milhas/oferta-bonus-livelo-smiles-jun26), [Melhores Cartões](https://www.melhorescartoes.com.br/prorrogado-smiles-livelo-80-bonus-jun26.html)
+Código de saída: 0
+Fim: 2026-11-05 22:31

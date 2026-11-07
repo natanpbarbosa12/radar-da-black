@@ -1,0 +1,123 @@
+{
+  "atualizado": "2026-11-07",
+  "lojas": [
+    {
+      "clube": 1,
+      "loja": "Kabum",
+      "normal": 1,
+      "pontos": 1,
+      "promocao": false,
+      "regra": "Use o cupom LIVELO. Só pontuam produtos vendidos e entregues pela KaBuM!. Pontos em até 30 dias corridos após o recebimento. Cupom, vale-compra e gift card não pontuam. Consulte o regulamento.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
+    },
+    {
+      "clube": 2,
+      "loja": "Magalu",
+      "normal": 2,
+      "pontos": 2,
+      "promocao": false,
+      "regra": "2 pontos por real em produtos vendidos e entregues pela Magalu e 1 ponto por real no marketplace (a campanha de 04 a 06/11 terminou). Compre pelo hotsite. Pontos em até 30 dias da entrega. Não pontuam frete, embalagem, cupom, gift card, vale-compra e pedidos de PJ.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
+    },
+    {
+      "clube": 1,
+      "loja": "Casas Bahia",
+      "normal": 1,
+      "pontos": 1,
+      "promocao": false,
+      "regra": "Compre pelo hotsite. Pontos em até 30 dias após a entrega. Não pontuam frete, embalagem, cupom, gift card, vale-compra, pedidos de PJ, lista de casamento, bebidas, alimentos e serviços (ex.: garantia estendida).",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/casas-bahia/CSB"
+    },
+    {
+      "clube": 1,
+      "loja": "Ponto",
+      "normal": 1,
+      "pontos": 1,
+      "promocao": false,
+      "regra": "Compre pelo hotsite. Pontos em até 30 dias após a entrega. Não pontuam embalagens, frete, cupom, gift card, vale-compra, pedidos de PJ, lista de casamento, bebidas, alimentos e serviços.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/pontofrio/PTF"
+    },
+    {
+      "clube": 1,
+      "loja": "Extra",
+      "normal": 1,
+      "pontos": 1,
+      "promocao": false,
+      "regra": "Compre pelo hotsite. Pontos em até 30 dias após a entrega. Não pontuam embalagens, frete, cupom, gift card, vale-compra, pedidos de PJ, lista de casamento, bebidas, alimentos e serviços.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
+    },
+    {
+      "clube": 5,
+      "loja": "Fast Shop",
+      "normal": 2,
+      "pontos": 5,
+      "promocao": true,
+      "regra": "Campanha de 06 a 08/11/2026: até 5 pontos por real só em produtos selecionados; 2 pontos por real nos demais vendidos pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO pelo hotsite. Pontos em até 30 dias após o recebimento. Não pontuam frete, embalagem, cupom, gift card, vale-compra e PJ.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
+    },
+    {
+      "clube": 0.5,
+      "loja": "Mercado Livre",
+      "normal": 0.5,
+      "pontos": 0.5,
+      "promocao": false,
+      "regra": "1 ponto a cada 2 reais (exceto alimentos e bebidas). De 02 a 08/11/2026, até 2 pontos por real só em Beleza e Cosméticos. Só pontua clicando no link da Livelo antes da compra (até 24 h). Não pontuam frete, juros, garantias, cupom, importados e usados. Crédito em até 40 dias.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
+    },
+    {
+      "loja": "Electrolux",
+      "pontos": 1,
+      "normal": 1,
+      "clube": 1,
+      "promocao": false,
+      "regra": "1 ponto por real, sem campanha hoje. Compre pelo hotsite. Pontos em até 30 dias corridos após o recebimento ou a retirada. Só uma modalidade de acúmulo por compra.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
+    },
+    {
+      "loja": "Midea",
+      "pontos": 3,
+      "normal": 1,
+      "clube": 3,
+      "promocao": true,
+      "regra": "Campanha de 03 a 09/11/2026: 3 pontos por real. Compre no site da Midea pelo link da Livelo, com o carrinho vazio antes. Pontos em até 30 dias corridos após o recebimento. Não pontuam frete, embalagem, cupom, gift card, vale-compra e PJ.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
+    },
+    {
+      "loja": "Gazin",
+      "pontos": 2,
+      "normal": 2,
+      "clube": 2,
+      "promocao": false,
+      "regra": "Compre pelo hotsite. Não acumulam: embalagem para presente, frete, valores pagos com cupom, gift card e vale-compra, pedidos de pessoa jurídica. Pontos em até 35 dias corridos da entrega.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/gazin/GZN"
+    },
+    {
+      "loja": "Camicado",
+      "pontos": 4,
+      "normal": 2,
+      "clube": 6,
+      "promocao": true,
+      "regra": "Campanha de 06 a 08/11/2026: 4 pontos por real (6 para o Clube Livelo); normal 2. Só pontuam produtos vendidos e entregues pela Camicado. Pontos em até 45 dias corridos da entrega. Não pontuam frete, embalagem, cupom, gift card, vale-compra e PJ.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
+    },
+    {
+      "loja": "Carrefour",
+      "pontos": 1,
+      "normal": 1,
+      "clube": 1,
+      "promocao": false,
+      "regra": "1 ponto por real, sem campanha hoje. Carrefour Shopping (eletro e casa). Use o cupom livelo. Pontos em até 30 dias após o recebimento ou a retirada. Gift card, vale-presente e vale-compra não pontuam.",
+      "link": "https://www.livelo.com.br/juntar-pontos/parceiros/carrefour-shopping/CRF"
+    }
+  ],
+  "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
+  "smiles": {
+    "ativa": false
+  },
+  "azul": {
+    "ativa": false
+  },
+  "latam": {
+    "ativa": false
+  }
+}

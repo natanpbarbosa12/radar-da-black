@@ -1,0 +1,41 @@
+﻿Início: 2026-10-23 10:02
+Conferi a ferramenta Artifact, que é a que publica no claude.ai, e ela não existe nesta sessão. As ferramentas do Claude Docs servem para documentos, não para esta página, então não usei. Segue o relatório.
+
+## Relatório da coleta de 2026-10-23
+
+A página local foi atualizada (`node scripts/gerar.mjs` terminou com "Página atualizada"), mas **não foi publicada no claude.ai**. A maioria dos preços também não foi atualizada: Amazon, Magazine Luiza, Mercado Livre, Casas Bahia e Livelo bloquearam a leitura (erros 403/503), e hoje é o primeiro dia em que a página exige conferir quem vende cada oferta.
+
+**Preços**
+| Produto | Hoje | Loja | Diferença para ontem |
+|---|---|---|---|
+| SSD Kingston NV3 500 GB | R$ 829,99 | KaBuM! (vende e entrega) | +R$ 218,00 (ontem R$ 611,99) |
+| Memória 16 GB DDR4 | não atualizado | | continua o de 22/10: R$ 742,50, Magazine Luiza |
+| Deco X50 (2 unidades) | não atualizado | | continua o de 22/10: R$ 904,18, Magazine Luiza |
+| Robô Xiaomi H50 | não atualizado | | continua o de 22/10: R$ 2.281,21, Magazine Luiza |
+| Kit Hario V60 Craft | não atualizado | | ainda sem dados |
+
+- **A alta do SSD não é alta de preço.** A KaBuM vendendo direto foi a única oferta em que consegui confirmar o vendedor. A Amazon (R$ 669) e o Magazine Luiza (R$ 694,41) aparecem mais baratos no Buscapé, mas não consegui ver quem vende, então ficaram de fora, como manda a regra. Os R$ 829,99 já ficaram gravados no histórico de hoje, e o histórico não pode ser corrigido depois.
+- Nos outros quatro produtos, nenhuma oferta teve vendedor confirmado porque as lojas bloquearam a leitura. Tratei isso como falha da fonte e não mexi nesses arquivos, em vez de gravar "nenhuma oferta". Eles continuam mostrando os dados de 22/10.
+
+**Livelo**
+- Não deu para ler os pontos por loja: o site da Livelo bloqueou todas as páginas. As lojas continuam com os dados de 22/10, e a data do arquivo também ficou em 22/10.
+- A Fast Shop aparece com 5 pontos por real, mas pelo próprio texto essa campanha ia só até 22/10 e provavelmente já acabou. Não consegui confirmar o valor de hoje.
+- **Bônus Smiles: ativo, com 40% para todos e 70% para quem é do Clube Smiles ou Diamante/Magno.** A campanha foi prorrogada e **acaba hoje, 23/10, às 23h59**. Atualizei a validade e a data de crédito das milhas (até 06/11).
+
+**Vendedores descartados** (ofertas mais baratas que a escolhida). Todas saíram pelo mesmo motivo: a KaBuM e a Fast Shop não mostram nota nem número de avaliações dos vendedores parceiros, e na dúvida a oferta sai.
+- SSD, na KaBuM: Hadesinfo (R$ 611,99), Wolf System Informatica (R$ 711,55), Monsterstok (R$ 796,75) e Kometa (R$ 826,16).
+- Memória, na KaBuM: MG Informatica (R$ 970,57) e BFTECH (R$ 1.118,29).
+- Kit V60, na Fast Shop: Cafe Store (R$ 176,01).
+
+**Página:** não foi publicada no claude.ai porque a ferramenta Artifact não estava disponível nesta sessão. A versão no claude.ai continua a de ontem.
+
+**Falhas**
+- **Amazon, Magazine Luiza, Mercado Livre, Casas Bahia, Terabyte e Pichau:** bloquearam a leitura, então não deu para conferir os vendedores.
+- **Buscapé:** os links das ofertas só abrem com script no navegador, então não levam até a loja.
+- **Deco X50:** a oferta da própria KaBuM está esgotada.
+- **Livelo:** bloqueou todas as páginas de parceiros.
+- **Nesta sessão:** a ferramenta Artifact não estava disponível, e o PowerShell foi recusado (usei o Bash).
+- **Serviços:** Gmail, Google Calendar, Google Drive e Vercel precisam ser autorizados nas configurações de conectores do claude.ai. O servidor `pencil` não conectou. Nada disso afetou a coleta.
+
+Enquanto Amazon e Magazine Luiza bloquearem a leitura, a regra do vendedor vai deixar a maioria dos produtos sem atualização todo dia. Talvez valha usar um navegador de verdade na coleta, ou rever a regra para essas lojas.
+Fim: 2026-10-23 10:08

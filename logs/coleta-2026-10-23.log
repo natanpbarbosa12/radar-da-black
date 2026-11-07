@@ -1,0 +1,40 @@
+﻿Início: 2026-10-23 10:15
+## Relatório da coleta de 23/10/2026
+
+`node scripts/gerar.mjs` terminou com **"Página atualizada"**. Desta vez o navegador (`abrir.mjs`) abriu Amazon, KaBuM, Fast Shop, Livelo e Smiles. Assim deu para conferir os vendedores, coisa que a coleta das 10h02 não conseguiu. Os dados de hoje daquela coleta foram substituídos.
+
+**Preços**
+
+| Produto | Hoje | Loja (vendedor) | Diferença para 22/10 |
+|---|---|---|---|
+| SSD Kingston NV3 500 GB | R$ 635,55 | Amazon (GPrime Games, nota 5, 1.031 avaliações) | +R$ 23,56 (era R$ 611,99) |
+| Memória 16 GB DDR4 | R$ 769,40 | Amazon, Crucial (NexTT, nota 5, 739 avaliações) | +R$ 26,90 (era R$ 742,50) |
+| Deco X50 (2 unidades) | R$ 742,30 | Amazon, vendido pela própria Amazon | −R$ 161,88 (era R$ 904,18) |
+| Robô Xiaomi H50 | sem oferta conferida | | ontem R$ 2.281,21 |
+| Kit Hario V60 Craft | R$ 136,80 | Amazon (FULL ADEGA, nota 4,5, 126 avaliações) | primeiro dia. A própria Amazon vende a R$ 144,00 |
+
+- **Memória:** o preço de ontem (R$ 742,50) era do Magazine Luiza, sem o vendedor conferido. Essa oferta continua lá e aparece como "Vendedor não conferido".
+- **Robô H50:** só o Magazine Luiza tem o modelo nacional, e ele bloqueia a leitura. As 6 ofertas mais baratas, a partir de R$ 2.281,21, aparecem como "Vendedor não conferido". Na Amazon só há a versão "H50 EU", a partir de R$ 2.273,05. Ela é importada e não tem garantia da Xiaomi no Brasil, então ficou de fora.
+- **Memória na KaBuM (MG INFORMATICA):** a página mostra R$ 1.055,00 no Pix, mais caro que o parcelado (10x de R$ 97,05). Usei o valor do Pix, como manda a regra.
+
+**Livelo**
+- **Fast Shop:** em promoção, com 5 pontos por real em eletrodomésticos e eletroportáteis selecionados, de 23 a 26/10 (o normal é 2). Precisa do cupom LIVELO.
+- Kabum, Magalu, Casas Bahia, Ponto e Extra estão sem promoção (1 ou 2 pontos por real).
+- **Mercado Livre:** corrigi o valor no arquivo. A loja dá 1 ponto a cada R$ 2 (0,5 por real), e não 1 por real como estava.
+- **Bônus Smiles: ativo, com 70% para quem é do Clube Smiles ou Diamante/Magno e 40% para os demais.** A campanha **acaba hoje às 23h59**. É preciso se cadastrar e transferir até lá.
+
+**Vendedores descartados**
+- **SSD:** Hadesinfo, na KaBuM, a R$ 611,99, tem nota 3,5 e o aviso "Atrasos pontuais" na entrega. Também saíram:
+  - magazine ttnt (Amazon, R$ 635,55): a nota não aparece.
+  - Bhc Informatica (40 avaliações), BPS Oficial (7) e CK INFO (15): poucas avaliações.
+- **Memória:** Orbitek (Amazon, R$ 769,40, mesmo preço da escolhida) saiu porque a nota não aparece. A Multi Periféricos (R$ 789,12) envia de Singapura, então ficou de fora como importação.
+- **Deco X50:** Zoing-SP tem só 33 avaliações. Bits e Bytes (R$ 1.524,51) passou do limite de preço absurdo.
+- **V60:** Cafe Store, na Fast Shop (R$ 176,01), saiu porque a loja não mostra nota de vendedor. Ristrettinho tem só 6 avaliações.
+
+**Falhas**
+- **Magazine Luiza:** dá erro 403 até no navegador. As ofertas dele foram como "Vendedor não conferido" em todos os produtos.
+- **Mercado Livre:** pede login, então não deu para ler.
+- **Busca da KaBuM:** a lista de produtos não carregou. Só deu para abrir os produtos pelos links do Buscapé.
+- **Nesta sessão:** o PowerShell foi recusado, e o Bash só aceitou comandos simples. Também não deu para usar um script próprio para extrair os links do Buscapé. Usei o WebFetch e o `abrir.mjs`.
+- **Conectores:** Gmail, Google Calendar, Google Drive e Vercel precisam ser autorizados nas configurações de conectores do claude.ai. O servidor `pencil` não conectou. Nada disso afetou a coleta.
+Fim: 2026-10-23 10:31

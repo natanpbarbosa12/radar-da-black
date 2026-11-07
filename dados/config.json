@@ -1,0 +1,70 @@
+{
+  "blackFriday": "2026-11-27",
+  "vendedor": {
+    "notaMinima": 4,
+    "avaliacoesMinimas": 100,
+    "exigirDesde": "2026-10-23"
+  },
+  "produtos": [
+    {
+      "id": "ram",
+      "cat": "Memória",
+      "nome": "Memória 16 GB DDR4",
+      "modelo": "De notebook, 3200 MHz · Kingston, Crucial ou Samsung",
+      "nota": "Entra no lugar do pente de 4 GB. Qualquer uma dessas 3 marcas serve no seu notebook.",
+      "busca": {
+        "termos": [
+          "memória notebook 16GB DDR4 3200 Kingston",
+          "memória notebook 16GB DDR4 3200 Crucial",
+          "memória notebook 16GB DDR4 3200 Samsung"
+        ],
+        "aceitar": "Um único pente de 16 GB, DDR4, 3200 MHz, SODIMM (de notebook), das marcas Kingston, Crucial ou Samsung.",
+        "recusar": "Memória de desktop (UDIMM/DIMM), DDR5, DDR4 2666/2400, 8 GB, kits 2x8 GB, marcas diferentes das 3 aceitas, usada ou recondicionada."
+      }
+    },
+    {
+      "id": "ssd500",
+      "cat": "SSD",
+      "nome": "SSD Kingston NV3 500 GB",
+      "modelo": "M.2 NVMe 2280 (SNV3S/500G)",
+      "nota": "Suficiente para o notebook. Peça ao técnico para clonar o SSD atual.",
+      "busca": {
+        "termos": [
+          "SSD Kingston NV3 500GB SNV3S/500G"
+        ],
+        "aceitar": "Kingston NV3 500 GB, M.2 2280 NVMe, código SNV3S/500G.",
+        "recusar": "NV3 de 1 TB ou 2 TB, NV2, NV1, KC3000, outras marcas, usado ou recondicionado."
+      }
+    },
+    {
+      "id": "mesh",
+      "cat": "Wi-Fi mesh",
+      "nome": "TP-Link Deco X50",
+      "modelo": "Kit com 2 unidades · Wi-Fi 6",
+      "nota": "Compre só depois do teste perto do modem.",
+      "busca": {
+        "termos": [
+          "TP-Link Deco X50 2 unidades"
+        ],
+        "aceitar": "Deco X50, kit com 2 unidades (2-Pack). Se a loja só vende a unidade avulsa, não conte como oferta.",
+        "recusar": "Deco X50-Outdoor, X50-PoE, X55, X55 Pro, X20, X10, X60, X68, kits de 1 ou de 3 unidades, usado ou recondicionado."
+      }
+    },
+    {
+      "id": "roboh50",
+      "cat": "Robô aspirador",
+      "nome": "Xiaomi Robot Vacuum H50",
+      "modelo": "Mapa a laser · base esvazia o pó, lava e seca os panos",
+      "nota": "Só 110V (127V) ou bivolt. A versão US (americana) é 110V, mas a tomada pode ser no padrão americano e a garantia fica com o vendedor, não com a Xiaomi Brasil.",
+      "busca": {
+        "termos": [
+          "Xiaomi Robot Vacuum H50 110V",
+          "Xiaomi Robot Vacuum H50 127V",
+          "Xiaomi Robot Vacuum H50 US"
+        ],
+        "aceitar": "Xiaomi Robot Vacuum H50 com base (qualquer cor), em 110V/127V, bivolt ou versão US (110V), vendido no Brasil. Na Amazon: B0H12R1NB6 (US) e B0GYW68HVQ (bivolt).",
+        "recusar": "Versão 220V ou EU (na Amazon: B0GHM34LVQ e B0H59FW3NV), H50 Pro, H40, H30, X20, S20, E10, outros modelos, peças e acessórios, importação internacional sem garantia no Brasil, usado ou recondicionado. Na dúvida sobre a voltagem, descarte."
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+﻿Início: 2026-10-24 08:00
+## Coleta de 24/10/2026
+
+`node scripts/gerar.mjs` terminou com **"Página atualizada"**. Todos os produtos e a Livelo foram atualizados.
+
+**Preços**
+
+| Produto | Hoje | Loja (vendedor) | Diferença para 23/10 |
+|---|---|---|---|
+| SSD Kingston NV3 500 GB | R$ 635,55 | Amazon (GPrime Games, nota 5, 1.032 avaliações) | igual |
+| Memória 16 GB DDR4 | R$ 769,40 | Amazon, Crucial (NexTT, nota 5, 740 avaliações) | igual |
+| Deco X50 (2 unidades) | R$ 742,31 | Amazon, vendido pela própria Amazon | +R$ 0,01 |
+| Robô Xiaomi H50 | sem oferta conferida | | ontem também não tinha |
+| Kit Hario V60 Craft | R$ 144,00 | Amazon, vendido pela própria Amazon | +R$ 7,20 |
+| Cafeteira Electrolux ECM30 | R$ 269,91 | Amazon, vendido pela própria Amazon (127V e 220V) | igual |
+| Panela de pressão PCC20 | R$ 492,95 | Amazon (Fast Shop Loja Oficial, nota 4,5, 17.325 avaliações) | −R$ 6,05 |
+| Chaleira Midea KDW17P2 | R$ 109,65 | Amazon, vendido pela própria Amazon | igual |
+| Panelas Tramontina Brava | R$ 747,12 | Amazon (Marin Brasil, nota 4,5, 1.922 avaliações) | igual |
+
+- **Robô H50:** só o Magazine Luiza vende a versão nacional, a partir de R$ 2.281,21, e ele bloqueia a leitura. As 6 ofertas mais baratas aparecem como "Vendedor não conferido". Na Amazon só há as versões EU e US, que são importadas e ficaram de fora.
+- **Loja Electrolux:** a cafeteira subiu para R$ 341,90 no Pix (antes era R$ 299,90). Já a PCC20 custa R$ 499,00 no Pix. O valor de R$ 525,27 que estava no arquivo era o preço no cartão.
+
+**Livelo**
+- **Fast Shop:** em promoção, com até 5 pontos por real em eletrodomésticos e eletroportáteis selecionados, até 26/10. Precisa do cupom LIVELO. As outras 11 lojas estão sem promoção e com os mesmos valores de ontem.
+- **Bônus Smiles: não há campanha ativa.** A de 70% acabou ontem às 23h59, e não encontrei outra.
+
+**Vendedores descartados** (ofertas mais baratas que ficaram de fora)
+- **SSD:**
+  - Hadesinfo, na KaBuM (R$ 611,99): nota 3,5 e o aviso "Atrasos pontuais" na entrega.
+  - magazine ttnt, na Amazon (R$ 621,30): a nota não aparece.
+  - NORYX, na Amazon (R$ 664,50): vendedor novo.
+  - Bhc (40 avaliações), BPS (7) e CK INFO (15): poucas avaliações.
+  - Kometa, na KaBuM: nota 3,7.
+  - SEVENTEK e outros vendedores da KaBuM: a loja mostra a nota, mas não o número de avaliações.
+- **Memória:** Multi Periféricos envia de Singapura e a Amazon Global dos EUA, então ficaram de fora como importação. TEITEC, na KaBuM, mostra a nota mas não o número de avaliações.
+- **Deco X50:** Zoing-SP tem só 33 avaliações. Bits e Bytes (R$ 1.524,51) passou do limite de preço absurdo.
+- **V60:**
+  - Ristrettinho: só 6 avaliações.
+  - Manufakt (R$ 342,00): passou do limite de preço absurdo.
+  - Cafe Store, na Fast Shop (R$ 176,01), e o vendedor do marketplace da Webcontinental (R$ 215,91): a loja não mostra a nota.
+- **Cafeteira:** a Loja Electrolux na Webcontinental (R$ 266,91) e a Angeloni pelo Buscapé (R$ 271,15) saíram porque a nota não aparece. A Electrolux vendendo na Fast Shop e no Carrefour (R$ 284,90) também saiu das ofertas pelo mesmo motivo, mas continua na lista da Livelo.
+- **PCC20:**
+  - Loja Electrolux na Amazon (R$ 539,90) e Magalu na Amazon (R$ 510,63): nota 3,5.
+  - WAR MEGA SHOP (24 avaliações) e Chic Chérie (70): poucas avaliações.
+  - Ofertas usadas da Amazon Quase Novo: descartadas por serem usadas.
+- **Panelas:**
+  - Metal Haus (R$ 597,55): só 40 avaliações.
+  - Bazar de Ideias (R$ 711,55): a nota não aparece.
+  - Universo do Lar: nota 3,5.
+
+**Falhas**
+- **Magazine Luiza:** continua com erro 403 até no navegador. Por isso as ofertas dele aparecem como "Vendedor não conferido".
+- **Fast Shop:** a PCC20 está indisponível no site.
+- **Gazin:** na primeira tentativa deu erro 502. Na segunda carregou a R$ 322,47, mas com o aviso "indisponível para sua região" no CEP padrão. Anotei isso na lista da Livelo.
+- **Casas Bahia e Ponto:** não li hoje. Ficaram sem preço, só com o link do produto.
+- **Nesta sessão:** só os comandos `node` foram aceitos. Bash comum, PowerShell e scripts em heredoc foram recusados, então editei os JSON com as ferramentas de arquivo.
+- **Conectores:** Gmail, Google Calendar, Google Drive e Vercel precisam ser autorizados nas configurações de conectores do claude.ai. O servidor `pencil` não conectou. Nada disso afetou a coleta.
+
+Fontes da busca sobre o Smiles: [Passageiro de Primeira](https://passageirodeprimeira.com/?p=541985), [Melhores Destinos](https://www.melhoresdestinos.com.br/milhas/oferta-bonus-livelo-smiles-jun26)
+Fim: 2026-10-24 08:17

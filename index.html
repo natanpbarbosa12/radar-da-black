@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Radar da Black</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#eef0f5; --card:#ffffff; --sunk:#f5f6fa; --ink:#141a30; --muted:#626a86; --line:#e1e4ee;
+  --tag:#ffd43b; --tag-ink:#231c00; --accent:#3442d9; --accent-ink:#ffffff; --chart:#3442d9; --chart-fill:rgba(52,66,217,.10);
+  --ok:#17804a; --ok-bg:#dff3e7; --warn:#9a5c00; --warn-bg:#fdefd2; --bad:#b4342b; --bad-bg:#fbe3e1; --idle:#626a86; --idle-bg:#e9ebf2;
+  --shadow:0 1px 2px rgba(20,26,48,.06),0 4px 16px rgba(20,26,48,.05);
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;--bg:#0e1120;--card:#171b2e;--sunk:#12162a;--ink:#eceef8;--muted:#9aa1bf;--line:#272d4a;
+  --accent:#8e9bff;--accent-ink:#0e1120;--chart:#8e9bff;--chart-fill:rgba(142,155,255,.14);
+  --ok:#5fd28f;--ok-bg:#14301f;--warn:#ffc061;--warn-bg:#35280e;--bad:#ff8a80;--bad-bg:#3a1a1a;--idle:#9aa1bf;--idle-bg:#22273f;
+  --shadow:none;}}
+:root[data-theme="dark"]{
+  color-scheme:dark;--bg:#0e1120;--card:#171b2e;--sunk:#12162a;--ink:#eceef8;--muted:#9aa1bf;--line:#272d4a;
+  --accent:#8e9bff;--accent-ink:#0e1120;--chart:#8e9bff;--chart-fill:rgba(142,155,255,.14);
+  --ok:#5fd28f;--ok-bg:#14301f;--warn:#ffc061;--warn-bg:#35280e;--bad:#ff8a80;--bad-bg:#3a1a1a;--idle:#9aa1bf;--idle-bg:#22273f;
+  --shadow:none;}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);padding-inline:16px;padding-block:calc(28px + env(safe-area-inset-top,0px)) calc(56px + env(safe-area-inset-bottom,0px))}
+img{max-width:100%}
+[hidden]:not([hidden=until-found i]){display:none!important}
+.wrap{max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;line-height:1.1}
+h1{font-size:clamp(32px,6vw,46px);font-weight:800;letter-spacing:-.01em}
+h2{font-size:21px;font-weight:800}
+h3{font-size:20px;font-weight:600}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.top{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+.top p{margin:8px 0 0;color:var(--muted);max-width:54ch}
+.ticket{display:flex;align-items:center;gap:14px;background:var(--tag);color:var(--tag-ink);border-radius:14px;padding:12px 20px 12px 26px;
+  clip-path:polygon(14px 0,100% 0,100% 100%,14px 100%,0 50%)}
+.ticket b{font-family:var(--mono);font-size:38px;line-height:1}
+.ticket span{font-size:13px;font-weight:600;line-height:1.25}
+
+.alerta{border-radius:16px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;background:var(--ok-bg);color:var(--ink);border:1px solid var(--ok)}
+.alerta.nada{background:var(--card);border-color:var(--line)}
+.alerta.erro{background:var(--bad-bg);border-color:var(--bad)}
+.alerta h2{color:var(--ok)} .alerta.nada h2{color:var(--ink)} .alerta.erro h2{color:var(--bad)}
+.alerta p{margin:0;color:var(--muted)}
+.alerta ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.alerta li{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
+.alerta li b{font-family:var(--mono)}
+.alerta a{color:var(--ok);font-weight:700}
+
+.resumo{background:var(--card);border-radius:16px;box-shadow:var(--shadow);border:1px solid var(--line);overflow:hidden}
+.resumo:empty{display:none}
+.row{display:grid;grid-template-columns:minmax(0,1.5fr) 1fr 1fr auto;gap:12px;align-items:center;padding:12px 18px;border-top:1px solid var(--line);color:inherit;text-decoration:none}
+.row:first-child{border-top:none}
+.row.head{padding-block:10px;background:var(--sunk)}
+.row:not(.head):hover{background:var(--sunk)}
+.row .n{font-weight:600}
+.v{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+.row .r{text-align:right;min-width:120px}
+.row .s{font-size:12px;color:var(--muted);font-family:var(--body);display:block}
+@media (max-width:600px){.row{grid-template-columns:minmax(0,1fr) auto}.row .hide{display:none}}
+
+.pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px;white-space:nowrap}
+.pill.ok{background:var(--ok-bg);color:var(--ok)} .pill.warn{background:var(--warn-bg);color:var(--warn)}
+.pill.bad{background:var(--bad-bg);color:var(--bad)} .pill.idle{background:var(--idle-bg);color:var(--idle)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,430px),1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:20px;display:flex;flex-direction:column;gap:16px;scroll-margin-top:16px;min-width:0}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.model{color:var(--muted);font-size:14px;margin-top:4px}
+.price{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:flex-end}
+.big{font-family:var(--mono);font-size:32px;font-weight:700;line-height:1.05;font-variant-numeric:tabular-nums}
+.sub{font-size:13px;color:var(--muted)}
+.why{font-size:14px;font-weight:600;margin:0}
+.why.ok{color:var(--ok)} .why.warn{color:var(--warn)} .why.bad{color:var(--bad)} .why.idle{color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:6px;font:600 14px/1 var(--body);text-decoration:none;border-radius:10px;padding:10px 14px;border:1px solid var(--accent);color:var(--accent-ink);background:var(--accent);cursor:pointer}
+.btn.ghost{background:var(--card);color:var(--ink);border-color:var(--line)}
+.btn:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,.row:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.tip{position:fixed;z-index:20;pointer-events:none;background:var(--ink);color:var(--card);border-radius:10px;padding:8px 11px;font-size:13px;line-height:1.35;display:flex;flex-direction:column;gap:2px;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:240px}
+.tip b{font-size:13px}
+.tip span{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:12.5px}
+.dica{cursor:pointer;outline:none}
+.dica:hover circle,.dica:focus circle{r:5.5}
+.dica:hover rect+rect,.dica:focus rect+rect{stroke-width:2}
+.var{font-size:12.5px;color:var(--muted)}
+.var.desce{color:var(--ok);font-weight:700}
+.var.sobe{color:var(--bad);font-weight:700}
+.chart{background:var(--sunk);border-radius:12px;padding:12px 12px 8px}
+.chart svg{display:block;width:100%;height:auto}
+.chart .ax{font:500 10px var(--mono);fill:var(--muted)}
+.chart .empty{font-size:13px;color:var(--muted);margin:0;padding:18px 4px;text-align:center}
+
+details{border-top:1px solid var(--line);padding-top:12px}
+summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--muted);list-style:none;display:flex;justify-content:space-between;align-items:center;border-radius:6px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--mono);font-size:16px}
+details[open] summary::after{content:"–"}
+details > .in{margin-top:10px}
+details+details{margin-top:12px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:7px 2px;border-top:1px solid var(--line);vertical-align:top}
+tr:first-child td{border-top:none}
+td a{color:var(--accent);text-decoration:none;font-weight:600}
+td .nm{display:block;font-size:12px;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin:0}
+.alerta-v{color:var(--warn)!important}
+
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:20px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.panel p{margin:0;color:var(--muted);max-width:70ch}
+.transf{display:flex;flex-direction:column;gap:10px}
+.transf-grid{display:grid;align-items:start;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px}
+.smiles{border-radius:16px;padding:18px 20px;background:var(--tag);color:var(--tag-ink);display:flex;flex-direction:column;gap:10px}
+.smiles h2{color:var(--tag-ink)}
+.smiles ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+.smiles .btn{background:var(--tag-ink);border-color:var(--tag-ink);color:var(--tag);align-self:flex-start}
+.smiles.off{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.smiles.off h2{color:var(--ink)}
+.smiles h2{font-size:19px}
+.lv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:10px}
+.lv{border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.lv.promo{border-color:var(--ok);background:var(--ok-bg)}
+.lv-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.lv-top b{font-size:16px}
+.lv-pts{font-family:var(--mono);font-size:22px;font-weight:700}
+.lv-pts small{font-family:var(--body);font-size:12px;font-weight:500;color:var(--muted)}
+.lv p{margin:0;font-size:12.5px;color:var(--muted);line-height:1.4}
+.lv details{padding-top:8px}
+.lv summary{font-size:12.5px}
+.lvbox{border:1px solid var(--ok);background:var(--ok-bg);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+.lvbox h4{margin:0;font:700 15px/1.2 var(--body);color:var(--ok)}
+.lvbox .note{color:var(--ink);opacity:.8}
+.lvo{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.lvo-main{display:flex;flex-direction:column;gap:6px;min-width:0}
+.lvo-rate{width:76px;border-radius:10px;padding:8px 4px;text-align:center;border:2px solid var(--ok);color:var(--ok);background:var(--card)}
+.lvo-rate.max{background:var(--ok);color:var(--card)}
+.lvo-rate b{display:block;font:700 28px/1 var(--mono)}
+.lvo-rate span{display:block;font-size:10.5px;font-weight:700;line-height:1.2;margin-top:4px;text-transform:uppercase;letter-spacing:.04em}
+.lvo-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.lvo-top b{font-size:15px}
+.lvo .pts{font-family:var(--mono);font-weight:700;color:var(--ok)}
+.bts2{display:flex;flex-wrap:wrap;gap:8px}
+.btn.sm{font-size:13px;padding:8px 11px}
+.ir{font-size:12px;font-weight:700;color:var(--accent);text-decoration:none;white-space:nowrap}
+.status{font-size:13px;color:var(--muted);margin:-14px 0 0}
+.status:empty{display:none}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Radar da Black</h1>
+    </div>
+    <div class="ticket"><b id="dias">–</b><span id="diasTxt">dias para a<br>Black Friday</span></div>
+  </header>
+
+  <section id="transf" class="transf" hidden aria-label="Bônus para transferir pontos da Livelo"></section>
+
+  <section id="alerta" class="alerta nada"><h2>Carregando os preços…</h2></section>
+  <p class="status" id="status"></p>
+
+  <section class="resumo" id="resumo" aria-label="Resumo"></section>
+
+  <section class="grid" id="lista"></section>
+
+  <section class="panel" id="livelo-sec">
+    <div class="card-top"><h2>Pontos Livelo nas lojas</h2><span class="sub" id="livelo-data"></span></div>
+    <div class="lv-grid" id="livelo"><p class="note">Carregando…</p></div>
+  </section>
+
+</div>
+
+<!-- dados/radar.js é gerado por scripts/gerar.mjs a partir dos arquivos JSON de dados/. -->
+<script src="dados/radar.js"></script>
+<script>
+/* O Claude atualiza os JSON de dados/ todo dia e roda scripts/gerar.mjs, que valida e gera dados/radar.js. */
+let PRODUTOS=[];
+let BLACK="2026-11-27";
+
+const brl=v=>v==null?"—":v.toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:v>=1000?0:2});
+const dataBR=iso=>{if(!iso)return "";const [,m,d]=iso.split("-");return d+"/"+m;};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const lojaNome=l=>String(l||"").replace(/!$/,"");
+const mediana=a=>{const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+const vendTxt=o=>{const v=o&&o.vendedor;if(!v)return "Vendedor não conferido";if(v.tipo==="loja")return "Vendido pela própria loja";
+  const n=v.nota!=null?` · ★ ${v.nota.toLocaleString("pt-BR",{minimumFractionDigits:1,maximumFractionDigits:1})}`:"", r=v.reputacao?` · reputação ${v.reputacao}`:"", q=v.avaliacoes!=null?` (${v.avaliacoes.toLocaleString("pt-BR")} avaliações)`:"";
+  return `Vendido por ${v.nome}${n}${r}${q}`;};
+const linkSeguro=u=>/^https?:\/\//i.test(String(u||""))?u:"";
+
+let auto={};
+let LIVELO=null;
+const abertos=new Set();
+
+// Lojas parceiras da Livelo que vendem o produto. O link da Livelo precisa ser aberto antes da compra para os pontos contarem.
+function blocoLivelo(lista){
+  if(!lista||!lista.length) return "";
+  const lojas=(LIVELO&&LIVELO.lojas)||[];
+  const num=v=>String(v).replace(".",",");
+  // Do que dá mais pontos por real para o que dá menos; no empate, o mais barato primeiro.
+  const itens=lista.map(o=>{const l=lojas.find(z=>z.loja===o.loja)||{};const pts=o.pontos??l.pontos??0;return {...o,l,pts,ganho:o.preco!=null?Math.floor(o.preco*pts):null};})
+    .sort((a,b)=>(b.pts-a.pts)||((a.preco??1e9)-(b.preco??1e9)));
+  const maxPts=Math.max(...itens.map(o=>o.pts)), temMenor=itens.some(o=>o.pts<maxPts);
+  const linhas=itens.map(o=>{
+    const ll=linkSeguro(o.l.link), pl=linkSeguro(o.link);
+    const selo=o.l.promocao&&o.pts>=o.l.pontos?`<span class="pill ok">Promoção Livelo</span>`:"";
+    return `<div class="lvo">
+      <div class="lvo-rate${o.pts===maxPts&&temMenor?" max":""}"><b>${esc(num(o.pts))}</b><span>ponto${o.pts>1?"s":""} por real</span></div>
+      <div class="lvo-main">
+      <div class="lvo-top"><b>${esc(o.loja)} ${selo}</b><span class="v">${o.preco!=null?`<b>${brl(o.preco)}</b> <span class="sub">à vista</span>`:`<span class="sub">ver preço na loja</span>`}</span></div>
+      <div class="sub">${o.ganho!=null?`<span class="pts">≈ ${o.ganho.toLocaleString("pt-BR")} pontos nesta compra</span> · `:""}<span class="${o.vendedor?"":"alerta-v"}">${o.vendedor?"Vendido por "+esc(o.vendedor):"Vendedor não conferido"}</span></div>
+      ${o.obs?`<div class="sub">${esc(o.obs)}</div>`:""}
+      <div class="bts2">${ll?`<a class="btn sm" href="${esc(ll)}" target="_blank" rel="noopener">1. Entrar pela Livelo ↗</a>`:""}${pl?`<a class="btn ghost sm" href="${esc(pl)}" target="_blank" rel="noopener">2. Ver o produto ↗</a>`:""}</div>
+      </div>
+    </div>`;}).join("");
+  return `<section class="lvbox"><h4>Comprar pontuando na Livelo</h4>
+    <p class="note">Em ordem do que dá mais pontos por real para o que dá menos. Clique em <b>1</b>: a Livelo abre a loja. Limpe o carrinho e procure o produto nessa mesma aba. Se pedir cupom, use <b>LIVELO</b>. O botão <b>2</b> só mostra o produto.</p>${linhas}</section>`;
+}
+
+const MES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+const mesTxt=m=>MES[+m.slice(5,7)-1];
+function mesesDe(a){
+  const ms={}; (a.meses||[]).forEach(x=>{ms[x.m]={...x};});
+  const vistos={}; (a.historico||[]).forEach(h=>{(vistos[h.d.slice(0,7)]=vistos[h.d.slice(0,7)]||[]).push(h.p);});
+  for(const [m,v] of Object.entries(vistos)){
+    if(ms[m]) ms[m]={...ms[m],min:Math.min(ms[m].min,...v),max:Math.max(ms[m].max,...v)};
+    else ms[m]={m,min:Math.min(...v),max:Math.max(...v),med:mediana(v)};
+  }
+  return Object.values(ms).sort((x,y)=>x.m.localeCompare(y.m));
+}
+function referencia(a){
+  const ms=mesesDe(a).slice(-3); if(!ms.length) return null;
+  return {ref:mediana(ms.map(x=>x.med)), piso:Math.min(...ms.map(x=>x.min)), de:mesTxt(ms[0].m), ate:mesTxt(ms[ms.length-1].m)};
+}
+function avaliar(p){
+  const a=auto[p.id]||{}, m=a.menor;
+  if(!m&&a.naoConferidas&&a.naoConferidas.length) return {a,m,cls:"warn",rot:"Vendedor não conferido",txt:"Só há ofertas em lojas onde não deu para conferir quem vende. Veja o vendedor e a nota dele antes de comprar."};
+  if(!m) return a.atualizado?{a,m,cls:"idle",rot:"Sem ofertas",txt:"Nenhuma loja com este modelo hoje."}:{a,m,cls:"idle",rot:"Aguardando coleta",txt:"Entra na próxima coleta."};
+  const R=referencia(a); let r;
+  if(R){
+    const pct=Math.round((m.preco/R.ref-1)*100);
+    if(m.preco<R.piso) r={cls:"ok",rot:"Ótimo preço",txt:`Menor preço dos últimos meses. Normal: ${brl(R.ref)}.`};
+    else if(m.preco<=R.ref*0.95) r={cls:"ok",rot:"Bom preço",txt:`${-pct}% abaixo do normal (${brl(R.ref)}).`};
+    else if(m.preco<=R.ref*1.05) r={cls:"warn",rot:"Preço normal",txt:`Perto do normal (${brl(R.ref)}). Dá para esperar.`};
+    else r={cls:"bad",rot:"Caro agora",txt:`${pct}% acima do normal (${brl(R.ref)}). Espere.`};
+  } else r={cls:"idle",rot:"Juntando histórico",txt:"Ainda sem histórico."};
+  return {a,m,...r};
+}
+
+function grafico(hist){
+  const titulo='<div class="eyebrow" style="margin-bottom:4px">Menor preço por dia</div>';
+  const dicaDia=h=>`${dataBR(h.d)}|Menor preço: ${brl(h.p)}${h.m?`|Média entre ${h.lojas||"as"} lojas: ${brl(h.m)}`:""}`;
+  if(!hist||hist.length<2) return "";
+  const W=320,H=100,L=4,R=60,T=8,B=8;
+  const ys=hist.flatMap(h=>h.m?[h.p,h.m]:[h.p]), mn=Math.min(...ys), mx=Math.max(...ys), span=(mx-mn)||mx*0.05||1;
+  const X=i=>L+(W-L-R)*(i/(hist.length-1)), Y=v=>T+(H-T-B)*(1-(v-mn)/span);
+  const linha=k=>hist.map((h,i)=>h[k]==null?null:`${X(i).toFixed(1)},${Y(h[k]).toFixed(1)}`).filter(Boolean).join(" ");
+  const temMedia=hist.some(h=>h.m);
+  const faixa=(W-L-R)/(hist.length-1);
+  const alvos=hist.map((h,i)=>`<g class="dica" data-tip="${esc(dicaDia(h))}" tabindex="0"><rect x="${(X(i)-faixa/2).toFixed(1)}" y="0" width="${faixa.toFixed(1)}" height="${H}" fill="transparent"/><circle cx="${X(i).toFixed(1)}" cy="${Y(h.p).toFixed(1)}" r="3.5" fill="var(--chart)" stroke="var(--card)" stroke-width="1.5"/></g>`).join("");
+  return `<div class="chart">${titulo}<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Preço do dia de ${dataBR(hist[0].d)} a ${dataBR(hist[hist.length-1].d)}">
+    <line x1="${L}" x2="${W-R}" y1="${Y(mx)}" y2="${Y(mx)}" stroke="var(--line)" stroke-dasharray="3 3"/>
+    <line x1="${L}" x2="${W-R}" y1="${Y(mn)}" y2="${Y(mn)}" stroke="var(--line)" stroke-dasharray="3 3"/>
+    ${temMedia?`<polyline points="${linha("m")}" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 3"/>`:""}
+    <polyline points="${linha("p")}" fill="none" stroke="var(--chart)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    ${alvos}
+    <text class="ax" x="${W-R+6}" y="${Y(mx)+3}">${brl(mx)}</text>
+    <text class="ax" x="${W-R+6}" y="${Y(mn)+3}">${brl(mn)}</text>
+  </svg></div>`;
+}
+
+const dicaEl=document.createElement("div"); dicaEl.className="tip"; dicaEl.hidden=true; document.body.appendChild(dicaEl);
+function mostrarDica(alvo,x,y){
+  const partes=alvo.dataset.tip.split("|");
+  dicaEl.innerHTML=`<b>${esc(partes[0])}</b>`+partes.slice(1).map(t=>`<span>${esc(t)}</span>`).join("");
+  dicaEl.hidden=false;
+  const r=dicaEl.getBoundingClientRect(), w=window.innerWidth;
+  let left=x+14; if(left+r.width>w-8) left=x-r.width-14; if(left<8) left=8;
+  let top=y-r.height-12; if(top<8) top=y+16;
+  dicaEl.style.left=left+"px"; dicaEl.style.top=top+"px";
+}
+document.addEventListener("pointermove",e=>{const g=e.target.closest&&e.target.closest(".dica");if(g&&e.pointerType==="mouse")mostrarDica(g,e.clientX,e.clientY);else if(e.pointerType==="mouse")dicaEl.hidden=true;});
+document.addEventListener("click",e=>{const g=e.target.closest&&e.target.closest(".dica");if(g){const r=g.getBoundingClientRect();mostrarDica(g,e.clientX||r.left+r.width/2,e.clientY||r.top);}else dicaEl.hidden=true;});
+document.addEventListener("focusin",e=>{const g=e.target.closest&&e.target.closest(".dica");if(g){const r=g.getBoundingClientRect();mostrarDica(g,r.left+r.width/2,r.top);}});
+document.addEventListener("focusout",()=>{dicaEl.hidden=true;});
+window.addEventListener("scroll",()=>{dicaEl.hidden=true;},{passive:true});
+
+const SEM=["dom","seg","ter","qua","qui","sex","sáb"];
+function diaTxt(iso){const [y,m,d]=iso.split("-").map(Number);return SEM[new Date(y,m-1,d).getDay()]+" "+String(d).padStart(2,"0")+"/"+String(m).padStart(2,"0");}
+
+function renderLivelo(lv){
+  const box=document.getElementById("livelo");
+  if(!lv){box.innerHTML=`<p class="note">Ainda sem dados da Livelo.</p>`;return;}
+  document.getElementById("livelo-data").textContent="Atualizado "+dataBR(lv.atualizado);
+  const lojas=[...(lv.lojas||[])].sort((a,b)=>(b.pontos-a.pontos)||(b.promocao-a.promocao)||(b.clube-a.clube));
+  box.innerHTML=lojas.map(l=>`<div class="lv${l.promocao?" promo":""}">
+    <div class="lv-top"><b>${esc(l.loja)}</b>${l.promocao?`<span class="pill ok">Promoção</span>`:`<span class="pill idle">Normal</span>`}</div>
+    <div class="lv-pts">${esc(String(l.pontos).replace(".",","))} <small>ponto${l.pontos>1?"s":""} por real${l.clube&&l.clube!==l.pontos?` · ${esc(String(l.clube).replace(".",","))} no Clube Livelo`:""}${l.promocao&&l.normal?` · normal: ${esc(String(l.normal).replace(".",","))}`:""}</small></div>
+    ${linkSeguro(l.link)?`<a class="btn sm" style="align-self:flex-start" href="${esc(linkSeguro(l.link))}" target="_blank" rel="noopener">Ir pela Livelo ↗</a>`:""}
+    ${l.regra?`<details><summary>Regras</summary><div class="in"><p>${esc(l.regra)}</p></div></details>`:""}</div>`).join("");
+  renderTransf(lv);
+}
+
+// Bônus para transferir pontos da Livelo para os programas das companhias aéreas.
+const PROGRAMAS=[{k:"smiles",nome:"Smiles",cia:"GOL"},{k:"azul",nome:"Azul Fidelidade",cia:"Azul"},{k:"latam",nome:"LATAM Pass",cia:"LATAM"}];
+function renderTransf(lv){
+  const box=document.getElementById("transf");
+  const progs=PROGRAMAS.map(p=>({...p,s:lv[p.k]})).filter(p=>p.s).sort((x,y)=>(!!y.s.ativa-!!x.s.ativa)||((y.s.bonus||0)-(x.s.bonus||0)));
+  if(!progs.length){box.hidden=true;return;}
+  box.hidden=false;
+  const ativas=progs.filter(p=>p.s.ativa).length;
+  const cards=progs.map(({nome,cia,s})=>{
+    const cad=linkSeguro(s.cadastro), topo=`<div class="eyebrow" style="color:inherit">Livelo → ${esc(nome)} (${esc(cia)})</div>`;
+    if(!s.ativa) return `<div class="smiles off">${topo}<h2>Sem bônus hoje</h2></div>`;
+    return `<div class="smiles">${topo}<h2>Até ${esc(s.bonus??"?")}% de bônus</h2>${s.titulo?`<p style="margin:0;font-weight:700">${esc(s.titulo)}</p>`:""}
+      ${(s.regras||[]).length?`<ul>${s.regras.map(r=>`<li>${esc(r)}</li>`).join("")}</ul>`:""}
+      ${cad?`<a class="btn" href="${esc(cad)}" target="_blank" rel="noopener">1º passo: cadastrar na campanha ↗</a>`:""}</div>`;}).join("");
+  box.innerHTML=`<div class="card-top"><h2>${ativas?`Bônus para transferir pontos da Livelo hoje (${ativas})`:"Nenhum bônus de transferência da Livelo hoje"}</h2>${lv.atualizado?`<span class="sub">Atualizado ${dataBR(lv.atualizado)}</span>`:""}</div><div class="transf-grid">${cards}</div>`;
+}
+
+function registro(hist,id){
+  if(!hist||!hist.length) return "";
+  const k="d-"+id, aberto=abertos.has(k);
+  const linhas=[...hist].reverse().map((h,i,arr)=>{
+    const ant=arr[i+1], dif=ant?h.p-ant.p:0;
+    const seta=!ant||Math.abs(dif)<0.5?'<span class="var">—</span>':dif<0?`<span class="var desce">▼ ${brl(-dif)}</span>`:`<span class="var sobe">▲ ${brl(dif)}</span>`;
+    return `<tr><td>${diaTxt(h.d)}</td><td class="v">${brl(h.p)}<span class="nm">${h.l?esc(lojaNome(h.l)):""}</span></td><td class="v">${h.m?brl(h.m):"—"}<span class="nm">${h.lojas?h.lojas+" loja"+(h.lojas>1?"s":""):""}</span></td><td class="v">${seta}</td></tr>`;
+  }).join("");
+  return `<details data-k="${k}" class="registro"${aberto?" open":""}><summary>Histórico dia a dia (${hist.length})</summary><div class="in"><div class="tabela-wrap"><table>
+    <tr><td class="eyebrow">Dia</td><td class="v eyebrow">Menor preço</td><td class="v eyebrow">Média das lojas</td><td class="v eyebrow">Vs. dia anterior</td></tr>${linhas}</table></div></div></details>`;
+}
+
+function render(){
+  document.querySelectorAll("details[data-k]").forEach(d=>d.open?abertos.add(d.dataset.k):abertos.delete(d.dataset.k));
+  const op=k=>abertos.has(k)?" open":"";
+  const av=PRODUTOS.map(p=>({p,...avaliar(p)}));
+
+  const bons=av.filter(x=>x.cls==="ok"&&x.m);
+  const al=document.getElementById("alerta");
+  const datas=Object.values(auto).map(a=>a.atualizado).filter(Boolean).sort();
+  if(!datas.length){al.className="alerta nada";al.innerHTML=`<h2>Ainda sem preços coletados</h2>`;}
+  else if(bons.length){al.className="alerta";al.innerHTML=`<h2>${bons.length===1?"Tem 1 preço bom hoje":`Tem ${bons.length} preços bons hoje`}</h2><ul>${bons.map(x=>{const lk=linkSeguro(x.m.link);return `<li><span><b>${esc(x.p.nome)}</b></span><span><b>${brl(x.m.preco)}</b> na ${esc(lojaNome(x.m.loja))}</span><span class="sub">${esc(x.txt)}</span>${lk?`<a href="${esc(lk)}" target="_blank" rel="noopener">Ver oferta ↗</a>`:""}</li>`;}).join("")}</ul>`;}
+  else {al.className="alerta nada";al.innerHTML=`<h2>Nenhum preço bom hoje</h2>`;}
+  document.getElementById("status").textContent=datas.length?`Última coleta: ${dataBR(datas[datas.length-1])}`:"";
+
+  document.getElementById("resumo").innerHTML=!av.length?"":
+    `<div class="row head eyebrow"><span>Item</span><span class="v hide">Hoje</span><span class="v hide">Preço normal</span><span class="r">Situação</span></div>`+
+    av.map(x=>{const R=referencia(x.a);return `<a class="row" href="#${esc(x.p.id)}"><span class="n">${esc(x.p.nome)}</span>
+      <span class="v hide">${brl(x.m&&x.m.preco)}<span class="s">${x.m?esc(lojaNome(x.m.loja)):""}</span></span>
+      <span class="v hide">${R?brl(R.ref):"—"}</span>
+      <span class="r"><span class="pill ${x.cls}">${x.rot}</span></span></a>`;}).join("");
+
+  document.getElementById("lista").innerHTML=av.map(x=>{const p=x.p;
+    // Ofertas de lojas onde não deu para conferir o vendedor: aparecem na lista com aviso, mas nunca viram o menor preço.
+    const ofs=[...(x.a.ofertas||[]),...(x.a.naoConferidas||[]).map(o=>({...o,vendedor:null}))].sort((a,b)=>a.preco-b.preco);
+    const nc=!x.m&&[...(x.a.naoConferidas||[])].sort((a,b)=>a.preco-b.preco)[0], lk=x.m?linkSeguro(x.m.link):nc&&linkSeguro(nc.link);
+    return `<article class="card" id="${esc(p.id)}">
+      <div class="card-top"><span class="eyebrow">${esc(p.cat)}</span><span class="pill ${x.cls}">${x.rot}</span></div>
+      <div><h3>${esc(p.nome)}</h3><div class="model">${esc(p.modelo)}</div></div>
+      <div class="price"><div><div class="big">${brl(x.m?x.m.preco:nc&&nc.preco)}</div>
+        <div class="sub">${x.m?esc(lojaNome(x.m.loja))+" · à vista":nc?esc(lojaNome(nc.loja))+" · à vista":""}</div>${x.m?`<div class="sub${x.m.vendedor?"":" alerta-v"}">${esc(vendTxt(x.m))}</div>`:nc?`<div class="sub alerta-v">Vendedor não conferido</div>`:""}</div>
+        ${lk?`<a class="btn" href="${esc(lk)}" target="_blank" rel="noopener">Ver oferta ↗</a>`:""}</div>
+      <p class="why ${x.cls}">${esc(x.txt)}</p>
+      ${blocoLivelo(x.a.livelo)}
+      ${grafico(x.a.historico)}
+      <div>
+        <details data-k="o-${esc(p.id)}"${op("o-"+p.id)}><summary>Outras lojas hoje (${ofs.length})</summary><div class="in">${ofs.length?`<table>${ofs.map(o=>{const ol=linkSeguro(o.link);return `<tr><td>${ol?`<a href="${esc(ol)}" target="_blank" rel="noopener">${esc(lojaNome(o.loja))}</a> <a class="ir" href="${esc(ol)}" target="_blank" rel="noopener">Ir à loja ↗</a>`:esc(lojaNome(o.loja))}<span class="nm">${esc(o.nome)}</span><span class="nm${o.vendedor?"":" alerta-v"}">${esc(vendTxt(o))}</span></td><td class="v">${ol?`<a href="${esc(ol)}" target="_blank" rel="noopener">${brl(o.preco)}</a>`:brl(o.preco)}</td></tr>`;}).join("")}</table>`:`<p class="note">Nenhuma oferta hoje.</p>`}</div></details>
+        ${registro(x.a.historico,p.id)}
+      </div>
+    </article>`;}).join("");
+}
+
+function contagem(){
+  const [y,m,d]=BLACK.split("-").map(Number);
+  const dias=Math.ceil((new Date(y,m-1,d)-new Date().setHours(0,0,0,0))/864e5);
+  const dt=dataBR(BLACK);
+  document.getElementById("dias").textContent=dias>0?dias:"Hoje";
+  document.getElementById("diasTxt").innerHTML=dias>1?`dias para a<br>Black Friday (${dt})`:dias===1?`dia para a<br>Black Friday (${dt})`:"é dia de<br>Black Friday";
+}
+
+(()=>{
+  const al=document.getElementById("alerta");
+  const R=window.RADAR;
+  if(!R||!R.config){
+    al.className="alerta erro";
+    al.innerHTML=`<h2>Os dados não carregaram</h2><p>Não encontrei o arquivo <b>dados/radar.js</b> na pasta do radar. Na pasta, rode <b>node scripts/gerar.mjs</b> ou peça ao Claude para fazer a coleta.</p>`;
+    return;
+  }
+  const cfg=R.config;
+  PRODUTOS=cfg.produtos||[];
+  BLACK=cfg.blackFriday||BLACK;
+  contagem();
+  auto={};
+  PRODUTOS.forEach(p=>{auto[p.id]=(R.precos&&R.precos[p.id])||{};});
+  LIVELO=R.livelo||null;
+  render();
+  renderLivelo(R.livelo||null);
+})();
+</script>
+</body>
+</html>

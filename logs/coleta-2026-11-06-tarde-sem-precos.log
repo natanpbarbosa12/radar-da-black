@@ -1,0 +1,48 @@
+﻿Início: 2026-11-06 14:17
+--- Tentativa 1 (14:17)
+# Relatório da coleta: 06/11/2026
+
+O `gerar.mjs` validou os dados e terminou com **"Página atualizada"**. Só os pontos Livelo foram atualizados hoje. Os preços continuam os de 05/11.
+
+## Preços: não atualizados hoje
+Não consegui conferir o vendedor de nenhuma oferta. A regra é "na dúvida, descarte" e não mexer no arquivo quando a busca falha, então os 4 arquivos de preço ficaram como estavam. A página continua mostrando os preços de 05/11, então não há diferença de um dia para o outro:
+
+| Produto | Menor preço (05/11) | Loja |
+|---|---|---|
+| Memória 16 GB DDR4 | R$ 755,84 | Amazon (NexTT) |
+| SSD NV3 500 GB | R$ 647,10 | Amazon (GPrime Games) |
+| Deco X50, kit com 2 | R$ 702,05 | Amazon (zShops) |
+| Robô Xiaomi H50 (US, 110V) | R$ 2.689,90 | Amazon (Ultra Eletro SP) |
+
+O Buscapé abriu, mas os preços de lá não foram conferidos e não entraram na página. Servem só de referência:
+- **SSD:** Amazon R$ 690,00, KaBuM! R$ 660,33 e Magalu R$ 694,41.
+- **Memória:** Magalu R$ 783,75 (Samsung), Amazon R$ 795,63 (Crucial) e KaBuM! R$ 849,15 (Kingston).
+- **Deco X50 (2 unidades):** Amazon R$ 739,00.
+- **Robô H50 110V:** só Magalu, de R$ 2.854,17 a R$ 3.906,34. Não apareceu versão US nem bivolt.
+
+## Livelo e Smiles
+- **Em promoção hoje:**
+  - Magalu: 3 pontos por real (parceiro dá 2). Termina hoje.
+  - Fast Shop: nova campanha de 06 a 08/11. Dá até 5 pontos por real só em produtos selecionados, 2 nos demais vendidos pela Fast Shop e 1 no marketplace.
+  - Midea: 3 pontos por real, até 09/11.
+  - Camicado: nova campanha de 06 a 08/11. Dá 4 pontos por real, ou 6 para quem é do Clube Livelo.
+- **Acabaram:** a da Electrolux (4 pontos para o Clube) e a do Carrefour. As duas voltaram a 1 ponto por real.
+- **Mercado Livre:** continua 0,5 ponto por real nos produtos do radar. Os 2 pontos valem só para Beleza e Cosméticos.
+- **Smiles:** não há bônus ativo. A última campanha foi de 80% e terminou em 18/09. Em 05/11 a Smiles e a Livelo lançaram a "Transferência Direta", mas ela não tem bônus. A página de transferência da Livelo bloqueou a leitura (erro 403).
+
+## Vendedores descartados
+Nenhuma oferta foi descartada pela nota ou pelas avaliações do vendedor. O problema foi outro: não deu para ver quem vende em nenhuma delas.
+
+## Falhas
+- **O navegador continua quebrado.** A pasta `node_modules` ainda não existe, então `node scripts/abrir.mjs` dá erro porque não acha o `playwright-core`. Sem ele, os links de oferta do Buscapé não abrem e não dá para ver quem vende.
+  - **Para consertar:** rode `npm install` na pasta do projeto. Se o OneDrive estiver apagando a pasta, vale tirá-la da sincronização.
+  - Ontem contornei isso com um script temporário fora do projeto. Hoje a permissão para rodar comandos fora dos scripts do projeto foi negada, então não deu para repetir.
+- **Amazon:** erro 503 nas 5 páginas de produto e também na lista de vendedores. Ontem era a fonte de todas as ofertas conferidas.
+- **Outras lojas:**
+  - KaBuM!: a busca carrega sem a lista de produtos.
+  - Casas Bahia e loja da Xiaomi: erro 403.
+  - Webcontinental e Fast Shop: erro 404 no endereço de busca.
+
+Fontes da pesquisa sobre a Smiles: [Passageiro de Primeira, 05/11](https://passageirodeprimeira.com/smiles-e-livelo-lancam-ferramenta-que-simplifica-a-transferencia-de-pontos/), [Melhores Destinos, 18/09](https://www.melhoresdestinos.com.br/milhas/smiles-livelo-80-bonus-set26)
+Código de saída: 0
+Fim: 2026-11-06 14:21

@@ -1,0 +1,59 @@
+﻿Início: 2026-11-07 14:16
+--- Tentativa 1 (14:16)
+Fiz a coleta de hoje (07/11/2026). A validação passou e o `node scripts/gerar.mjs` terminou com **"Página atualizada"**.
+
+## Relatório da coleta
+
+**Produtos (menor preço de hoje)**
+
+| Produto | Menor preço | Loja (vendedor) | Diferença para ontem |
+|---|---|---|---|
+| Memória 16 GB DDR4 | R$ 755,84 | Amazon (NexTT, nota 5) | igual |
+| SSD Kingston NV3 500 GB | R$ 602,10 | Amazon (Imagem Hitech, nota 4,5) | igual |
+| TP-Link Deco X50 (2 un.) | R$ 702,05 | Amazon (zShops, nota 4,5) | igual |
+| Xiaomi H50 (versão US, 110V) | R$ 2.689,90 | Amazon (Ultra Eletro SP, nota 4,5) | igual |
+
+- **Memória:** entraram duas ofertas da KaBuM com a Kingston KVR32S22S8/16. São da Cavuca (R$ 837,35) e da Net Alfa (R$ 849,15), as duas com nota 4,7 e mais de 1000 vendas. Agora são 4 ofertas válidas em 2 lojas.
+- **SSD:** são 10 ofertas válidas, 9 na Amazon e 1 na KaBuM (Kometa, R$ 735,37).
+- **Robô:** a versão bivolt na Amazon (B0GYW68HVQ) está indisponível.
+- **Magazine Luiza:** os preços estão iguais aos de ontem, mas o site bloqueou a leitura. As ofertas seguem como "Vendedor não conferido".
+
+**Livelo**
+- A promoção da Magalu acabou em 06/11. Ela voltou ao normal: 2 pontos por real quando a própria Magalu vende e 1 ponto no marketplace.
+- Lojas em promoção hoje:
+  - Fast Shop: até 5 pontos por real, até 08/11.
+  - Camicado: 4 pontos por real, ou 6 para quem é do Clube, até 08/11.
+  - Midea: 3 pontos por real, até 09/11.
+- As outras lojas não mudaram.
+- **Bônus de transferência:**
+  - Azul: a campanha de até 130% terminou em 06/11 e marquei como inativa.
+  - Smiles e LATAM: não achei campanha ativa.
+
+**Ofertas que ficaram de fora por causa do vendedor**
+- **SSD:**
+  - Hadesinfo na KaBuM, R$ 660,33: nota 3,6.
+  - CK INFO, R$ 702,00: só 19 avaliações.
+  - magazine ttnt, R$ 629,10: a página não mostra a nota.
+- **Memória:**
+  - Orbitek, R$ 755,84: hoje a página não mostra a nota. Ontem ela tinha entrado.
+  - PWM, R$ 716,05: o motivo não é o vendedor. A oferta vem de Singapura, sem garantia no Brasil.
+- **Deco X50:**
+  - TNTinfoLoja, R$ 736,25: a página não mostra a nota.
+  - MIRANDA na KaBuM, R$ 1.333,22: nota 3,9 e aviso de atrasos na entrega.
+  - Doctor Byte (50 avaliações) e Zoing-SP (33 avaliações): poucas avaliações.
+- **Robô:**
+  - PACMAGAZZINE, R$ 2.447,90: a página não mostra a nota.
+  - DIGITAL HOUSE, R$ 2.592,00: só 28 avaliações.
+  - celcomerce, R$ 2.638,09: nota 2.
+  - Completa Lar, R$ 2.659,90: nota 2, com 3 avaliações.
+
+**Falhas**
+- A Magazine Luiza bloqueou a leitura, então não deu para conferir quem vende.
+- As páginas `livelo.com.br/transferir-pontos` e `voeazul.com.br/br/pt/ofertas/livelo` deram erro 404. O fim da campanha da Azul e a falta de campanhas para Smiles e LATAM vieram do blog Passageiro de Primeira. Não consegui confirmar nos sites oficiais.
+- A busca da KaBuM não mostrou os produtos. Usei a consulta de produtos que o próprio site da KaBuM usa e abri cada oferta para conferir o vendedor.
+- Não busquei no Zoom, na Fast Shop, na Webcontinental nem nas lojas oficiais das marcas. Por isso a Webcontinental (SSD a R$ 885,91) não entrou na contagem.
+- O link de oferta do Magalu que ficou na lista "Comprar pontuando na Livelo" é o mesmo de ontem. O preço bate, mas não abri o link para confirmar.
+
+A coleta usou só o `abrir.mjs` do projeto. Os únicos arquivos alterados foram os JSON da pasta `dados/`.
+Código de saída: 0
+Fim: 2026-11-07 14:32

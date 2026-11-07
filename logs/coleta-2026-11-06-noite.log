@@ -1,0 +1,54 @@
+﻿Início: 2026-11-06 14:35
+--- Tentativa 1 (14:35)
+# Relatório da coleta: 06/11/2026
+
+Rodei o `node scripts/gerar.mjs` e ele terminou com **"Página atualizada"**. O navegador (`abrir.mjs`) voltou a funcionar, então hoje os preços foram atualizados. Na coleta das 14:17 isso não tinha dado certo.
+
+## Preços
+
+| Produto | Menor preço hoje | Loja (vendedor) | Diferença para 05/11 |
+|---|---|---|---|
+| SSD NV3 500 GB | **R$ 602,10** | Amazon (Imagem Hitech, nota 4,5, 4.909 avaliações) | **−R$ 45,00** |
+| Memória 16 GB DDR4 | R$ 755,84 | Amazon (NexTT, nota 5) | igual |
+| Deco X50, kit com 2 | R$ 702,05 | Amazon (zShops) | igual |
+| Robô Xiaomi H50 (versão US, 110V) | R$ 2.689,90 | Amazon (Ultra Eletro SP, nota 4,5) | igual |
+
+- **SSD:** 10 ofertas válidas em 2 lojas. A KaBuM! entrou com o parceiro Kometa a R$ 735,37 (nota 5, mais de 1.000 vendas).
+- **Deco X50:** a Amazon vendendo direto sai a R$ 740,05.
+- **Memória e Deco X50:** o vendedor mais barato de hoje é o mesmo de ontem (Orbitek na memória, zShops no Deco). Hoje a página mostrava a nota deles só no destaque, sem os números, então usei a nota que conferi ontem.
+- **Vendedor não conferido:** a Magazine Luiza continua bloqueando a leitura. Ficaram nessa lista o SSD a R$ 694,41, a memória Samsung a R$ 783,75 e o robô a partir de R$ 2.854,17.
+- **Comprar pontuando na Livelo:** acrescentei a Magalu na memória e no SSD, e a KaBuM! no SSD. Na KaBuM! essa compra dá 0 ponto, porque lá o SSD hoje é vendido por parceiro.
+
+## Livelo e bônus de transferência
+Não abri a Livelo de novo: esses dados já tinham sido coletados hoje às 14:17.
+- **Lojas em promoção:**
+  - Magalu: 3 pontos por real, ou 2 com vendedor parceiro. **Termina hoje.**
+  - Fast Shop: até 5 pontos por real em produtos selecionados, até 08/11.
+  - Midea: 3 pontos por real, até 09/11.
+  - Camicado: 4 pontos por real, ou 6 para quem é do Clube Livelo, até 08/11.
+- **Azul:** bônus de até **130%**, **termina hoje**.
+- **Smiles e LATAM:** sem bônus ativo.
+
+## Vendedores descartados
+- **SSD:**
+  - Amazon, "magazine ttnt", R$ 629,10: a nota do vendedor não aparecia.
+  - KaBuM!, Hadesinfo, R$ 660,33: nota 3,4.
+  - Amazon, CK INFO, R$ 702,00: só 19 avaliações.
+- **Memória:** PWM, R$ 755,84: envia de Singapura, ou seja, é importação.
+- **Robô:**
+  - PACMAGAZZINE, R$ 2.457,00: só 39 avaliações.
+  - Completa Lar, R$ 2.659,90: nota 2 com 3 avaliações.
+  - celcomerce, R$ 2.638,09: nota 2.
+- **Deco X50:**
+  - Zoing-SP: só 33 avaliações.
+  - HD Store Oficial e Bits e Bytes: preço acima de 180% da mediana, perto de R$ 1.450 e R$ 1.525.
+
+## Falhas
+- **Magazine Luiza:** bloqueia a leitura, então não deu para saber quem vende.
+- **Robô na Amazon:** a versão bivolt (B0GYW68HVQ) está indisponível.
+- **Memória Kingston e Samsung:** só achei as da Magalu e uma da KaBuM! a R$ 849,15, que não abri, e não procurei esses modelos na Amazon. Na Amazon só a Crucial foi conferida.
+- **Lojas não consultadas:** para não gastar tempo demais, não abri as lojas oficiais, a Fast Shop nem a Webcontinental.
+
+Este relatório não foi gravado em `logs/`. Como rodei a coleta direto na conversa, e não pelo `coletar.ps1`, nada foi salvo lá.
+Código de saída: 0
+Fim: 2026-11-06 14:41
