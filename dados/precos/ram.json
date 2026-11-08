@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-07",
+  "atualizado": "2026-11-08",
   "menor": {
     "loja": "Amazon",
-    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Laptop Notebook Memória RAM para Dell HP Lenovo - Embalagem OEM",
+    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Notebook - OEM",
     "preco": 755.25,
     "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
     "vendedor": {
@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 18,
+  "qtdOfertas": 8,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -43,7 +43,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Laptop Notebook Memória RAM para Dell HP Lenovo - Embalagem OEM",
+      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Notebook - OEM",
       "preco": 755.25,
       "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
       "vendedor": {
@@ -51,6 +51,32 @@
         "tipo": "parceiro",
         "nota": 5,
         "avaliacoes": 151,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 755.84,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+      "vendedor": {
+        "nome": "NexTT",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 768,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 755.84,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+      "vendedor": {
+        "nome": "GARZÔ",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 152,
         "reputacao": null
       }
     },
@@ -69,7 +95,7 @@
     },
     {
       "loja": "KaBuM!",
-      "nome": "Memória Para Notebook Samsung 16gb 3200mhz Ddr4 (sem Embalagem) 1rx8- M471a2g43ab2-cwe - 6939",
+      "nome": "Memória Para Notebook Samsung 16gb 3200mhz Ddr4 1rx8 M471a2g43ab2-cwe",
       "preco": 840,
       "link": "https://www.kabum.com.br/produto/992421/memoria-para-notebook-samsung-16gb-3200mhz-ddr4-sem-embalagem-1rx8-m471a2g43ab2-cwe-6939",
       "vendedor": {
@@ -82,20 +108,7 @@
     },
     {
       "loja": "KaBuM!",
-      "nome": "Memória Notebook Kingston 16GB Ddr4 3200 Mhz 1,2v Sodimm - Kvr32s22s8/16",
-      "preco": 849.15,
-      "link": "https://www.kabum.com.br/produto/403550/memoria-para-notebook-kingston-16gb-3200mhz-ddr4-kvr32s22s8-16",
-      "vendedor": {
-        "nome": "Net Alfa Computadores",
-        "tipo": "parceiro",
-        "nota": 4.7,
-        "avaliacoes": 1000,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "KaBuM!",
-      "nome": "Memória Notebook Kingston, 16GB, DDR4 3200mhz - KVR32S22D8/16",
+      "nome": "Memória Notebook Kingston 16gb Ddr4 3200mhz Kvr32s22d8-16",
       "preco": 869.9,
       "link": "https://www.kabum.com.br/produto/464061/memoria-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22d8-16",
       "vendedor": {
@@ -103,19 +116,6 @@
         "tipo": "parceiro",
         "nota": 5,
         "avaliacoes": 1000,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "KaBuM!",
-      "nome": "Memória Ram Crucial, 16gb, 3200mhz, Ddr4 - P/notebook - Ct16g4sfra32a",
-      "preco": 1002.71,
-      "link": "https://www.kabum.com.br/produto/1053587/memoria-ram-crucial-16gb-3200mhz-ddr4-p-notebook-ct16g4sfra32a",
-      "vendedor": {
-        "nome": "Vortex Suprimentos de Informática",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 672,
         "reputacao": null
       }
     }
@@ -178,6 +178,13 @@
     },
     {
       "d": "2026-11-07",
+      "p": 755.25,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 796.3
+    },
+    {
+      "d": "2026-11-08",
       "p": 755.25,
       "l": "Amazon",
       "lojas": 2,
