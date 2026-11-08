@@ -2,7 +2,7 @@
   "atualizado": "2026-11-08",
   "menor": {
     "loja": "Amazon",
-    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Notebook - OEM",
+    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE",
     "preco": 755.25,
     "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
     "vendedor": {
@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 8,
+  "qtdOfertas": 6,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -43,7 +43,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Notebook - OEM",
+      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE",
       "preco": 755.25,
       "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
       "vendedor": {
@@ -63,7 +63,7 @@
         "nome": "NexTT",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 768,
+        "avaliacoes": 771,
         "reputacao": null
       }
     },
@@ -76,7 +76,7 @@
         "nome": "GARZÔ",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 152,
+        "avaliacoes": 153,
         "reputacao": null
       }
     },

@@ -9,11 +9,11 @@
       "nome": "Imagem Hitech",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 4909,
+      "avaliacoes": 4910,
       "reputacao": null
     }
   },
-  "qtdOfertas": 11,
+  "qtdOfertas": 10,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -62,7 +62,7 @@
         "nome": "Imagem Hitech",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 4909,
+        "avaliacoes": 4910,
         "reputacao": null
       }
     },
@@ -127,7 +127,7 @@
         "nome": "Mundo dos Computadores 07",
         "tipo": "parceiro",
         "nota": 4,
-        "avaliacoes": 108,
+        "avaliacoes": 109,
         "reputacao": null
       }
     }
@@ -200,7 +200,7 @@
       "p": 602.1,
       "l": "Amazon",
       "lojas": 2,
-      "m": 660.28
+      "m": 721.05
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

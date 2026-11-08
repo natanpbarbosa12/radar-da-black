@@ -2,18 +2,18 @@
   "atualizado": "2026-11-08",
   "menor": {
     "loja": "Amazon",
-    "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
+    "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
     "preco": 702.05,
     "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
     "vendedor": {
       "nome": "zShops",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 2007,
+      "avaliacoes": 2009,
       "reputacao": null
     }
   },
-  "qtdOfertas": 9,
+  "qtdOfertas": 11,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -25,14 +25,14 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
       "preco": 702.05,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
         "nome": "zShops",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 2007,
+        "avaliacoes": 2009,
         "reputacao": null
       }
     },
@@ -84,20 +84,20 @@
         "nome": "TP-Link Loja oficial",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 1104,
+        "avaliacoes": 1106,
         "reputacao": null
       }
     },
     {
-      "loja": "KaBuM!",
-      "nome": "Roteador Tp-link Deco X50, WIFI 6 Mesh Gigabit, Dual Band Ax3000 C/ 2",
-      "preco": 939.91,
-      "link": "https://www.kabum.com.br/produto/588748/roteador-tp-link-deco-x50-wifi-6-mesh-gigabit-dual-band-ax3000-c-2?seller_offer_id=911721",
+      "loja": "Amazon",
+      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+      "preco": 889.2,
+      "link": "https://www.amazon.com.br/dp/B09LVFNMVJ?aod=1&psc=1",
       "vendedor": {
-        "nome": "GIGANTEC",
+        "nome": "LOJA Miranda",
         "tipo": "parceiro",
-        "nota": 5,
-        "avaliacoes": 1000,
+        "nota": 4,
+        "avaliacoes": 659,
         "reputacao": null
       }
     }

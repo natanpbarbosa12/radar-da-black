@@ -3,13 +3,13 @@
   "menor": {
     "loja": "Amazon",
     "nome": "Xiaomi Robot Vacuum H50 US (110V)",
-    "preco": 2689.9,
+    "preco": 2537.08,
     "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
     "vendedor": {
-      "nome": "Ultra Eletro SP",
+      "nome": "Alô Bebe",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 602,
+      "avaliacoes": 625,
       "reputacao": null
     }
   },
@@ -44,13 +44,13 @@
     {
       "loja": "Amazon",
       "nome": "Xiaomi Robot Vacuum H50 US (110V)",
-      "preco": 2689.9,
+      "preco": 2537.08,
       "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
       "vendedor": {
-        "nome": "Ultra Eletro SP",
+        "nome": "Alô Bebe",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 602,
+        "avaliacoes": 625,
         "reputacao": null
       }
     }
@@ -86,10 +86,10 @@
     },
     {
       "d": "2026-11-08",
-      "p": 2689.9,
+      "p": 2537.08,
       "l": "Amazon",
       "lojas": 1,
-      "m": 2689.9
+      "m": 2537.08
     }
   ],
   "meses": [],
