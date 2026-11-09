@@ -9,11 +9,11 @@
       "nome": "Imagem Hitech",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 4910,
+      "avaliacoes": 4912,
       "reputacao": null
     }
   },
-  "qtdOfertas": 10,
+  "qtdOfertas": 9,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -62,7 +62,7 @@
         "nome": "Imagem Hitech",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 4910,
+        "avaliacoes": 4912,
         "reputacao": null
       }
     },
@@ -88,7 +88,7 @@
         "nome": "GPrime Games",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 1046,
+        "avaliacoes": 1047,
         "reputacao": null
       }
     },
@@ -108,6 +108,19 @@
     {
       "loja": "Amazon",
       "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "preco": 675,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Amazon.com.br",
+        "tipo": "loja",
+        "nota": null,
+        "avaliacoes": null,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 679.5,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -115,19 +128,6 @@
         "tipo": "parceiro",
         "nota": 4.5,
         "avaliacoes": 488,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-      "preco": 710.1,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Mundo dos Computadores 07",
-        "tipo": "parceiro",
-        "nota": 4,
-        "avaliacoes": 109,
         "reputacao": null
       }
     }
@@ -206,8 +206,8 @@
       "d": "2026-11-09",
       "p": 602.1,
       "l": "Amazon",
-      "lojas": 2,
-      "m": 721.05
+      "lojas": 1,
+      "m": 602.1
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",
