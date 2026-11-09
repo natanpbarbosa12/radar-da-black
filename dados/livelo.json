@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-08",
+  "atualizado": "2026-11-09",
   "lojas": [
     {
       "clube": 1,
@@ -11,12 +11,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
     },
     {
-      "clube": 2,
+      "clube": 5,
       "loja": "Magalu",
       "normal": 2,
-      "pontos": 2,
-      "promocao": false,
-      "regra": "2 pontos por real em produtos vendidos e entregues pela Magalu e 1 ponto por real no marketplace (a campanha de 04 a 06/11 terminou). Compre pelo hotsite. Pontos em até 30 dias da entrega. Não pontuam frete, embalagem, cupom, gift card, vale-compra e pedidos de PJ.",
+      "pontos": 4,
+      "promocao": true,
+      "regra": "Campanha de 09 a 12/11/2026: 5 pontos por real para o Clube Livelo e 4 para os demais, em produtos vendidos e entregues pela Magalu; 2 pontos por real no marketplace. Não vale para mercado. Compre pelo hotsite. Pontos em até 30 dias da entrega.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -47,12 +47,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
     },
     {
-      "clube": 5,
+      "clube": 4,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 5,
+      "pontos": 4,
       "promocao": true,
-      "regra": "Campanha de 06 a 08/11/2026: até 5 pontos por real só em produtos selecionados; 2 pontos por real nos demais vendidos pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO pelo hotsite. Pontos em até 30 dias após o recebimento. Não pontuam frete, embalagem, cupom, gift card, vale-compra e PJ.",
+      "regra": "Campanha de 09 a 11/11/2026: 4 pontos por real em produtos selecionados; 2 pontos por real nos demais vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace, com o cupom LIVELO. Pontos em até 30 dias após o recebimento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "1 ponto a cada 2 reais (exceto alimentos e bebidas). De 02 a 08/11/2026, até 2 pontos por real só em Beleza e Cosméticos. Só pontua clicando no link da Livelo antes da compra (até 24 h). Não pontuam frete, juros, garantias, cupom, importados e usados. Crédito em até 40 dias.",
+      "regra": "1 ponto a cada 2 reais (exceto alimentos e bebidas). De 09 a 15/11/2026, 2 pontos por real só na categoria Moda. Só pontua clicando no link da Livelo antes da compra. Não pontuam frete, juros, garantias, cupom, importados e usados. Crédito em até 40 dias.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -93,11 +93,11 @@
     },
     {
       "loja": "Camicado",
-      "pontos": 4,
+      "pontos": 2,
       "normal": 2,
-      "clube": 6,
-      "promocao": true,
-      "regra": "Campanha de 06 a 08/11/2026: 4 pontos por real (6 para o Clube Livelo); normal 2. Só pontuam produtos vendidos e entregues pela Camicado. Pontos em até 45 dias corridos da entrega. Não pontuam frete, embalagem, cupom, gift card, vale-compra e PJ.",
+      "clube": 2,
+      "promocao": false,
+      "regra": "2 pontos por real (campanha de 06 a 08/11 terminou). Só pontuam produtos vendidos e entregues pela Camicado. Pontos em até 45 dias corridos da entrega.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
     },
     {

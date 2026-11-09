@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-08",
+  "atualizado": "2026-11-09",
   "menor": {
     "loja": "Amazon",
     "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE",
@@ -136,8 +136,8 @@
       "preco": 783.75,
       "link": "https://www.buscape.com.br/lead?oid=1563661101",
       "vendedor": null,
-      "pontos": 1,
-      "obs": "A Magalu bloqueou a leitura (erro 403), então a nota do vendedor não foi conferida. O link leva a um parceiro (Matros Informática): vendedor parceiro dá 1 ponto por real; se for a própria Magalu, são 2."
+      "pontos": 2,
+      "obs": "Campanha 09-12/11: 4 pts/real se vendido e entregue pela Magalu; 2 pts no marketplace. Vendedor não conferido."
     }
   ],
   "historico": [
@@ -185,6 +185,13 @@
     },
     {
       "d": "2026-11-08",
+      "p": 755.25,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 796.3
+    },
+    {
+      "d": "2026-11-09",
       "p": 755.25,
       "l": "Amazon",
       "lojas": 2,

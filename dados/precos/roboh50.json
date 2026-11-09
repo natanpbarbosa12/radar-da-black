@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-08",
+  "atualizado": "2026-11-09",
   "menor": {
     "loja": "Amazon",
     "nome": "Xiaomi Robot Vacuum H50 US (110V)",
@@ -90,6 +90,13 @@
       "l": "Amazon",
       "lojas": 1,
       "m": 2537.08
+    },
+    {
+      "d": "2026-11-09",
+      "p": 2537.08,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 2537.08
     }
   ],
   "meses": [],
@@ -100,8 +107,8 @@
       "preco": 2854.17,
       "link": "https://www.magazineluiza.com.br/robo-aspirador-xiaomi-h50-lava-e-aspira-base-automatica-10000pa/p/fj590e6ch0/ep/eprb/",
       "vendedor": null,
-      "pontos": 1,
-      "obs": "A Magalu bloqueou a leitura (erro 403), então o vendedor não foi conferido (o link indica um parceiro, mixpluss). Vendedor parceiro dá 1 ponto por real; se fosse a própria Magalu, seriam 2."
+      "pontos": 2,
+      "obs": "Campanha 09-12/11: 4 pts/real se vendido e entregue pela Magalu; 2 pts no marketplace. Vendedor não conferido."
     }
   ]
 }
