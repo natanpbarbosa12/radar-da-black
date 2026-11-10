@@ -2,7 +2,7 @@
   "atualizado": "2026-11-10",
   "menor": {
     "loja": "Amazon",
-    "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+    "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
     "preco": 702.05,
     "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
     "vendedor": {
@@ -25,7 +25,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
       "preco": 702.05,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
@@ -38,7 +38,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
       "preco": 740.05,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
@@ -51,14 +51,14 @@
     },
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
       "preco": 797.05,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
         "nome": "TP-Link Loja oficial",
-        "tipo": "loja",
+        "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 1108,
+        "avaliacoes": 1111,
         "reputacao": null
       }
     },
@@ -90,7 +90,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
       "preco": 1446.92,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
@@ -106,11 +106,11 @@
     {
       "loja": "Kabum",
       "nome": "Roteador Tp-link Deco X50, WIFI 6 Mesh Gigabit, Dual Band Ax3000 C/ 2",
-      "preco": 939.91,
-      "link": "https://www.kabum.com.br/produto/588748/roteador-tp-link-deco-x50-wifi-6-mesh-gigabit-dual-band-ax3000-c-2?seller_offer_id=911721",
+      "preco": null,
+      "link": "https://www.kabum.com.br/busca/deco-x50",
       "vendedor": "GIGANTEC (parceiro da KaBuM!)",
       "pontos": 0,
-      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje o kit de 2 lá é vendido só por parceiros (o mais barato confiável é a GIGANTEC, nota 5; a TNTINFO tem R$ 908,90, mas nota 3,8)."
+      "obs": "Link anterior saiu do ar (404). Na KaBuM! só pontua o que ela mesma vende e entrega; confira na busca se há kit de 2 vendido por ela."
     }
   ],
   "historico": [
