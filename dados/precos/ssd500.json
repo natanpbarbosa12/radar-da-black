@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-09",
+  "atualizado": "2026-11-10",
   "menor": {
     "loja": "Amazon",
     "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
@@ -9,11 +9,11 @@
       "nome": "Imagem Hitech",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 4912,
+      "avaliacoes": 4913,
       "reputacao": null
     }
   },
-  "qtdOfertas": 9,
+  "qtdOfertas": 10,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -62,7 +62,7 @@
         "nome": "Imagem Hitech",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 4912,
+        "avaliacoes": 4913,
         "reputacao": null
       }
     },
@@ -75,7 +75,7 @@
         "nome": "Wolf System Informática",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 493,
+        "avaliacoes": 494,
         "reputacao": null
       }
     },
@@ -108,19 +108,6 @@
     {
       "loja": "Amazon",
       "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-      "preco": 675,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Amazon.com.br",
-        "tipo": "loja",
-        "nota": null,
-        "avaliacoes": null,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 679.5,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -128,6 +115,19 @@
         "tipo": "parceiro",
         "nota": 4.5,
         "avaliacoes": 488,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "preco": 710.1,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Mundo dos Computadores 07",
+        "tipo": "parceiro",
+        "nota": 4,
+        "avaliacoes": 110,
         "reputacao": null
       }
     }
@@ -208,6 +208,13 @@
       "l": "Amazon",
       "lojas": 1,
       "m": 602.1
+    },
+    {
+      "d": "2026-11-10",
+      "p": 602.1,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 741.05
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

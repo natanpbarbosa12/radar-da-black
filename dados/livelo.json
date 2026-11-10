@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-09",
+  "atualizado": "2026-11-10",
   "lojas": [
     {
       "clube": 1,
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha de 03 a 09/11/2026: 3 pontos por real. Compre no site da Midea pelo link da Livelo, com o carrinho vazio antes. Pontos em até 30 dias corridos após o recebimento. Não pontuam frete, embalagem, cupom, gift card, vale-compra e PJ.",
+      "regra": "Campanha válida em 10/11/2026 (termina hoje): 11 pontos por real para o Clube Livelo e 10 para os demais em categorias selecionadas; 3 pontos por real nos demais itens. Compre pelo link da Livelo, com o carrinho vazio. Créditos em até 30 dias do recebimento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
@@ -93,11 +93,11 @@
     },
     {
       "loja": "Camicado",
-      "pontos": 2,
+      "pontos": 10,
       "normal": 2,
-      "clube": 2,
-      "promocao": false,
-      "regra": "2 pontos por real (campanha de 06 a 08/11 terminou). Só pontuam produtos vendidos e entregues pela Camicado. Pontos em até 45 dias corridos da entrega.",
+      "clube": 11,
+      "promocao": true,
+      "regra": "Campanha válida em 10/11/2026 (termina hoje): 11 pontos por real para o Clube Livelo e 10 para os demais, em produtos vendidos e entregues pela Camicado; 2 pontos por real no normal. Créditos em até 45 dias da entrega.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
     },
     {
