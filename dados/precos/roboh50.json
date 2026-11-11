@@ -3,7 +3,7 @@
   "menor": {
     "loja": "Amazon",
     "nome": "Xiaomi Robot Vacuum H50 US",
-    "preco": 2537.08,
+    "preco": 2409.6,
     "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
     "vendedor": {
       "nome": "Alô Bebe",
@@ -44,7 +44,7 @@
     {
       "loja": "Amazon",
       "nome": "Xiaomi Robot Vacuum H50 US",
-      "preco": 2537.08,
+      "preco": 2409.6,
       "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
       "vendedor": {
         "nome": "Alô Bebe",
@@ -107,10 +107,10 @@
     },
     {
       "d": "2026-11-11",
-      "p": 2537.08,
+      "p": 2409.6,
       "l": "Amazon",
       "lojas": 1,
-      "m": 2537.08
+      "m": 2409.6
     }
   ],
   "meses": [],

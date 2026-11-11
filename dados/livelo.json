@@ -16,7 +16,7 @@
       "normal": 2,
       "pontos": 4,
       "promocao": true,
-      "regra": "Campanha de 09 a 12/11/2026: 5 pontos por real para o Clube Livelo e 4 para os demais, em produtos vendidos e entregues pela Magalu; 2 pontos por real no marketplace. Não vale para mercado. Compre pelo hotsite. Pontos em até 30 dias da entrega.",
+      "regra": "Campanha de 09 a 12/11/2026: 5 pts/real para assinantes do Clube Livelo e 4 pts/real para os demais, em produtos vendidos e entregues pela Magalu; 2 pts/real no marketplace. Não vale para mercado.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -52,7 +52,7 @@
       "normal": 2,
       "pontos": 4,
       "promocao": true,
-      "regra": "Campanha de 09 a 11/11/2026: 4 pontos por real em produtos selecionados; 2 pontos por real nos demais vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace, com o cupom LIVELO. Pontos em até 30 dias após o recebimento.",
+      "regra": "Campanha de 09 a 11/11/2026: 4 pts/real em produtos selecionados; 2 pts/real nos demais vendidos e entregues pela Fast Shop; 1 pt/real no marketplace. Precisa do cupom LIVELO.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "1 ponto a cada 2 reais (exceto alimentos e bebidas). De 09 a 15/11/2026, 2 pontos por real só na categoria Moda. Só pontua clicando no link da Livelo antes da compra. Não pontuam frete, juros, garantias, cupom, importados e usados. Crédito em até 40 dias.",
+      "regra": "Campanha de 09 a 15/11/2026: 2 pts/real só em Moda; nas demais categorias 1 ponto a cada 2 reais (0,5 pt/real), exceto Alimentos e Bebidas.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -70,7 +70,7 @@
       "normal": 1,
       "clube": 4,
       "promocao": true,
-      "regra": "Campanha válida em 11/11/2026: 4 pontos por real em produtos vendidos e entregues por Electrolux. Normal: 1 ponto por real.",
+      "regra": "Campanha válida só em 11/11/2026: 4 pts/real em produtos vendidos e entregues pela Electrolux (normal: 1 pt/real).",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha válida em 10/11/2026 (termina hoje): 11 pontos por real para o Clube Livelo e 10 para os demais em categorias selecionadas; 3 pontos por real nos demais itens. Compre pelo link da Livelo, com o carrinho vazio. Créditos em até 30 dias do recebimento.",
+      "regra": "Campanha válida só em 11/11/2026: 11 pts/real (Clube) ou 10 pts/real em categorias selecionadas; 3 pts/real nos demais itens (normal: 1 pt/real).",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
@@ -97,7 +97,7 @@
       "normal": 2,
       "clube": 2,
       "promocao": false,
-      "regra": "2 pontos por real. Produtos que não são vendidos e nem entregues pela Camicado não acumulam pontos. Créditos em até 45 dias após a entrega.",
+      "regra": "2 pts/real. Produtos que não são vendidos e nem entregues pela Camicado não acumulam pontos.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
     },
     {
