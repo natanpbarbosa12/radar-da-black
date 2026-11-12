@@ -9,11 +9,11 @@
       "nome": "GARZÔ",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 153,
+      "avaliacoes": 152,
       "reputacao": null
     }
   },
-  "qtdOfertas": 5,
+  "qtdOfertas": 4,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -50,7 +50,7 @@
         "nome": "GARZÔ",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 153,
+        "avaliacoes": 152,
         "reputacao": null
       }
     },
@@ -63,7 +63,7 @@
         "nome": "NexTT",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 776,
+        "avaliacoes": 774,
         "reputacao": null
       }
     },
@@ -76,7 +76,7 @@
         "nome": "Orbitek",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 1156,
+        "avaliacoes": 1155,
         "reputacao": null
       }
     },
@@ -89,19 +89,6 @@
         "nome": "Cavuca",
         "tipo": "parceiro",
         "nota": 4.7,
-        "avaliacoes": 1000,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "KaBuM!",
-      "nome": "Memória Notebook Kingston, 16GB, DDR4 3200mhz - KVR32S22D8/16",
-      "preco": 869.9,
-      "link": "https://www.kabum.com.br/produto/464061/memoria-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22d8-16",
-      "vendedor": {
-        "nome": "EQUIPECLUB",
-        "tipo": "parceiro",
-        "nota": 5,
         "avaliacoes": 1000,
         "reputacao": null
       }

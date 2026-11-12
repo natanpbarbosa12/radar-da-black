@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 8,
+  "qtdOfertas": 10,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -114,7 +114,7 @@
         "nome": "Mundo dos Computadores 07",
         "tipo": "parceiro",
         "nota": 4,
-        "avaliacoes": 111,
+        "avaliacoes": 113,
         "reputacao": null
       }
     },
@@ -136,7 +136,7 @@
     {
       "loja": "Kabum",
       "nome": "SSD Kingston NV3, 500GB, M.2 2280, PCIe 4.0 x4, NVMe, Leitura: 5000 MB/s, Gravação: 3000 MB/s, Azul - SNV3S/500G",
-      "preco": 839.99,
+      "preco": 879.99,
       "link": "https://www.kabum.com.br/produto/621161/ssd-kingston-nv3-500-gb-m-2-2280-pcie-4-0-x4-nvme-leitura-5000-mb-s-gravacao-3000-mb-s-azul-snv3s-500g",
       "vendedor": "KaBuM!",
       "pontos": 1,
@@ -227,8 +227,8 @@
       "d": "2026-11-12",
       "p": 627.32,
       "l": "Amazon",
-      "lojas": 1,
-      "m": 627.32
+      "lojas": 2,
+      "m": 753.66
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

@@ -66,11 +66,11 @@
     },
     {
       "loja": "Electrolux",
-      "pontos": 1,
+      "pontos": 2,
       "normal": 1,
-      "clube": 1,
-      "promocao": false,
-      "regra": "1 pt/real em produtos vendidos e entregues pela Electrolux. A campanha de 4 pts terminou em 11/11.",
+      "clube": 4,
+      "promocao": true,
+      "regra": "Campanha válida em 12/11/2026: 4 pontos por real para assinantes do Clube Livelo e 2 pontos por real para os demais, em produtos vendidos e entregues pela Electrolux. Fora da campanha, 1 ponto por real.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
     },
     {
