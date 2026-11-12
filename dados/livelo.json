@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-11",
+  "atualizado": "2026-11-12",
   "lojas": [
     {
       "clube": 1,
@@ -16,7 +16,7 @@
       "normal": 2,
       "pontos": 4,
       "promocao": true,
-      "regra": "Campanha de 09 a 12/11/2026: 5 pts/real para assinantes do Clube Livelo e 4 pts/real para os demais, em produtos vendidos e entregues pela Magalu; 2 pts/real no marketplace. Não vale para mercado.",
+      "regra": "Campanha de 09 a 12/11/2026: 5 pts/real para Clube Livelo e 4 pts/real para demais clientes, em itens vendidos e entregues pela Magalu; 2 pts/real no marketplace. Exceto mercado.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -47,12 +47,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
     },
     {
-      "clube": 4,
+      "clube": 2,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 4,
-      "promocao": true,
-      "regra": "Campanha de 09 a 11/11/2026: 4 pts/real em produtos selecionados; 2 pts/real nos demais vendidos e entregues pela Fast Shop; 1 pt/real no marketplace. Precisa do cupom LIVELO.",
+      "pontos": 2,
+      "promocao": false,
+      "regra": "Até 2 pts/real em produtos vendidos e entregues pela Fast Shop; 1 pt/real no marketplace. Precisa do cupom LIVELO. A campanha de 4 pts terminou em 11/11.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "loja": "Electrolux",
-      "pontos": 4,
+      "pontos": 1,
       "normal": 1,
-      "clube": 4,
-      "promocao": true,
-      "regra": "Campanha válida só em 11/11/2026: 4 pts/real em produtos vendidos e entregues pela Electrolux (normal: 1 pt/real).",
+      "clube": 1,
+      "promocao": false,
+      "regra": "1 pt/real em produtos vendidos e entregues pela Electrolux. A campanha de 4 pts terminou em 11/11.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha válida só em 11/11/2026: 11 pts/real (Clube) ou 10 pts/real em categorias selecionadas; 3 pts/real nos demais itens (normal: 1 pt/real).",
+      "regra": "Campanha de 12 a 26/11/2026: 3 pts/real gastos (normal: 1 pt/real).",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
@@ -112,7 +112,15 @@
   ],
   "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
   "smiles": {
-    "ativa": false
+    "ativa": true,
+    "bonus": 70,
+    "titulo": "Até 70% de bônus na transferência da Livelo para a Smiles (70% para Clube Smiles/Diamante, 40% para os demais, segundo blogs). Transferências até 13/11/2026 (conforme blogs; confira o regulamento).",
+    "regras": [
+      "Cadastre-se na campanha antes de transferir",
+      "Bônus de 70% para assinantes do Clube Smiles e clientes Diamante",
+      "Milhas bônus creditadas até 30/11/2026, válidas por 12 meses (segundo blogs)"
+    ],
+    "cadastro": "https://www.livelo.com.br/ofertas"
   },
   "azul": {
     "ativa": false
