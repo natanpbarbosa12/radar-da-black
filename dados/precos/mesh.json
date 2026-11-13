@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 9,
+  "qtdOfertas": 11,
   "naoConferidas": [],
   "ofertas": [
     {
@@ -51,7 +51,7 @@
         "nome": "TNTinfoLoja",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 8776,
+        "avaliacoes": 8783,
         "reputacao": null
       }
     },
@@ -70,20 +70,20 @@
     },
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
-      "preco": 889.1,
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
+      "preco": 828.94,
       "link": "https://www.amazon.com.br/dp/B09LVFNMVJ?aod=1&psc=1",
       "vendedor": {
-        "nome": "XcommBR",
-        "tipo": "parceiro",
-        "nota": 4,
-        "avaliacoes": 2772,
+        "nome": "Amazon.com.br",
+        "tipo": "loja",
+        "nota": null,
+        "avaliacoes": null,
         "reputacao": null
       }
     },
     {
       "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Mesh Wi-Fi 6 AX3000",
+      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 Dual Band",
       "preco": 889.2,
       "link": "https://www.amazon.com.br/dp/B09LVFNMVJ?aod=1&psc=1",
       "vendedor": {
@@ -98,12 +98,12 @@
   "livelo": [
     {
       "loja": "Kabum",
-      "nome": "Roteador Tp-link Deco X50, WIFI 6 Mesh Gigabit, Dual Band Ax3000 C/ 2",
-      "preco": 991.0,
-      "link": "https://www.kabum.com.br/busca/deco-x50",
+      "nome": "Roteador TP-Link Deco X50, AX3000, WiFi 6 - Deco X50(2-pack)",
+      "preco": 899,
+      "link": "https://www.kabum.com.br/produto/377589",
       "vendedor": "KaBuM!",
       "pontos": 1,
-      "obs": "Kit com 2 unidades vendido pela KaBuM! (filtro Vendido por KaBuM! na busca); pontua 1 ponto por real com o cupom LIVELO."
+      "obs": "Kit com 2 unidades, vendido e entregue pela KaBuM! (preço à vista no Pix); pontua 1 ponto por real com o cupom LIVELO."
     }
   ],
   "historico": [
@@ -188,8 +188,8 @@
       "d": "2026-11-13",
       "p": 702.05,
       "l": "Amazon",
-      "lojas": 1,
-      "m": 702.05
+      "lojas": 2,
+      "m": 800.53
     }
   ],
   "mesesFonte": "Buscapé/Zoom (Deco X50, 1 unidade x2)",

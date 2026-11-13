@@ -2,7 +2,7 @@
   "atualizado": "2026-11-13",
   "menor": {
     "loja": "Amazon",
-    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
     "preco": 627.32,
     "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
     "vendedor": {
@@ -43,7 +43,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
       "preco": 627.32,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -56,7 +56,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
       "preco": 664.77,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -69,7 +69,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
       "preco": 717.25,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -82,40 +82,40 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
       "preco": 740.05,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
         "nome": "GPrime Games",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 1052,
+        "avaliacoes": 1053,
         "reputacao": null
       }
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
       "preco": 749.55,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
         "nome": "Mundo dos Computadores 07",
         "tipo": "parceiro",
         "nota": 4,
-        "avaliacoes": 113,
+        "avaliacoes": 117,
         "reputacao": null
       }
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
       "preco": 759.05,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
         "nome": "TI INFORMATICA",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 565,
+        "avaliacoes": 566,
         "reputacao": null
       }
     }
@@ -124,11 +124,11 @@
     {
       "loja": "Kabum",
       "nome": "SSD Kingston NV3, 500GB, M.2 2280, PCIe 4.0 x4, NVMe, Leitura: 5000 MB/s, Gravação: 3000 MB/s, Azul - SNV3S/500G",
-      "preco": 977.77,
+      "preco": 879.99,
       "link": "https://www.kabum.com.br/produto/621161/ssd-kingston-nv3-500-gb-m-2-2280-pcie-4-0-x4-nvme-leitura-5000-mb-s-gravacao-3000-mb-s-azul-snv3s-500g",
       "vendedor": "KaBuM!",
       "pontos": 1,
-      "obs": "Vendido e entregue pela própria KaBuM! (preço à vista no Pix), então pontua 1 ponto por real (use o cupom LIVELO). Mais barato na KaBuM! é de parceiro (R$ 660,33 no Buscapé, vendedor não conferido), que não pontua."
+      "obs": "Vendido e entregue pela própria KaBuM! (preço à vista no Pix, R$ 977,77 antes do desconto), então pontua 1 ponto por real (use o cupom LIVELO). Os mais baratos na KaBuM! são de parceiros (ex.: R$ 660,33 no Buscapé), que não pontuam."
     },
     {
       "loja": "Magalu",
@@ -223,7 +223,7 @@
       "p": 627.32,
       "l": "Amazon",
       "lojas": 2,
-      "m": 802.55
+      "m": 753.66
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

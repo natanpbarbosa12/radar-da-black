@@ -1,9 +1,35 @@
 {
   "atualizado": "2026-11-13",
-  "menor": null,
-  "qtdOfertas": 0,
+  "menor": {
+    "loja": "Amazon",
+    "nome": "Xiaomi Robot Vacuum H50 US | Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US",
+    "preco": 2712.25,
+    "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
+    "vendedor": {
+      "nome": "Alô Bebe",
+      "tipo": "parceiro",
+      "nota": 4.5,
+      "avaliacoes": 625,
+      "reputacao": null
+    }
+  },
+  "qtdOfertas": 1,
   "naoConferidas": [],
-  "ofertas": [],
+  "ofertas": [
+    {
+      "loja": "Amazon",
+      "nome": "Xiaomi Robot Vacuum H50 US | Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US",
+      "preco": 2712.25,
+      "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Alô Bebe",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 625,
+        "reputacao": null
+      }
+    }
+  ],
   "historico": [
     {
       "d": "2026-10-24",
@@ -60,6 +86,13 @@
       "l": "Amazon",
       "lojas": 1,
       "m": 2409.6
+    },
+    {
+      "d": "2026-11-13",
+      "p": 2712.25,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 2712.25
     }
   ],
   "meses": [],
