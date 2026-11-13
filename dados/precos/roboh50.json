@@ -1,33 +1,8 @@
 {
-  "atualizado": "2026-11-12",
+  "atualizado": "2026-11-13",
   "menor": null,
   "qtdOfertas": 0,
-  "naoConferidas": [
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Robô Aspirador Xiaomi H50 Lava E Aspira Base Automática 10000Pa, 110V",
-      "preco": 2854.17,
-      "link": "https://www.buscape.com.br/lead?oid=1573085130"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Robô Aspirador 110V Xiaomi Robot Vacuum H50 Com Estação Omni Multifunções",
-      "preco": 2862.94,
-      "link": "https://www.buscape.com.br/lead?oid=1578104713"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Robô Aspirador Xiaomi H50 10000pa Lançamento 2026 110v",
-      "preco": 3371.25,
-      "link": "https://www.buscape.com.br/lead?oid=1574256877"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Robô Aspirador Xiaomi Vacuum H50 BHR08N4U Branco 110V com Aspira e Esfrega",
-      "preco": 3906.34,
-      "link": "https://www.buscape.com.br/lead?oid=1578171732"
-    }
-  ],
+  "naoConferidas": [],
   "ofertas": [],
   "historico": [
     {
@@ -92,11 +67,11 @@
     {
       "loja": "Magalu",
       "nome": "Robô Aspirador Xiaomi H50 Lava E Aspira Base Automática 10000Pa, 110V",
-      "preco": 2854.17,
+      "preco": null,
       "link": "https://www.magazineluiza.com.br/robo-aspirador-xiaomi-h50-lava-e-aspira-base-automatica-10000pa/p/fj590e6ch0/ep/eprb/",
       "vendedor": null,
       "pontos": 2,
-      "obs": "Campanha 09-12/11: 4 pts/real se vendido e entregue pela Magalu; 2 pts no marketplace. Vendedor não conferido."
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço e vendedor não conferidos hoje (Buscapé mostra H50 110V a partir de ~R$ 3.422)."
     }
   ]
 }

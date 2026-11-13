@@ -1,0 +1,22 @@
+Coleta 2026-11-13 (manhã) — gerar.mjs terminou com "Página atualizada".
+
+Menor preço por produto (dia anterior, 12/11):
+- Memória 16 GB DDR4: R$ 853,86, Amazon (Orbitek). Anterior R$ 759,05 (+R$ 94,81). 3 ofertas válidas.
+- SSD Kingston NV3 500 GB: R$ 627,32, Amazon (Wolf System). Anterior R$ 627,32 (sem mudança). 10 ofertas válidas.
+- TP-Link Deco X50 (2 un.): R$ 702,05, Amazon (zShops). Anterior R$ 702,05 (sem mudança). 9 ofertas válidas (inclui Amazon.com.br a R$ 728,64 no Pix).
+- Xiaomi Robot Vacuum H50: sem oferta válida hoje (menor: null). Anterior: sem oferta.
+
+Livelo: em promoção hoje — Fast Shop (3 pts/real, 13 a 15/11) e Midea (3 pts/real, 12 a 26/11). Campanhas de Magalu (4 pts) e Electrolux acabaram: Magalu 2 pts, Electrolux 1 pt. Demais lojas sem mudança.
+Bônus de transferência: Smiles ativo (Livelo anuncia até 70%; mantido o texto anterior, transferências até 13/11 segundo blogs). Azul: inativo (campanha de 130% terminou há ~6 dias). LATAM Pass: inativo (nenhuma campanha atual encontrada). Sites da Azul e da LATAM deram 403, então Azul/LATAM foram conferidos só pela Livelo e pelo Passageiro de Primeira.
+
+Vendedores descartados:
+- Memória: PWM (importação de Singapura, R$ 716,07, sem garantia no Brasil) e Amazon Global (R$ 1.617,02, importação).
+- SSD: CK INFO (R$ 741,00, só 21 avaliações).
+- Mesh: Doctor Byte (R$ 1.073,40) e Zoing-SP (R$ 1.333,05), poucas avaliações (50 e 33).
+- Robô: MR IMPORTAÇÃO (Amazon, R$ 2.849,90 versão US, nota 3,0 com 144 avaliações; R$ 3.419,90 bivolt, mesmo vendedor).
+
+Falhas / limites:
+- Magazine Luiza: o link das ofertas do Buscapé não pôde ser reobtido hoje, então as ofertas Magalu antigas com preço diferente foram removidas de naoConferidas (SSD manteve 4 com preço igual ao de hoje). Preços Magalu em `livelo` da memória e do robô ficaram null.
+- KaBuM!: só o SSD vendido pela própria loja (R$ 977,77) entrou. Memória da KaBuM! é de parceiro (Cavuca) sem nota conferida hoje, ficou fora de ofertas. Mesh Deco X50 2-pack da KaBuM! (R$ 899,00 e R$ 991,00): vendedor não confirmado hoje; só ficou em `livelo` (R$ 991, como antes).
+- Webcontinental e Fast Shop: as buscas deram 404; não coletados. Loja oficial TP-Link: sem resultado.
+- Mercado Livre: não coletado.

@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-12",
+  "atualizado": "2026-11-13",
   "lojas": [
     {
       "clube": 1,
@@ -11,12 +11,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
     },
     {
-      "clube": 5,
+      "clube": 2,
       "loja": "Magalu",
       "normal": 2,
-      "pontos": 4,
-      "promocao": true,
-      "regra": "Campanha de 09 a 12/11/2026: 5 pts/real para Clube Livelo e 4 pts/real para demais clientes, em itens vendidos e entregues pela Magalu; 2 pts/real no marketplace. Exceto mercado.",
+      "pontos": 2,
+      "promocao": false,
+      "regra": "Até 2 pontos por real: 2 em produtos vendidos e entregues pela Magalu e 1 no marketplace. Não pontuam embalagem de presente, frete, cupom de desconto, gift card, vale-compra nem pedidos de pessoa jurídica.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -47,12 +47,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
     },
     {
-      "clube": 2,
+      "clube": 3,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 2,
-      "promocao": false,
-      "regra": "Até 2 pts/real em produtos vendidos e entregues pela Fast Shop; 1 pt/real no marketplace. Precisa do cupom LIVELO. A campanha de 4 pts terminou em 11/11.",
+      "pontos": 3,
+      "promocao": true,
+      "regra": "Campanha de 13 a 15/11/2026: 3 pontos por real em produtos vendidos e entregues pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "loja": "Electrolux",
-      "pontos": 2,
+      "pontos": 1,
       "normal": 1,
-      "clube": 4,
-      "promocao": true,
-      "regra": "Campanha válida em 12/11/2026: 4 pontos por real para assinantes do Clube Livelo e 2 pontos por real para os demais, em produtos vendidos e entregues pela Electrolux. Fora da campanha, 1 ponto por real.",
+      "clube": 1,
+      "promocao": false,
+      "regra": "1 ponto por real. Pontos creditados em até 30 dias após o recebimento. Consulte o regulamento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha de 12 a 26/11/2026: 3 pts/real gastos (normal: 1 pt/real).",
+      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto. Fora da campanha, 1 ponto por real.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {

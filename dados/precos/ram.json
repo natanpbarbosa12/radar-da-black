@@ -1,95 +1,57 @@
 {
-  "atualizado": "2026-11-12",
+  "atualizado": "2026-11-13",
   "menor": {
     "loja": "Amazon",
     "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-    "preco": 759.05,
+    "preco": 853.86,
     "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
     "vendedor": {
-      "nome": "GARZÔ",
+      "nome": "Orbitek",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 152,
+      "avaliacoes": 1158,
       "reputacao": null
     }
   },
-  "qtdOfertas": 4,
-  "naoConferidas": [
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200",
-      "preco": 783.75,
-      "link": "https://www.buscape.com.br/lead?oid=1563661101"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Memória Ram Para Notebook 16GB Samsung DDR4 3200Mhz 2Rx8 CL22 PC4 3200",
-      "preco": 783.75,
-      "link": "https://www.buscape.com.br/lead?oid=1575307319"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Memória Ram Para Notebook 16GB Samsung DDR4 3200Mhz 2Rx8 CL22 PC4 3200",
-      "preco": 783.75,
-      "link": "https://www.buscape.com.br/lead?oid=1564087022"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200",
-      "preco": 783.75,
-      "link": "https://www.buscape.com.br/lead?oid=1564623238"
-    }
-  ],
+  "qtdOfertas": 3,
+  "naoConferidas": [],
   "ofertas": [
     {
       "loja": "Amazon",
       "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 759.05,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
-      "vendedor": {
-        "nome": "GARZÔ",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 152,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 759.05,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
-      "vendedor": {
-        "nome": "NexTT",
-        "tipo": "parceiro",
-        "nota": 5,
-        "avaliacoes": 774,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 759.05,
+      "preco": 853.86,
       "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
       "vendedor": {
         "nome": "Orbitek",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 1155,
+        "avaliacoes": 1158,
         "reputacao": null
       }
     },
     {
-      "loja": "KaBuM!",
-      "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
-      "preco": 851.01,
-      "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 879.96,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
       "vendedor": {
-        "nome": "Cavuca",
+        "nome": "NexTT",
         "tipo": "parceiro",
-        "nota": 4.7,
-        "avaliacoes": 1000,
+        "nota": 5,
+        "avaliacoes": 775,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 879.96,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+      "vendedor": {
+        "nome": "GARZÔ",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 153,
         "reputacao": null
       }
     }
@@ -98,7 +60,7 @@
     {
       "loja": "Kabum",
       "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
-      "preco": 851.01,
+      "preco": 849.15,
       "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
       "vendedor": "Cavuca (parceiro da KaBuM!)",
       "pontos": 0,
@@ -107,11 +69,11 @@
     {
       "loja": "Magalu",
       "nome": "Memória RAM Para Notebook 16GB Samsung DDR4 3200Mhz 1Rx8 CL22 PC4 3200",
-      "preco": 783.75,
+      "preco": null,
       "link": "https://www.buscape.com.br/lead?oid=1563661101",
       "vendedor": null,
       "pontos": 2,
-      "obs": "Campanha 09-12/11: 4 pts/real se vendido e entregue pela Magalu; 2 pts no marketplace. Vendedor não conferido."
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace (campanha de 4 pts acabou em 12/11). Preço não conferido hoje (Buscapé mostra ~R$ 793,25 para a Crucial 16GB)."
     }
   ],
   "historico": [
@@ -191,6 +153,13 @@
       "l": "Amazon",
       "lojas": 2,
       "m": 805.03
+    },
+    {
+      "d": "2026-11-13",
+      "p": 853.86,
+      "l": "Amazon",
+      "lojas": 1,
+      "m": 853.86
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",
