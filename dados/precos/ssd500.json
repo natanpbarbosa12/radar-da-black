@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-13",
+  "atualizado": "2026-11-14",
   "menor": {
     "loja": "Amazon",
-    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
     "preco": 627.32,
     "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
     "vendedor": {
@@ -43,7 +43,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 627.32,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -56,7 +56,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 664.77,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -69,7 +69,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 717.25,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -82,7 +82,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 740.05,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -95,7 +95,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 749.55,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -108,14 +108,14 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 759.05,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
-        "nome": "TI INFORMATICA",
+        "nome": "TI COMPUTADORES",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 566,
+        "avaliacoes": 499,
         "reputacao": null
       }
     }
@@ -220,6 +220,13 @@
     },
     {
       "d": "2026-11-13",
+      "p": 627.32,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 753.66
+    },
+    {
+      "d": "2026-11-14",
       "p": 627.32,
       "l": "Amazon",
       "lojas": 2,

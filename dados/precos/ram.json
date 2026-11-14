@@ -1,21 +1,34 @@
 {
-  "atualizado": "2026-11-13",
+  "atualizado": "2026-11-14",
   "menor": {
-    "loja": "Amazon",
-    "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-    "preco": 853.86,
-    "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+    "loja": "KaBuM!",
+    "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
+    "preco": 851.01,
+    "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
     "vendedor": {
-      "nome": "Orbitek",
+      "nome": "Cavuca",
       "tipo": "parceiro",
       "nota": 4.5,
-      "avaliacoes": 1160,
+      "avaliacoes": 1000,
       "reputacao": null
     }
   },
-  "qtdOfertas": 3,
+  "qtdOfertas": 4,
   "naoConferidas": [],
   "ofertas": [
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
+      "preco": 851.01,
+      "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
+      "vendedor": {
+        "nome": "Cavuca",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 1000,
+        "reputacao": null
+      }
+    },
     {
       "loja": "Amazon",
       "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
@@ -60,11 +73,11 @@
     {
       "loja": "Kabum",
       "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
-      "preco": 851.08,
+      "preco": 851.01,
       "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
-      "vendedor": "Cavuca (parceiro da KaBuM!)",
+      "vendedor": "Cavuca",
       "pontos": 0,
-      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da Cavuca, nota 4,7)."
+      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da Cavuca, nota 4,5, +1000 vendas)."
     },
     {
       "loja": "Magalu",
@@ -160,6 +173,13 @@
       "l": "Amazon",
       "lojas": 1,
       "m": 853.86
+    },
+    {
+      "d": "2026-11-14",
+      "p": 851.01,
+      "l": "KaBuM!",
+      "lojas": 2,
+      "m": 852.44
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-13",
+  "atualizado": "2026-11-14",
   "lojas": [
     {
       "clube": 1,
@@ -112,15 +112,7 @@
   ],
   "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
   "smiles": {
-    "ativa": true,
-    "bonus": 70,
-    "titulo": "Até 70% de bônus na transferência da Livelo para a Smiles (70% para Clube Smiles/Diamante, 40% para os demais, segundo blogs). Transferências até 13/11/2026 (conforme blogs; confira o regulamento).",
-    "regras": [
-      "Cadastre-se na campanha antes de transferir",
-      "Bônus de 70% para assinantes do Clube Smiles e clientes Diamante",
-      "Milhas bônus creditadas até 30/11/2026, válidas por 12 meses (segundo blogs)"
-    ],
-    "cadastro": "https://www.livelo.com.br/ofertas"
+    "ativa": false
   },
   "azul": {
     "ativa": false
