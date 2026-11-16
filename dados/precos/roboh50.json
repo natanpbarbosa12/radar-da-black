@@ -4,10 +4,16 @@
   "qtdOfertas": 0,
   "naoConferidas": [
     {
-      "loja": "Amazon",
-      "nome": "Robo Aspirador Robot Vacuum H50, Base de Autoesvaziamento, Bivolt, BHR08GUEU (oferta em destaque, vendedor não identificado)",
-      "preco": 3419.9,
-      "link": "https://www.amazon.com.br/dp/B0GYW68HVQ?aod=1&psc=1"
+      "loja": "Magazine Luiza",
+      "nome": "Robô Aspirador Xiaomi H50 10000Pa Lançamento 2026, 110V",
+      "preco": 3422.4,
+      "link": "https://www.buscape.com.br/lead?oid=1574256877"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Robô Aspirador 110V Xiaomi Robot Vacuum H50 com Estação Omni Multifuncional",
+      "preco": 3995.1,
+      "link": "https://www.buscape.com.br/lead?oid=1578104713"
     }
   ],
   "ofertas": [],
@@ -81,11 +87,11 @@
     {
       "loja": "Magalu",
       "nome": "Robô Aspirador Xiaomi H50 Lava E Aspira Base Automática 10000Pa, 110V",
-      "preco": null,
+      "preco": 3422.4,
       "link": "https://www.magazineluiza.com.br/robo-aspirador-xiaomi-h50-lava-e-aspira-base-automatica-10000pa/p/fj590e6ch0/ep/eprb/",
       "vendedor": null,
       "pontos": 2,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço e vendedor não conferidos hoje (Magalu bloqueia a leitura; Buscapé mostra H50 110V a partir de ~R$ 3.422)."
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço visto no Buscapé (H50 110V); vendedor não conferido (Magalu bloqueia a leitura)."
     }
   ]
 }

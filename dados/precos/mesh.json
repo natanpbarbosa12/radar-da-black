@@ -13,14 +13,8 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 10,
+  "qtdOfertas": 6,
   "naoConferidas": [
-    {
-      "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000 (oferta em destaque, vendedor não identificado)",
-      "preco": 828.94,
-      "link": "https://www.amazon.com.br/dp/B09LVFNMVJ?aod=1&psc=1"
-    },
     {
       "loja": "Magazine Luiza",
       "nome": "Roteador TP-Link Deco X50, AX3000, WiFi 6, 2402 Mbps",
@@ -57,7 +51,7 @@
     {
       "loja": "Amazon",
       "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
-      "preco": 728.64,
+      "preco": 728.63,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
         "nome": "Amazon.com.br",
@@ -70,20 +64,7 @@
     {
       "loja": "Amazon",
       "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
-      "preco": 736.25,
-      "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
-      "vendedor": {
-        "nome": "TNTinfoLoja",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 8803,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
-      "preco": 797.05,
+      "preco": 730.55,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
         "nome": "TP-Link Loja oficial",
@@ -96,13 +77,13 @@
     {
       "loja": "Amazon",
       "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
-      "preco": 889.1,
-      "link": "https://www.amazon.com.br/dp/B09LVFNMVJ?aod=1&psc=1",
+      "preco": 736.25,
+      "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
       "vendedor": {
-        "nome": "XcommBR",
+        "nome": "TNTinfoLoja",
         "tipo": "parceiro",
-        "nota": 4,
-        "avaliacoes": 2776,
+        "nota": 4.5,
+        "avaliacoes": 8809,
         "reputacao": null
       }
     },
@@ -111,6 +92,19 @@
       "nome": "TP-Link Deco X50 (2 un.) Roteador Mesh Wi-Fi 6 AX3000",
       "preco": 951.89,
       "link": "https://www.amazon.com.br/dp/B0D4ZLWZBW?aod=1&psc=1",
+      "vendedor": {
+        "nome": "KaBuM!",
+        "tipo": "parceiro",
+        "nota": 4,
+        "avaliacoes": 1659,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Kit Roteador Mesh Wi-Fi 6 Gigabit AX3000 TP-Link Deco X50 (2-pack)",
+      "preco": 1249.9,
+      "link": "https://www.kabum.com.br/produto/377589",
       "vendedor": {
         "nome": "KaBuM!",
         "tipo": "loja",

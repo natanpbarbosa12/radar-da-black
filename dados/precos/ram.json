@@ -1,19 +1,19 @@
 {
   "atualizado": "2026-11-16",
   "menor": {
-    "loja": "KaBuM!",
-    "nome": "Memoria 16gb P/ Notebook Kingston Ddr4 3200 Kvr32s22s8/16",
-    "preco": 830.81,
-    "link": "https://www.kabum.com.br/produto/793539/memoria-16gb-p-notebook-kingston-ddr4-3200-kvr32s22s8-16",
+    "loja": "Amazon",
+    "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+    "preco": 682.57,
+    "link": "https://www.amazon.com.br/dp/B08C511GQH",
     "vendedor": {
-      "nome": "A.CIOLI",
+      "nome": "Orbitek",
       "tipo": "parceiro",
-      "nota": 4.7,
-      "avaliacoes": 1000,
+      "nota": 4.5,
+      "avaliacoes": 604,
       "reputacao": null
     }
   },
-  "qtdOfertas": 5,
+  "qtdOfertas": 4,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -23,6 +23,45 @@
     }
   ],
   "ofertas": [
+    {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 682.57,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH",
+      "vendedor": {
+        "nome": "Orbitek",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 604,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 830.08,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+      "vendedor": {
+        "nome": "GARZÔ",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 155,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "preco": 830.08,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+      "vendedor": {
+        "nome": "NexTT",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 780,
+        "reputacao": null
+      }
+    },
     {
       "loja": "KaBuM!",
       "nome": "Memoria 16gb P/ Notebook Kingston Ddr4 3200 Kvr32s22s8/16",
@@ -35,58 +74,6 @@
         "avaliacoes": 1000,
         "reputacao": null
       }
-    },
-    {
-      "loja": "KaBuM!",
-      "nome": "Memória Para Notebook Kingston 16gb Ddr4, 3200mhz - Kvr32s22s8/16",
-      "preco": 851.01,
-      "link": "https://www.kabum.com.br/produto/1076024/memoria-para-notebook-kingston-16gb-ddr4-3200mhz-kvr32s22s8-16",
-      "vendedor": {
-        "nome": "Cavuca",
-        "tipo": "parceiro",
-        "nota": 4.8,
-        "avaliacoes": 1000,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 853.86,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Orbitek",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 1165,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 879.96,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
-      "vendedor": {
-        "nome": "NexTT",
-        "tipo": "parceiro",
-        "nota": 5,
-        "avaliacoes": 779,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 879.96,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
-      "vendedor": {
-        "nome": "GARZÔ",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 155,
-        "reputacao": null
-      }
     }
   ],
   "livelo": [
@@ -97,16 +84,16 @@
       "link": "https://www.kabum.com.br/produto/793539/memoria-16gb-p-notebook-kingston-ddr4-3200-kvr32s22s8-16",
       "vendedor": "A.CIOLI",
       "pontos": 0,
-      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da A.CIOLI, nota 4,7, +1000 vendas)."
+      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da A.CIOLI, nota 4,7, +1000 vendas); a KaBuM! própria está esgotada."
     },
     {
       "loja": "Magalu",
       "nome": "Memória Ram Para Notebook 16GB Crucial DDR4 3200 Mhz 1Rx8 CL22 PC42560",
       "preco": 793.25,
       "link": "https://www.buscape.com.br/lead?oid=1570567903",
-      "vendedor": null,
-      "pontos": 2,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço visto no Buscapé; vendedor não conferido (Magalu bloqueia a leitura)."
+      "vendedor": "matrosinformatica (parceiro; não conferido)",
+      "pontos": 1,
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Esta oferta é de vendedor parceiro (matrosinformatica), então rende 1 pt. Preço visto no Buscapé; Magalu bloqueia a leitura, vendedor não conferido."
     }
   ],
   "historico": [
@@ -210,10 +197,10 @@
     },
     {
       "d": "2026-11-16",
-      "p": 830.81,
-      "l": "KaBuM!",
+      "p": 682.57,
+      "l": "Amazon",
       "lojas": 2,
-      "m": 842.34
+      "m": 756.69
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",
