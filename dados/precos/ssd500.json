@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-15",
+  "atualizado": "2026-11-16",
   "menor": {
     "loja": "Amazon",
     "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 10,
+  "qtdOfertas": 11,
   "naoConferidas": [
     {
       "loja": "Amazon",
@@ -38,12 +38,6 @@
       "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
       "preco": 699.71,
       "link": "https://www.buscape.com.br/lead?oid=1521228965"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "SSD 500GB Kingston NV3 M.2 2280 NVMe PCIe 4.0 Até 5000MB/s SNV3S/500G",
-      "preco": 1189,
-      "link": "https://www.buscape.com.br/lead?oid=1580801971"
     }
   ],
   "ofertas": [
@@ -82,7 +76,20 @@
         "nome": "InfoTop",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 488,
+        "avaliacoes": 489,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "SSD 500GB Kingston NV3 M.2 2280 PCIe 4.0 NVMe SNV3S/500G",
+      "preco": 718.46,
+      "link": "https://www.buscape.com.br/lead?oid=1472339266",
+      "vendedor": {
+        "nome": "Kometa",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 1000,
         "reputacao": null
       }
     },
@@ -95,7 +102,7 @@
         "nome": "GPrime Games",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 1054,
+        "avaliacoes": 1057,
         "reputacao": null
       }
     },
@@ -109,19 +116,6 @@
         "tipo": "parceiro",
         "nota": 4,
         "avaliacoes": 117,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4, Rápido e Compacto para Upgrade de PC ou Notebook – SNV3S/500G",
-      "preco": 759.05,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "TI COMPUTADORES",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 499,
         "reputacao": null
       }
     }
@@ -143,7 +137,7 @@
       "link": "https://www.buscape.com.br/lead?oid=1524429672",
       "vendedor": null,
       "pontos": 2,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace (campanha de 4 pts acabou em 12/11). Vendedor não conferido."
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço visto no Buscapé; vendedor não conferido."
     }
   ],
   "historico": [
@@ -244,6 +238,13 @@
       "l": "Amazon",
       "lojas": 2,
       "m": 753.66
+    },
+    {
+      "d": "2026-11-16",
+      "p": 627.32,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 672.89
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

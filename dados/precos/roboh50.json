@@ -1,13 +1,13 @@
 {
-  "atualizado": "2026-11-15",
+  "atualizado": "2026-11-16",
   "menor": null,
   "qtdOfertas": 0,
   "naoConferidas": [
     {
       "loja": "Amazon",
-      "nome": "Xiaomi Robot Vacuum H50 US (Versão US) - vendido por Alô Bebe, nota do vendedor não visível hoje",
-      "preco": 2455.25,
-      "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1"
+      "nome": "Robo Aspirador Robot Vacuum H50, Base de Autoesvaziamento, Bivolt, BHR08GUEU (oferta em destaque, vendedor não identificado)",
+      "preco": 3419.9,
+      "link": "https://www.amazon.com.br/dp/B0GYW68HVQ?aod=1&psc=1"
     }
   ],
   "ofertas": [],
@@ -85,7 +85,7 @@
       "link": "https://www.magazineluiza.com.br/robo-aspirador-xiaomi-h50-lava-e-aspira-base-automatica-10000pa/p/fj590e6ch0/ep/eprb/",
       "vendedor": null,
       "pontos": 2,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço e vendedor não conferidos hoje (Buscapé mostra H50 110V a partir de ~R$ 3.422)."
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço e vendedor não conferidos hoje (Magalu bloqueia a leitura; Buscapé mostra H50 110V a partir de ~R$ 3.422)."
     }
   ]
 }

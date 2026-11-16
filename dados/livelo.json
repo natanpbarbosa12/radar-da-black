@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-15",
+  "atualizado": "2026-11-16",
   "lojas": [
     {
       "clube": 1,
@@ -47,12 +47,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
     },
     {
-      "clube": 3,
+      "clube": 2,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 3,
-      "promocao": true,
-      "regra": "Campanha de 13 a 15/11/2026: 3 pontos por real em produtos vendidos e entregues pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO.",
+      "pontos": 2,
+      "promocao": false,
+      "regra": "Até 2 pontos por real. Use o cupom LIVELO. Pontos creditados em até 30 dias após o recebimento. A campanha de 3 pontos (13 a 15/11) terminou; marketplace dá 1 ponto por real.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "Campanha de 09 a 15/11/2026: 2 pts/real só em Moda; nas demais categorias 1 ponto a cada 2 reais (0,5 pt/real), exceto Alimentos e Bebidas.",
+      "regra": "Campanha de 16 a 22/11/2026: 2 pts/real só em Saúde & Esporte; nas demais categorias 1 ponto a cada 2 reais (0,5 pt/real), exceto Alimentos e Bebidas.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "loja": "Carrefour",
-      "pontos": 1,
+      "pontos": 2,
       "normal": 1,
-      "clube": 1,
-      "promocao": false,
-      "regra": "1 ponto por real, sem campanha hoje. Carrefour Shopping (eletro e casa). Use o cupom livelo. Pontos em até 30 dias após o recebimento ou a retirada. Gift card, vale-presente e vale-compra não pontuam.",
+      "clube": 4,
+      "promocao": true,
+      "regra": "Campanha válida só em 16/11/2026: 4 pontos por real para assinantes do Clube Livelo e 2 para os demais. Use o cupom LIVELO. Não vale para gift card. Normal: 1 ponto por real.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/carrefour-shopping/CRF"
     }
   ],
