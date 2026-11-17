@@ -1,19 +1,19 @@
 {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-17",
   "menor": {
     "loja": "Amazon",
-    "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-    "preco": 682.57,
-    "link": "https://www.amazon.com.br/dp/B08C511GQH",
+    "nome": "Memória Notebook Crucial 16GB DDR4 3200 MHz (CT16G4SFRA32A)",
+    "preco": 830.08,
+    "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
     "vendedor": {
-      "nome": "Orbitek",
+      "nome": "NexTT",
       "tipo": "parceiro",
-      "nota": 4.5,
-      "avaliacoes": 604,
+      "nota": 5,
+      "avaliacoes": 780,
       "reputacao": null
     }
   },
-  "qtdOfertas": 4,
+  "qtdOfertas": 3,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -25,33 +25,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 682.57,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH",
-      "vendedor": {
-        "nome": "Orbitek",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 604,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
-      "preco": 830.08,
-      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
-      "vendedor": {
-        "nome": "GARZÔ",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 155,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 MHz (CT16G4SFRA32A)",
       "preco": 830.08,
       "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
       "vendedor": {
@@ -63,6 +37,19 @@
       }
     },
     {
+      "loja": "Amazon",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 MHz (CT16G4SFRA32A)",
+      "preco": 830.08,
+      "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
+      "vendedor": {
+        "nome": "GARZÔ",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 155,
+        "reputacao": null
+      }
+    },
+    {
       "loja": "KaBuM!",
       "nome": "Memoria 16gb P/ Notebook Kingston Ddr4 3200 Kvr32s22s8/16",
       "preco": 830.81,
@@ -70,7 +57,7 @@
       "vendedor": {
         "nome": "A.CIOLI",
         "tipo": "parceiro",
-        "nota": 4.7,
+        "nota": 5,
         "avaliacoes": 1000,
         "reputacao": null
       }
@@ -201,6 +188,13 @@
       "l": "Amazon",
       "lojas": 2,
       "m": 756.69
+    },
+    {
+      "d": "2026-11-17",
+      "p": 830.08,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 830.45
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

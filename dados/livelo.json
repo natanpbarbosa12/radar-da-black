@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-16",
+  "atualizado": "2026-11-17",
   "lojas": [
     {
       "clube": 1,
@@ -11,12 +11,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
     },
     {
-      "clube": 2,
+      "clube": 3,
       "loja": "Magalu",
       "normal": 2,
-      "pontos": 2,
-      "promocao": false,
-      "regra": "Até 2 pontos por real: 2 em produtos vendidos e entregues pela Magalu e 1 no marketplace. Não pontuam embalagem de presente, frete, cupom de desconto, gift card, vale-compra nem pedidos de pessoa jurídica.",
+      "pontos": 3,
+      "promocao": true,
+      "regra": "Campanha de 17 a 19/11/2026: 3 pontos por real em produtos vendidos e entregues pela Magalu, 2 no marketplace (8 pts só em projetores Epson selecionados). Fora da campanha: 2 pts. Não vale para mercado, frete, cupom, gift card nem pessoa jurídica.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -52,7 +52,7 @@
       "normal": 2,
       "pontos": 2,
       "promocao": false,
-      "regra": "Até 2 pontos por real. Use o cupom LIVELO. Pontos creditados em até 30 dias após o recebimento. A campanha de 3 pontos (13 a 15/11) terminou; marketplace dá 1 ponto por real.",
+      "regra": "2 pontos por real nos produtos vendidos e entregues pela Fast Shop; 1 no marketplace. Campanha de 17 a 19/11/2026: até 5 pontos só em produtos selecionados. Use o cupom LIVELO.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto. Fora da campanha, 1 ponto por real.",
+      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto (normal: 1 ponto).",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "loja": "Carrefour",
-      "pontos": 2,
+      "pontos": 1,
       "normal": 1,
-      "clube": 4,
-      "promocao": true,
-      "regra": "Campanha válida só em 16/11/2026: 4 pontos por real para assinantes do Clube Livelo e 2 para os demais. Use o cupom LIVELO. Não vale para gift card. Normal: 1 ponto por real.",
+      "clube": 1,
+      "promocao": false,
+      "regra": "1 ponto por real. Use o cupom LIVELO. Não vale para gift card, vale-presente e vale-compra. A campanha de 4 pts (só em 16/11) terminou.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/carrefour-shopping/CRF"
     }
   ],
