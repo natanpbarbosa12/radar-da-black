@@ -1,15 +1,15 @@
 {
-  "atualizado": "2026-11-17",
+  "atualizado": "2026-11-18",
   "menor": {
     "loja": "Amazon",
-    "nome": "Memória Notebook Crucial 16GB DDR4 3200 MHz (CT16G4SFRA32A)",
+    "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
     "preco": 830.08,
     "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
     "vendedor": {
       "nome": "NexTT",
       "tipo": "parceiro",
       "nota": 5,
-      "avaliacoes": 780,
+      "avaliacoes": 781,
       "reputacao": null
     }
   },
@@ -25,27 +25,27 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 MHz (CT16G4SFRA32A)",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
       "preco": 830.08,
       "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
       "vendedor": {
         "nome": "NexTT",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 780,
+        "avaliacoes": 781,
         "reputacao": null
       }
     },
     {
       "loja": "Amazon",
-      "nome": "Memória Notebook Crucial 16GB DDR4 3200 MHz (CT16G4SFRA32A)",
+      "nome": "Memória Notebook Crucial 16GB DDR4 3200 Mhz",
       "preco": 830.08,
       "link": "https://www.amazon.com.br/dp/B08C511GQH?aod=1&psc=1",
       "vendedor": {
         "nome": "GARZÔ",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 155,
+        "avaliacoes": 156,
         "reputacao": null
       }
     },
@@ -191,6 +191,13 @@
     },
     {
       "d": "2026-11-17",
+      "p": 830.08,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 830.45
+    },
+    {
+      "d": "2026-11-18",
       "p": 830.08,
       "l": "Amazon",
       "lojas": 2,

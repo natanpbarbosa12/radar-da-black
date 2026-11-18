@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-17",
+  "atualizado": "2026-11-18",
   "lojas": [
     {
       "clube": 1,
@@ -112,10 +112,28 @@
   ],
   "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
   "smiles": {
-    "ativa": false
+    "ativa": true,
+    "bonus": 80,
+    "titulo": "Orange Friday: válida das 10h de 17/11 até 23h59 de 18/11/2026",
+    "regras": [
+      "80% de bônus para assinantes do Clube Smiles e/ou Diamante/Magno; 40% para os demais clientes",
+      "Cadastro obrigatório na página da campanha antes de transferir",
+      "Transferência de pontos de cartão de crédito/bancos (só Esfera fica de fora); a página não cita a Livelo, confira no cadastro",
+      "Limite de 300.000 milhas bônus por CPF; bônus creditado até 02/12/2026, válido por 12 meses"
+    ],
+    "cadastro": "https://www.smiles.com.br/portal/campanhas/orangefriday-bancos-17-11-2026"
   },
   "azul": {
-    "ativa": false
+    "ativa": true,
+    "bonus": 120,
+    "titulo": "Válida até 19/11/2026 (segundo o Passageiro de Primeira, inclui a Livelo; página oficial bloqueou a leitura)",
+    "regras": [
+      "60% de bônus para clientes em geral e 90% para assinantes do Clube Azul",
+      "Assinantes do Clube Azul ganham até +30% conforme o tempo de clube (total de até 120%)",
+      "+1.000 pontos Azul na primeira transferência",
+      "Cadastro obrigatório antes de transferir; limite de 300.000 pontos bônus por CPF; Esfera não participa"
+    ],
+    "cadastro": "https://www.voeazul.com.br/br/pt/ofertas/bancos"
   },
   "latam": {
     "ativa": false
