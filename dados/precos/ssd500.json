@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 11,
+  "qtdOfertas": 10,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -70,7 +70,7 @@
         "nome": "magazine ttnt",
         "tipo": "parceiro",
         "nota": 4,
-        "avaliacoes": 209,
+        "avaliacoes": 210,
         "reputacao": null
       }
     },
@@ -83,7 +83,7 @@
         "nome": "Wolf System Informática",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 494,
+        "avaliacoes": 495,
         "reputacao": null
       }
     },
@@ -96,7 +96,7 @@
         "nome": "Top System Informática",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 1170,
+        "avaliacoes": 1171,
         "reputacao": null
       }
     },
