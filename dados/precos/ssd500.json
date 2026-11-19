@@ -2,42 +2,43 @@
   "atualizado": "2026-11-19",
   "menor": {
     "loja": "Amazon",
-    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-    "preco": 655.39,
+    "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe - SNV3S/500G",
+    "preco": 645.99,
     "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
     "vendedor": {
-      "nome": "QuantumLD",
+      "nome": "Paulista Fast",
       "tipo": "parceiro",
-      "nota": 4.5,
-      "avaliacoes": 162,
+      "nota": 5,
+      "avaliacoes": 863,
       "reputacao": null
     }
   },
-  "qtdOfertas": 9,
+  "qtdOfertas": 8,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
       "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
       "preco": 694.41,
       "link": "https://www.buscape.com.br/lead?oid=1524429672"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
-      "preco": 699.71,
-      "link": "https://www.buscape.com.br/lead?oid=1520589680"
-    },
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
-      "preco": 699.71,
-      "link": "https://www.buscape.com.br/lead?oid=1521228965"
     }
   ],
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe - SNV3S/500G",
+      "preco": 645.99,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Paulista Fast",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 863,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe - SNV3S/500G",
       "preco": 655.39,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -50,7 +51,7 @@
     },
     {
       "loja": "KaBuM!",
-      "nome": "SSD Kingston Nv3 500 Gb Nvme M.2 2280 Leitura 5000mb/s Gravação 6000mb/s- Snv3s/500g",
+      "nome": "SSD Kingston Nv3 500 Gb Nvme M.2 2280 - Snv3s/500g",
       "preco": 660.33,
       "link": "https://www.kabum.com.br/produto/632571/ssd-500gb-m-2-nvme-pcie-4-5000mb-s-leit-3000mb-s-grav-nv3-snv3s-500g-kingston",
       "vendedor": {
@@ -63,7 +64,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe - SNV3S/500G",
       "preco": 692.1,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -76,20 +77,20 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-      "preco": 692.54,
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe - SNV3S/500G",
+      "preco": 717.24,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
         "nome": "Top System Informática",
         "tipo": "parceiro",
         "nota": 5,
-        "avaliacoes": 1171,
+        "avaliacoes": 1172,
         "reputacao": null
       }
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe - SNV3S/500G",
       "preco": 717.25,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -97,19 +98,6 @@
         "tipo": "parceiro",
         "nota": 5,
         "avaliacoes": 489,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-      "preco": 749.55,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Mundo dos Computadores 07",
-        "tipo": "parceiro",
-        "nota": 4,
-        "avaliacoes": 118,
         "reputacao": null
       }
     }
@@ -131,7 +119,7 @@
       "link": "https://www.buscape.com.br/lead?oid=1524429672",
       "vendedor": null,
       "pontos": 2,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Preço visto no Buscapé; vendedor não conferido."
+      "obs": "2 pts/real no marketplace e 3 pts/real se vendido e entregue pela Magalu (campanha até 19/11). Preço visto no Buscapé; vendedor não conferido (Magalu bloqueia a leitura)."
     }
   ],
   "historico": [
@@ -256,10 +244,10 @@
     },
     {
       "d": "2026-11-19",
-      "p": 655.39,
+      "p": 645.99,
       "l": "Amazon",
       "lojas": 2,
-      "m": 657.86
+      "m": 653.16
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

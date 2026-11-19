@@ -1,19 +1,19 @@
 {
   "atualizado": "2026-11-19",
   "menor": {
-    "loja": "KaBuM!",
-    "nome": "Memoria 16gb P/ Notebook Kingston Ddr4 3200 Kvr32s22s8/16",
-    "preco": 830.81,
-    "link": "https://www.kabum.com.br/produto/793539/memoria-16gb-p-notebook-kingston-ddr4-3200-kvr32s22s8-16",
+    "loja": "Amazon",
+    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE (notebook, OEM)",
+    "preco": 755.25,
+    "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
     "vendedor": {
-      "nome": "A.CIOLI",
+      "nome": "BM INFO",
       "tipo": "parceiro",
       "nota": 5,
-      "avaliacoes": 1000,
+      "avaliacoes": 151,
       "reputacao": null
     }
   },
-  "qtdOfertas": 1,
+  "qtdOfertas": 3,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -24,12 +24,38 @@
   ],
   "ofertas": [
     {
+      "loja": "Amazon",
+      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE (notebook, OEM)",
+      "preco": 755.25,
+      "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
+      "vendedor": {
+        "nome": "BM INFO",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 151,
+        "reputacao": null
+      }
+    },
+    {
       "loja": "KaBuM!",
       "nome": "Memoria 16gb P/ Notebook Kingston Ddr4 3200 Kvr32s22s8/16",
       "preco": 830.81,
       "link": "https://www.kabum.com.br/produto/793539/memoria-16gb-p-notebook-kingston-ddr4-3200-kvr32s22s8-16",
       "vendedor": {
         "nome": "A.CIOLI",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 1000,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "Memória Ram Para Notebook Kingston 16gb Ddr4 3200mhz Sodimm Kvr32s22s8/16",
+      "preco": 884.09,
+      "link": "https://www.kabum.com.br/produto/1070325/memoria-ram-para-notebook-kingston-16gb-ddr4-3200mhz-pc4-25600-sodimm-1-2v-260-pin-kvr32s22s8-16",
+      "vendedor": {
+        "nome": "Kometa",
         "tipo": "parceiro",
         "nota": 5,
         "avaliacoes": 1000,
@@ -45,7 +71,7 @@
       "link": "https://www.kabum.com.br/produto/793539/memoria-16gb-p-notebook-kingston-ddr4-3200-kvr32s22s8-16",
       "vendedor": "A.CIOLI",
       "pontos": 0,
-      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da A.CIOLI, nota 4,7, +1000 vendas); a KaBuM! própria está esgotada."
+      "obs": "Na KaBuM! só pontua o que ela mesma vende e entrega. Hoje essa memória lá é vendida só por parceiros (a mais barata é da A.CIOLI, nota 5, +1000 vendas), que não pontuam."
     },
     {
       "loja": "Magalu",
@@ -53,8 +79,8 @@
       "preco": 793.25,
       "link": "https://www.buscape.com.br/lead?oid=1570567903",
       "vendedor": "matrosinformatica (parceiro; não conferido)",
-      "pontos": 1,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt no marketplace. Esta oferta é de vendedor parceiro (matrosinformatica), então rende 1 pt. Preço visto no Buscapé; Magalu bloqueia a leitura, vendedor não conferido."
+      "pontos": 2,
+      "obs": "3 pts/real se vendido e entregue pela Magalu; 2 pts no marketplace (campanha até 19/11). Esta oferta é de vendedor parceiro (matrosinformatica), então rende 2 pts. Preço visto no Buscapé; Magalu bloqueia a leitura, vendedor não conferido."
     }
   ],
   "historico": [
@@ -179,10 +205,10 @@
     },
     {
       "d": "2026-11-19",
-      "p": 830.81,
-      "l": "KaBuM!",
-      "lojas": 1,
-      "m": 830.81
+      "p": 755.25,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 793.03
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",
