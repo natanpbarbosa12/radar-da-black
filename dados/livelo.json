@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-19",
+  "atualizado": "2026-11-20",
   "lojas": [
     {
       "clube": 1,
@@ -11,12 +11,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/kabum/KBM"
     },
     {
-      "clube": 3,
+      "clube": 2,
       "loja": "Magalu",
       "normal": 2,
-      "pontos": 3,
-      "promocao": true,
-      "regra": "Campanha de 17 a 19/11/2026: 3 pontos por real em produtos vendidos e entregues pela Magalu, 2 no marketplace (8 pts só em projetores Epson selecionados). Fora da campanha: 2 pts. Não vale para mercado, frete, cupom, gift card nem pessoa jurídica.",
+      "pontos": 2,
+      "promocao": false,
+      "regra": "Ganhe 2 pontos por real na compra de produtos vendidos e entregues por Magalu e 1 ponto por real via marketplace. Não acumulam: embalagens para presente, frete, valores pagos com cupom, gift card e Vale-Compra; pedidos de pessoa jurídica; compras fora do hotsite.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -47,12 +47,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
     },
     {
-      "clube": 2,
+      "clube": 4,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 2,
-      "promocao": false,
-      "regra": "2 pontos por real nos produtos vendidos e entregues pela Fast Shop; 1 no marketplace. Campanha de 17 a 19/11/2026: até 5 pontos só em produtos selecionados. Use o cupom LIVELO.",
+      "pontos": 4,
+      "promocao": true,
+      "regra": "Campanha de 20 a 22/11/2026: 4 pontos por real em produtos selecionados; 2 pontos por real nos demais vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace. Use o cupom LIVELO.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "Campanha de 16 a 22/11/2026: 2 pts/real só em Saúde & Esporte; nas demais categorias 1 ponto a cada 2 reais (0,5 pt/real), exceto Alimentos e Bebidas.",
+      "regra": "Campanha de 16 a 22/11/2026: 2 pontos por real em Saúde & Esporte; 1 ponto a cada 2 reais nas demais categorias (exceto Alimentos e Bebidas).",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto (normal: 1 ponto).",
+      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
@@ -93,11 +93,11 @@
     },
     {
       "loja": "Camicado",
-      "pontos": 2,
+      "pontos": 4,
       "normal": 2,
-      "clube": 2,
-      "promocao": false,
-      "regra": "2 pts/real. Produtos que não são vendidos e nem entregues pela Camicado não acumulam pontos.",
+      "clube": 6,
+      "promocao": true,
+      "regra": "Campanha de 20 a 22/11/2026: 6 pontos por real para assinantes do Clube Livelo e 4 pontos por real para os demais, em produtos vendidos e entregues pela Camicado.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
     },
     {
@@ -112,28 +112,10 @@
   ],
   "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
   "smiles": {
-    "ativa": true,
-    "bonus": 80,
-    "titulo": "Orange Friday: válida das 10h de 17/11 até 23h59 de 19/11/2026 (prorrogada)",
-    "regras": [
-      "80% de bônus para assinantes do Clube Smiles e/ou Diamante/Magno; 40% para os demais clientes",
-      "Cadastro obrigatório na página da campanha antes de transferir",
-      "Transferência de pontos de cartão de crédito/bancos (só Esfera fica de fora); a página não cita a Livelo, confira no cadastro",
-      "Limite de 300.000 milhas bônus por CPF; bônus creditado até 02/12/2026, válido por 12 meses"
-    ],
-    "cadastro": "https://www.smiles.com.br/portal/campanhas/orangefriday-bancos-17-11-2026"
+    "ativa": false
   },
   "azul": {
-    "ativa": true,
-    "bonus": 120,
-    "titulo": "Válida até 19/11/2026 (segundo o Passageiro de Primeira, inclui a Livelo; página oficial bloqueou a leitura)",
-    "regras": [
-      "60% de bônus para clientes em geral e 90% para assinantes do Clube Azul",
-      "Assinantes do Clube Azul ganham até +30% conforme o tempo de clube (total de até 120%)",
-      "+1.000 pontos Azul na primeira transferência",
-      "Cadastro obrigatório antes de transferir; limite de 300.000 pontos bônus por CPF; Esfera não participa"
-    ],
-    "cadastro": "https://www.voeazul.com.br/br/pt/ofertas/bancos"
+    "ativa": false
   },
   "latam": {
     "ativa": false
