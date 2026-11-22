@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-21",
+  "atualizado": "2026-11-22",
   "menor": {
     "loja": "Amazon",
     "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE (notebook, OEM)",
@@ -219,6 +219,13 @@
     },
     {
       "d": "2026-11-21",
+      "p": 755.25,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 793.03
+    },
+    {
+      "d": "2026-11-22",
       "p": 755.25,
       "l": "Amazon",
       "lojas": 2,
