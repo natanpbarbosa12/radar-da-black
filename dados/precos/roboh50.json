@@ -2,14 +2,14 @@
   "atualizado": "2026-11-23",
   "menor": {
     "loja": "Amazon",
-    "nome": "Xiaomi Robot Vacuum H50 US - Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US (110V)",
-    "preco": 3000,
+    "nome": "Xiaomi Robot Vacuum H50 US Navegação Inteligente 2 em 1 (Versão US, 110V)",
+    "preco": 2754.05,
     "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
     "vendedor": {
-      "nome": "BRASIL-VENDAS.",
+      "nome": "Alô Bebe",
       "tipo": "parceiro",
-      "nota": 5,
-      "avaliacoes": 791,
+      "nota": 4.5,
+      "avaliacoes": 628,
       "reputacao": null
     }
   },
@@ -31,27 +31,27 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "Xiaomi Robot Vacuum H50 US - Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US (110V)",
-      "preco": 3000,
-      "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
-      "vendedor": {
-        "nome": "BRASIL-VENDAS.",
-        "tipo": "parceiro",
-        "nota": 5,
-        "avaliacoes": 791,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "Xiaomi Robot Vacuum H50 US - Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US (110V)",
-      "preco": 3229.05,
+      "nome": "Xiaomi Robot Vacuum H50 US Navegação Inteligente 2 em 1 (Versão US, 110V)",
+      "preco": 2754.05,
       "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
       "vendedor": {
         "nome": "Alô Bebe",
         "tipo": "parceiro",
         "nota": 4.5,
         "avaliacoes": 628,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "Xiaomi Robot Vacuum H50 US Navegação Inteligente 2 em 1 (Versão US, 110V)",
+      "preco": 2890,
+      "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
+      "vendedor": {
+        "nome": "BRASIL-VENDAS.",
+        "tipo": "parceiro",
+        "nota": 5,
+        "avaliacoes": 791,
         "reputacao": null
       }
     }
@@ -122,10 +122,10 @@
     },
     {
       "d": "2026-11-23",
-      "p": 3000,
+      "p": 2754.05,
       "l": "Amazon",
       "lojas": 1,
-      "m": 3000
+      "m": 2754.05
     }
   ],
   "meses": [],
