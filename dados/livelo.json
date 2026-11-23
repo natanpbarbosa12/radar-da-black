@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-22",
+  "atualizado": "2026-11-23",
   "lojas": [
     {
       "clube": 1,
@@ -47,12 +47,12 @@
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/extra/EXT"
     },
     {
-      "clube": 4,
+      "clube": 2,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 4,
-      "promocao": true,
-      "regra": "Campanha de 20 a 22/11/2026: 4 pontos por real em produtos selecionados; 2 pontos por real nos demais vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace. Use o cupom LIVELO.",
+      "pontos": 2,
+      "promocao": false,
+      "regra": "Até 2 pontos por real nos produtos vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace. Use o cupom LIVELO no carrinho. A campanha de 4 pontos (20 a 22/11) terminou.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "Campanha de 16 a 22/11/2026: 2 pontos por real em Saúde & Esporte; 1 ponto a cada 2 reais nas demais categorias (exceto Alimentos e Bebidas).",
+      "regra": "Campanha de 23 a 29/11/2026: 2 pontos por real em Casa & Decoração; 1 ponto a cada 2 reais (0,5) nas demais categorias, exceto Alimentos e Bebidas.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -93,11 +93,11 @@
     },
     {
       "loja": "Camicado",
-      "pontos": 4,
+      "pontos": 2,
       "normal": 2,
-      "clube": 6,
-      "promocao": true,
-      "regra": "Campanha de 20 a 22/11/2026: 6 pontos por real para assinantes do Clube Livelo e 4 pontos por real para os demais, em produtos vendidos e entregues pela Camicado.",
+      "clube": 2,
+      "promocao": false,
+      "regra": "2 pontos por real em produtos vendidos e entregues pela Camicado; o que não é vendido e entregue por ela não pontua. A campanha de 4 e 6 pontos (20 a 22/11) terminou.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
     },
     {

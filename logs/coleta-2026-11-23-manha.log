@@ -1,0 +1,19 @@
+Coleta 2026-11-23 (manhã) — completa, na nuvem (Chromium funcionando). gerar.mjs terminou com "Página atualizada".
+
+Produtos (menor preço, loja, diferença para a coleta anterior):
+- Memória 16GB DDR4: R$ 755,25 Amazon (Samsung SODIMM OEM, BM INFO, nota 5, 151 aval.). Sem mudança. Outras: KaBuM! A.CIOLI R$ 830,81; KaBuM! Kometa R$ 863,77. 3 ofertas válidas. Magalu (Crucial R$ 793,25) em "não conferidas". Ficou de fora: Dale7 (marca não aceita) e KaBuM R$ 849,15 (vendedor não conferido).
+- SSD Kingston NV3 500GB: R$ 655,39 Amazon (QuantumLD, 4,5/164). Sem mudança. Hadesinfo (KaBuM!) R$ 660,33, Wolf R$ 692,10, Top System R$ 717,24, InfoTop R$ 717,25, Mundo dos Computadores 07 R$ 749,55. 11 ofertas válidas (TI Computadores e TI Informática, R$ 759,05, também válidas). Magalu R$ 694,41 em "não conferidas".
+- TP-Link Deco X50 (2 un.): R$ 621,71 vendido e entregue pela Amazon (+R$ 0,01). Outras: zShops R$ 702,05; TP-Link Loja oficial R$ 730,55; TNTinfoLoja R$ 736,25; Angel R$ 911,05; KaBuM! (Amazon) R$ 948,95; KaBuM! direto R$ 1.470,47. 7 ofertas válidas.
+- Xiaomi Robot Vacuum H50: voltou a ter ofertas válidas na Amazon (versão US, 110V): R$ 3.000,00 BRASIL-VENDAS (nota 5, 791 aval.) e R$ 3.229,05 Alô Bebe (nota 4,5, 628 aval.). Antes (22/11) não havia oferta válida. Magalu 110V (R$ 3.422,40 e R$ 3.995,10) em "não conferidas".
+
+Livelo (12 páginas lidas): em promoção hoje só a Midea, 3 pts (12 a 26/11). Mudanças: Fast Shop voltou a 2 pts (campanha de 4 pts acabou em 22/11); Camicado voltou a 2 pts (campanha acabou); Mercado Livre nova campanha de 23 a 29/11 (2 pts só em Casa & Decoração, 0,5 nas demais), mantido 0,5.
+
+Bônus de transferência (Smiles, Azul, LATAM): nenhuma campanha ativa confirmada; os três ficam inativos. A página de transferência da Livelo continua com 404. A campanha da Smiles (80% Clube / 40% demais, bancos) terminou em 19/11. No Passageiro de Primeira só há bônus de cartão Itaú, não de transferência Livelo.
+
+Vendedores descartados:
+- RAM: nvtek (7 aval., R$ 1.400,60).
+- SSD: oferta de R$ 664,05 sem vendedor visível (descartada na dúvida), CK INFO (23 aval.), Bhc Informatica (47), System Top Informática (vendedor novo).
+- Mesh: Chump Store (28 aval., R$ 656,03), Trend MegaStore (26), AT MEGASTORE (31), TG MegaStore (31), Doctor Byte (50).
+- Robô: MR IMPORTAÇÃO (nota 3, 48% positivas).
+
+Falhas/limites: Magazine Luiza bloqueia e Mercado Livre não foi conferido (vendedor não conferido). Fast Shop e Webcontinental: busca sem oferta válida nova (Webcontinental SSD acima de R$ 948; Fast Shop deu 404). Notas dos vendedores da KaBuM! (A.CIOLI, Kometa, Hadesinfo) conferidas só pela página do produto/lista. Para abrir o navegador na nuvem foi preciso um link simbólico da versão do Chromium (instalação do Playwright demorou).
