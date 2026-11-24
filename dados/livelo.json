@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-23",
+  "atualizado": "2026-11-24",
   "lojas": [
     {
       "clube": 1,
@@ -14,9 +14,9 @@
       "clube": 2,
       "loja": "Magalu",
       "normal": 2,
-      "pontos": 2,
-      "promocao": false,
-      "regra": "Ganhe 2 pontos por real na compra de produtos vendidos e entregues por Magalu e 1 ponto por real via marketplace. Não acumulam: embalagens para presente, frete, valores pagos com cupom, gift card e Vale-Compra; pedidos de pessoa jurídica; compras fora do hotsite.",
+      "pontos": 3,
+      "promocao": true,
+      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em eletrodomésticos vendidos e entregues por Magalu e 2 pontos por real nos demais itens do site (1 ponto por real no marketplace). Consulte o regulamento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -50,9 +50,9 @@
       "clube": 2,
       "loja": "Fast Shop",
       "normal": 2,
-      "pontos": 2,
-      "promocao": false,
-      "regra": "Até 2 pontos por real nos produtos vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace. Use o cupom LIVELO no carrinho. A campanha de 4 pontos (20 a 22/11) terminou.",
+      "pontos": 3,
+      "promocao": true,
+      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em produtos vendidos e entregues pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO no carrinho. Consulte o regulamento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
