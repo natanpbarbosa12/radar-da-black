@@ -3,7 +3,7 @@
   "menor": {
     "loja": "Amazon",
     "nome": "Xiaomi Robot Vacuum H50 US | Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US",
-    "preco": 2691.35,
+    "preco": 2773.05,
     "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
     "vendedor": {
       "nome": "Alô Bebe",
@@ -14,19 +14,12 @@
     }
   },
   "qtdOfertas": 1,
-  "naoConferidas": [
-    {
-      "loja": "Magazine Luiza",
-      "nome": "Robô Aspirador Xiaomi H50 10000pa Lançamento 2026 110v",
-      "preco": 3422.4,
-      "link": "https://www.buscape.com.br/lead?oid=1574256877"
-    }
-  ],
+  "naoConferidas": [],
   "ofertas": [
     {
       "loja": "Amazon",
       "nome": "Xiaomi Robot Vacuum H50 US | Navegação Inteligente, 2 em 1 Aspira e Passa Pano, Versão US",
-      "preco": 2691.35,
+      "preco": 2773.05,
       "link": "https://www.amazon.com.br/dp/B0H12R1NB6?aod=1&psc=1",
       "vendedor": {
         "nome": "Alô Bebe",
@@ -110,10 +103,10 @@
     },
     {
       "d": "2026-11-24",
-      "p": 2691.35,
+      "p": 2773.05,
       "l": "Amazon",
       "lojas": 1,
-      "m": 2691.35
+      "m": 2773.05
     }
   ],
   "meses": [],
@@ -121,11 +114,11 @@
     {
       "loja": "Magalu",
       "nome": "Robô Aspirador Xiaomi H50 Lava E Aspira Base Automática 10000Pa, 110V",
-      "preco": 3422.4,
+      "preco": null,
       "link": "https://www.magazineluiza.com.br/robo-aspirador-xiaomi-h50-lava-e-aspira-base-automatica-10000pa/p/fj590e6ch0/ep/eprb/",
       "vendedor": null,
       "pontos": 1,
-      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt/real no marketplace (página da Livelo em 20/11; campanha de 3 pts acabou). Preço visto no Buscapé; vendedor não conferido (Magalu bloqueia a leitura)."
+      "obs": "2 pts/real se vendido e entregue pela Magalu; 1 pt/real no marketplace. Preço não reconfirmado hoje (Magalu bloqueia a leitura e o Buscapé só mostrou a versão 220V); veja a página do produto."
     }
   ]
 }

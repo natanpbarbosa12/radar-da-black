@@ -16,7 +16,7 @@
       "normal": 2,
       "pontos": 3,
       "promocao": true,
-      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em eletrodomésticos vendidos e entregues por Magalu e 2 pontos por real nos demais itens do site (1 ponto por real no marketplace). Consulte o regulamento.",
+      "regra": "Campanha de 24 a 26/11/2026: 3 pts/real em eletrodomésticos vendidos e entregues pela Magalu e 2 pts/real nos demais itens. Parceiro (marketplace) rende menos. Consulte o regulamento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -52,7 +52,7 @@
       "normal": 2,
       "pontos": 3,
       "promocao": true,
-      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em produtos vendidos e entregues pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO no carrinho. Consulte o regulamento.",
+      "regra": "Campanha de 24 a 26/11/2026: 3 pts/real em produtos vendidos e entregues pela Fast Shop e 1 pt/real no marketplace. Use o cupom LIVELO.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "Campanha de 23 a 29/11/2026: 2 pontos por real em Casa & Decoração; 1 ponto a cada 2 reais (0,5) nas demais categorias, exceto Alimentos e Bebidas.",
+      "regra": "Campanha de 23 a 29/11/2026: 2 pts/real em Casa & Decoração; 1 ponto a cada 2 reais nas demais categorias (exceto Alimentos e Bebidas). Pontos em até 40 dias.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto.",
+      "regra": "Campanha de 12 a 26/11/2026: 3 pts/real gasto. Consulte o regulamento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
