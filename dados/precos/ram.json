@@ -8,8 +8,8 @@
     "vendedor": {
       "nome": "BM INFO",
       "tipo": "parceiro",
-      "nota": 5,
-      "avaliacoes": 152,
+      "nota": 4.5,
+      "avaliacoes": 153,
       "reputacao": null
     }
   },
@@ -31,8 +31,8 @@
       "vendedor": {
         "nome": "BM INFO",
         "tipo": "parceiro",
-        "nota": 5,
-        "avaliacoes": 152,
+        "nota": 4.5,
+        "avaliacoes": 153,
         "reputacao": null
       }
     },

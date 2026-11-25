@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 9,
+  "qtdOfertas": 8,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -45,20 +45,7 @@
         "nome": "QuantumLD",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 166,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
-      "preco": 697.5,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Wolf System Informática",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 495,
+        "avaliacoes": 168,
         "reputacao": null
       }
     },
@@ -98,6 +85,19 @@
         "tipo": "parceiro",
         "nota": 4,
         "avaliacoes": 119,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "preco": 759.05,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "TI COMPUTADORES",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 506,
         "reputacao": null
       }
     }
