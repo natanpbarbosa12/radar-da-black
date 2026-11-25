@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-24",
+  "atualizado": "2026-11-25",
   "lojas": [
     {
       "clube": 1,
@@ -16,7 +16,7 @@
       "normal": 2,
       "pontos": 3,
       "promocao": true,
-      "regra": "Campanha de 24 a 26/11/2026: 3 pts/real em eletrodomésticos vendidos e entregues pela Magalu e 2 pts/real nos demais itens. Parceiro (marketplace) rende menos. Consulte o regulamento.",
+      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em eletrodomésticos vendidos e entregues pela Magalu e 2 pontos por real nos demais itens do site. Marketplace (parceiros) rende 1 ponto por real. Créditos em até 30 dias após a entrega.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -52,7 +52,7 @@
       "normal": 2,
       "pontos": 3,
       "promocao": true,
-      "regra": "Campanha de 24 a 26/11/2026: 3 pts/real em produtos vendidos e entregues pela Fast Shop e 1 pt/real no marketplace. Use o cupom LIVELO.",
+      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em produtos vendidos e entregues pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO. Créditos em até 30 dias.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,7 +61,7 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "Campanha de 23 a 29/11/2026: 2 pts/real em Casa & Decoração; 1 ponto a cada 2 reais nas demais categorias (exceto Alimentos e Bebidas). Pontos em até 40 dias.",
+      "regra": "Campanha de 23 a 29/11/2026: 2 pontos por real em Casa & Decoração; nas demais categorias, 1 ponto a cada 2 reais (exceto Alimentos e Bebidas). Créditos em até 40 dias.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
@@ -79,7 +79,7 @@
       "normal": 1,
       "clube": 3,
       "promocao": true,
-      "regra": "Campanha de 12 a 26/11/2026: 3 pts/real gasto. Consulte o regulamento.",
+      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto (fora da campanha, 1 ponto por real). Compre pelo site do parceiro. Créditos em até 30 dias após o recebimento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {

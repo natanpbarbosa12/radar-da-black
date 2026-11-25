@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-24",
+  "atualizado": "2026-11-25",
   "menor": {
     "loja": "KaBuM!",
     "nome": "SSD Kingston Nv3 500 Gb Nvme M.2 2280 - Snv3s/500g",
@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 8,
+  "qtdOfertas": 9,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -45,20 +45,7 @@
         "nome": "QuantumLD",
         "tipo": "parceiro",
         "nota": 4.5,
-        "avaliacoes": 165,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
-      "preco": 693.4,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Speed Comércio",
-        "tipo": "parceiro",
-        "nota": 4,
-        "avaliacoes": 607,
+        "avaliacoes": 166,
         "reputacao": null
       }
     },
@@ -98,6 +85,19 @@
         "tipo": "parceiro",
         "nota": 5,
         "avaliacoes": 489,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 SNV3S/500G",
+      "preco": 749.55,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Mundo dos Computadores 07",
+        "tipo": "parceiro",
+        "nota": 4,
+        "avaliacoes": 119,
         "reputacao": null
       }
     }
@@ -279,6 +279,13 @@
     },
     {
       "d": "2026-11-24",
+      "p": 660.33,
+      "l": "KaBuM!",
+      "lojas": 2,
+      "m": 662.61
+    },
+    {
+      "d": "2026-11-25",
       "p": 660.33,
       "l": "KaBuM!",
       "lojas": 2,
