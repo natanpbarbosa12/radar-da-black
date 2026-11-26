@@ -2,7 +2,7 @@
   "atualizado": "2026-11-26",
   "menor": {
     "loja": "KaBuM!",
-    "nome": "SSD Kingston Nv3 500 Gb Nvme M.2 2280 - Snv3s/500g",
+    "nome": "SSD 500GB M.2 NVMe PCIe 4.0 Kingston NV3 SNV3S/500G",
     "preco": 660.33,
     "link": "https://www.kabum.com.br/produto/632571/ssd-500gb-m-2-nvme-pcie-4-5000mb-s-leit-3000mb-s-grav-nv3-snv3s-500g-kingston",
     "vendedor": {
@@ -20,12 +20,18 @@
       "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
       "preco": 694.41,
       "link": "https://www.buscape.com.br/lead?oid=1524429672"
+    },
+    {
+      "loja": "Magazine Luiza",
+      "nome": "Ssd 500Gb Kingston Nv3 M.2 2280 Nvme Pcie 4.0 X4 Snv3S/500G",
+      "preco": 699.71,
+      "link": "https://www.buscape.com.br/search?q=SSD+Kingston+NV3+500GB+SNV3S%2F500G"
     }
   ],
   "ofertas": [
     {
       "loja": "KaBuM!",
-      "nome": "SSD Kingston Nv3 500 Gb Nvme M.2 2280 - Snv3s/500g",
+      "nome": "SSD 500GB M.2 NVMe PCIe 4.0 Kingston NV3 SNV3S/500G",
       "preco": 660.33,
       "link": "https://www.kabum.com.br/produto/632571/ssd-500gb-m-2-nvme-pcie-4-5000mb-s-leit-3000mb-s-grav-nv3-snv3s-500g-kingston",
       "vendedor": {
@@ -38,46 +44,20 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe (SNV3S/500G)",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe SNV3S/500G",
       "preco": 664.05,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
         "nome": "magazine ttnt",
         "tipo": "parceiro",
         "nota": 4,
-        "avaliacoes": 329,
+        "avaliacoes": 212,
         "reputacao": null
       }
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe (SNV3S/500G)",
-      "preco": 664.89,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "QuantumLD",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 169,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe (SNV3S/500G)",
-      "preco": 682.35,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "Amazon.com.br",
-        "tipo": "loja",
-        "nota": null,
-        "avaliacoes": null,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe (SNV3S/500G)",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe SNV3S/500G",
       "preco": 717.24,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -90,7 +70,7 @@
     },
     {
       "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe (SNV3S/500G)",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe SNV3S/500G",
       "preco": 717.25,
       "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
       "vendedor": {
@@ -98,6 +78,32 @@
         "tipo": "parceiro",
         "nota": 5,
         "avaliacoes": 489,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe SNV3S/500G",
+      "preco": 749.55,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Mundo dos Computadores 07",
+        "tipo": "parceiro",
+        "nota": 4,
+        "avaliacoes": 120,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe SNV3S/500G",
+      "preco": 759.05,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "TI COMPUTADORES",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 506,
         "reputacao": null
       }
     }
