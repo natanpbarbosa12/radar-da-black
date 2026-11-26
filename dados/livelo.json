@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-25",
+  "atualizado": "2026-11-26",
   "lojas": [
     {
       "clube": 1,
@@ -112,7 +112,17 @@
   ],
   "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
   "smiles": {
-    "ativa": false
+    "ativa": true,
+    "bonus": 80,
+    "titulo": "Orange Friday: até 80% de bônus na transferência de pontos Livelo para a Smiles, até 23h59 de 26/11/2026 (prorrogada)",
+    "regras": [
+      "80% de bônus para assinantes do Clube Smiles, clientes Diamante/Magno e/ou assinantes do Clube Livelo; 50% para os demais",
+      "É preciso se cadastrar na página da promoção antes de transferir",
+      "Mínimo de 10.000 pontos por transferência",
+      "Bônus limitado a 300.000 milhas por CPF ou Conta Família",
+      "Milhas creditadas até 09/12; o bônus do Clube Livelo, para quem assinar na promoção, até 26/12"
+    ],
+    "cadastro": "https://www.smiles.com.br/mfe/promocao"
   },
   "azul": {
     "ativa": false

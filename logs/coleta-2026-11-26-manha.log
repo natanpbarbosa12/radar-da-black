@@ -1,0 +1,14 @@
+Coleta 2026-11-26 (manhã, nuvem). gerar.mjs terminou com "Página atualizada".
+
+Menores preços de hoje (diferença para o dia anterior):
+- Memória 16 GB DDR4: R$ 755,25 na Amazon (BM INFO, nota 4,5, 153 aval.). Sem mudança. 2 ofertas válidas (KaBuM!/A.CIOLI R$ 830,81).
+- SSD Kingston NV3 500 GB: R$ 660,33 na KaBuM! (Hadesinfo). Sem mudança. 9 ofertas válidas; agora entram magazine ttnt (R$ 664,05, nota 4, 329 aval.) e a própria Amazon.com.br (R$ 682,35), que voltou a vender.
+- TP-Link Deco X50 (2 un.): R$ 702,05 na Amazon (zShops, nota 4,5, 2033 aval.). SOBE R$ 80,36 (era R$ 621,69): a Amazon.com.br deixou de vender o kit. KaBuM! (vendida e entregue por ela) R$ 899,00.
+- Xiaomi H50: R$ 2.773,05 na Amazon (versão US, Alô Bebe, nota 4,5, 629 aval.). Sem mudança. Bivolt da Amazon sem vendedor para o CEP; Buscapé/Magalu só mostram 220V (recusada).
+
+Livelo: em promoção hoje: Magalu (3 pts/real em eletrodomésticos vendidos pela Magalu, 24 a 26/11), Fast Shop (3 pts, cupom LIVELO, até 26/11) e Midea (3 pts, até 26/11). Mercado Livre: até 2 pts só em Casa e Decoração (até 29/11), demais categorias 0,5. Demais lojas sem mudança.
+Bônus de transferência: SMILES ATIVO, até 80% (50% para quem não é do Clube Smiles/Clube Livelo), cadastro obrigatório, mínimo 10 mil pontos, vale até 23h59 de 26/11 (prorrogado); confirmado na página de promoções da Smiles. Azul e LATAM: sem campanha confirmada (a LATAM de 27% acabou em 24/11); ficaram inativos.
+
+Vendedores descartados (Amazon): Magalu na Amazon (nota 3,5), Bhc Informatica (47 aval.), CK INFO (23 aval.), System Top Informática (vendedor novo), nvtek (7 aval., importação), REVENDA XIAOMI - DIGITAL HOUSE (29 aval.), Trend MegaStore (26 aval.). Lista da Amazon do mesh cortada após a KaBuM: TG MegaStore, Doctor Byte e Zoing-SP (descartados ontem por poucas avaliações) não foram reconferidos.
+
+Falhas/limites: o instalador do navegador (apt) falhou; usei o Chromium pré-instalado via link simbólico e o abrir.mjs funcionou. Magalu bloqueia a leitura: ofertas dela em "não conferidas". Fast Shop e Webcontinental: busca do site retorna 404. Livelo /transferir-pontos retorna 404. Lojas oficiais de marca (Electrolux/Midea) não reabertas além da Livelo.
