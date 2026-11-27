@@ -1,0 +1,14 @@
+Coleta 2026-11-27 (manhã, nuvem). gerar.mjs terminou com "Página atualizada".
+
+Menores preços de hoje (diferença para a coleta de ontem à noite):
+- Memória 16 GB DDR4: R$ 755,25 na Amazon (BM INFO, nota 5, 152 aval.). Sem mudança. 3 ofertas válidas (KaBuM!/A.CIOLI R$ 908,03; Amazon/Multi Periféricos Crucial R$ 931,66).
+- SSD Kingston NV3 500 GB: R$ 654,55 na Amazon (GPrime Games, nota 5, 1072 aval.). CAIU R$ 5,78 (era R$ 660,33). 2º: KaBuM!/Hadesinfo R$ 660,33. 9 ofertas válidas.
+- TP-Link Deco X50 (2 un.): R$ 664,05 na Amazon (zShops, nota 4,5, 2036 aval.). SUBIU R$ 24,00 (era R$ 640,06 vendido pela Amazon.com.br, agora R$ 738,00). KaBuM! R$ 899,00 (própria). 7 ofertas válidas.
+- Xiaomi H50 (US): SEM oferta válida hoje. A única da Amazon (REVENDA XIAOMI - DIGITAL HOUSE, R$ 3.087,50) tem só 29 avaliações; a versão bivolt está indisponível; Buscapé/Magalu/KaBuM! só mostram 220V ou H50 Pro. Ontem era R$ 2.653,05 (Alô Bebe, que saiu da lista).
+
+Livelo: em promoção hoje: Magalu (4 pts/real em eletroportáteis, 2 nos demais, só até 12h de hoje), Electrolux (6 pts, até 12h de hoje), Fast Shop (3 pts, até 4 em selecionados, 27 a 29/11), Midea (5 pts, 6 no Clube, 27 a 29/11), Camicado (8 pts, 10 no Clube, 27 a 29/11). Mercado Livre: 2 pts só em Casa e Decoração (até 29/11); demais categorias 0,5.
+Bônus de transferência: Smiles, Azul e LATAM sem campanha ativa. Smiles (até 80%) acabou às 23h59 de 26/11; LATAM (27%) acabou em ~25/11; Azul (até 130%) acabou em 06/11 (conferido em Passageiro de Primeira e Melhores Destinos; páginas oficiais da Livelo/Smiles não mostram a campanha).
+
+Vendedores descartados: Amazon/SSD: CENTERSHOPSBC (nota 3,5), Bhc Informatica (48 aval.), CK INFO (24 aval.); magazine ttnt (R$ 664,05, vendedor da "buy box"; a nota não apareceu na leitura de hoje, descartado na dúvida). Amazon/mesh: Magalu. (R$ 569,05, buy box sem nota visível; ontem tinha nota 3,5), Trend MegaStore (26 aval.), TG MegaStore (31), Doctor Byte (50), Gnt MegaStore (sem avaliações). Amazon/RAM: nvtek (7 aval.), Garden-State (7 aval.), Amazon Global (importação). Amazon/robô: DIGITAL HOUSE (29 aval.). KaBuM!/RAM: Net Alfa Computadores (nota 3,5) e uma oferta Kingston de R$ 849,15 sem vendedor identificado.
+
+Falhas/limites: Magalu bloqueia a leitura (403): ofertas dela em "não conferidas". Páginas de transferência da Livelo e da Smiles não carregam conteúdo (404/SPA). Busca da Fast Shop e da Webcontinental retornou 404; lojas oficiais da marca não reabertas. Preço da KaBuM! lido do JSON da página (Pix).

@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-26",
+  "atualizado": "2026-11-27",
   "menor": {
     "loja": "Amazon",
-    "nome": "Memória RAM Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE",
+    "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Laptop Notebook Memória RAM",
     "preco": 755.25,
     "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
     "vendedor": {
@@ -31,7 +31,7 @@
   "ofertas": [
     {
       "loja": "Amazon",
-      "nome": "Memória RAM Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE",
+      "nome": "Samsung SODIMM 16GB PC4 3200 DDR4 1Rx8 M471A2G43AB2-CWE Laptop Notebook Memória RAM",
       "preco": 755.25,
       "link": "https://www.amazon.com.br/dp/B0B86KG3JG?aod=1&psc=1",
       "vendedor": {
@@ -260,6 +260,13 @@
     },
     {
       "d": "2026-11-26",
+      "p": 755.25,
+      "l": "Amazon",
+      "lojas": 2,
+      "m": 831.64
+    },
+    {
+      "d": "2026-11-27",
       "p": 755.25,
       "l": "Amazon",
       "lojas": 2,

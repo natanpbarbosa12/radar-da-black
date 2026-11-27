@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-11-26",
+  "atualizado": "2026-11-27",
   "lojas": [
     {
       "clube": 1,
@@ -14,9 +14,9 @@
       "clube": 2,
       "loja": "Magalu",
       "normal": 2,
-      "pontos": 3,
+      "pontos": 4,
       "promocao": true,
-      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em eletrodomésticos vendidos e entregues pela Magalu e 2 pontos por real nos demais itens do site. Marketplace (parceiros) rende 1 ponto por real. Créditos em até 30 dias após a entrega.",
+      "regra": "Campanha Pink Friday/Novembro válida da 00h às 12h de 27/11: 4 pontos por real em eletroportáteis (demais formas de pagamento) e 2 por real nos demais produtos, em itens vendidos e entregues pela Magalu; 1 ponto por real no marketplace. Até 10 pts/real com cartão BB.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -52,7 +52,7 @@
       "normal": 2,
       "pontos": 3,
       "promocao": true,
-      "regra": "Campanha de 24 a 26/11/2026: 3 pontos por real em produtos vendidos e entregues pela Fast Shop e 1 ponto por real no marketplace. Use o cupom LIVELO. Créditos em até 30 dias.",
+      "regra": "Campanha de 27 a 29/11/2026: 4 pontos por real em produtos selecionados; 3 pontos por real nos demais vendidos e entregues pela Fast Shop; 1 ponto por real no marketplace. Use o cupom LIVELO.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/fast-shop/FST"
     },
     {
@@ -61,25 +61,25 @@
       "normal": 0.5,
       "pontos": 0.5,
       "promocao": false,
-      "regra": "Campanha de 23 a 29/11/2026: 2 pontos por real em Casa & Decoração; nas demais categorias, 1 ponto a cada 2 reais (exceto Alimentos e Bebidas). Créditos em até 40 dias.",
+      "regra": "Campanha de 23 a 29/11/2026: 2 pontos por real em Casa & Decoração; 1 ponto a cada 2 reais nas demais categorias (exceto Alimentos e Bebidas). Pontos em até 40 dias.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/mercado-livre/MCL"
     },
     {
       "loja": "Electrolux",
-      "pontos": 1,
+      "pontos": 6,
       "normal": 1,
       "clube": 1,
-      "promocao": false,
-      "regra": "1 ponto por real. Pontos creditados em até 30 dias após o recebimento. Consulte o regulamento.",
+      "promocao": true,
+      "regra": "Campanha válida da 00h às 12h de 27/11/2026: 6 pontos por real em produtos vendidos e entregues pela Electrolux. Fora da campanha, 1 ponto por real.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
     },
     {
       "loja": "Midea",
-      "pontos": 3,
+      "pontos": 5,
       "normal": 1,
-      "clube": 3,
+      "clube": 6,
       "promocao": true,
-      "regra": "Campanha de 12 a 26/11/2026: 3 pontos por real gasto (fora da campanha, 1 ponto por real). Compre pelo site do parceiro. Créditos em até 30 dias após o recebimento.",
+      "regra": "Campanha de 27 a 29/11/2026: 6 pontos por real para assinantes do Clube Livelo e 5 pontos por real para os demais clientes.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/midea/MDI"
     },
     {
@@ -93,11 +93,11 @@
     },
     {
       "loja": "Camicado",
-      "pontos": 2,
+      "pontos": 8,
       "normal": 2,
-      "clube": 2,
-      "promocao": false,
-      "regra": "2 pontos por real em produtos vendidos e entregues pela Camicado; o que não é vendido e entregue por ela não pontua. Pontos em até 45 dias corridos da entrega. A campanha de 4 e 6 pontos (20 a 22/11) terminou.",
+      "clube": 10,
+      "promocao": true,
+      "regra": "Campanha de 27 a 29/11/2026: 10 pontos por real para assinantes do Clube Livelo e 8 para os demais, em produtos vendidos e entregues pela Camicado. Pontos creditados em até 45 dias.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/camicado/CMC"
     },
     {
@@ -112,17 +112,7 @@
   ],
   "obs": "A Amazon não dá pontos Livelo nas compras (só é parceira para trocar pontos).",
   "smiles": {
-    "ativa": true,
-    "bonus": 80,
-    "titulo": "Orange Friday: até 80% de bônus na transferência de pontos Livelo para a Smiles, até 23h59 de 26/11/2026 (prorrogada)",
-    "regras": [
-      "80% de bônus para assinantes do Clube Smiles, clientes Diamante/Magno e/ou assinantes do Clube Livelo; 50% para os demais",
-      "É preciso se cadastrar na página da promoção antes de transferir",
-      "Mínimo de 10.000 pontos por transferência",
-      "Bônus limitado a 300.000 milhas por CPF ou Conta Família",
-      "Milhas creditadas até 09/12; o bônus do Clube Livelo, para quem assinar na promoção, até 26/12"
-    ],
-    "cadastro": "https://www.smiles.com.br/mfe/promocao"
+    "ativa": false
   },
   "azul": {
     "ativa": false
