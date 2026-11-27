@@ -13,7 +13,7 @@
       "reputacao": null
     }
   },
-  "qtdOfertas": 9,
+  "qtdOfertas": 7,
   "naoConferidas": [
     {
       "loja": "Magazine Luiza",
@@ -43,45 +43,6 @@
       }
     },
     {
-      "loja": "KaBuM!",
-      "nome": "SSD 500GB M.2 NVMe PCIe 4 5000MB/s NV3 SNV3S/500G Kingston",
-      "preco": 660.33,
-      "link": "https://www.kabum.com.br/produto/632571/ssd-500gb-m-2-nvme-pcie-4-5000mb-s-leit-3000mb-s-grav-nv3-snv3s-500g-kingston",
-      "vendedor": {
-        "nome": "Hadesinfo",
-        "tipo": "parceiro",
-        "nota": 4.1,
-        "avaliacoes": 1000,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-      "preco": 664.89,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "QuantumLD",
-        "tipo": "parceiro",
-        "nota": 4.5,
-        "avaliacoes": 170,
-        "reputacao": null
-      }
-    },
-    {
-      "loja": "Amazon",
-      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
-      "preco": 667.49,
-      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
-      "vendedor": {
-        "nome": "KaBuM!",
-        "tipo": "parceiro",
-        "nota": 4,
-        "avaliacoes": 1778,
-        "reputacao": null
-      }
-    },
-    {
       "loja": "Amazon",
       "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
       "preco": 693.02,
@@ -91,6 +52,19 @@
         "tipo": "parceiro",
         "nota": 4,
         "avaliacoes": 608,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "KaBuM!",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "preco": 704.99,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "KaBuM!",
+        "tipo": "loja",
+        "nota": null,
+        "avaliacoes": null,
         "reputacao": null
       }
     },
@@ -106,17 +80,43 @@
         "avaliacoes": 1174,
         "reputacao": null
       }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "preco": 749.55,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "Mundo dos Computadores 07",
+        "tipo": "parceiro",
+        "nota": 4,
+        "avaliacoes": 121,
+        "reputacao": null
+      }
+    },
+    {
+      "loja": "Amazon",
+      "nome": "SSD Kingston NV3 500GB M.2 2280 NVMe Gen4 - SNV3S/500G",
+      "preco": 759.05,
+      "link": "https://www.amazon.com.br/dp/B0DBR9RZLV?aod=1&psc=1",
+      "vendedor": {
+        "nome": "TI COMPUTADORES",
+        "tipo": "parceiro",
+        "nota": 4.5,
+        "avaliacoes": 506,
+        "reputacao": null
+      }
     }
   ],
   "livelo": [
     {
       "loja": "Kabum",
       "nome": "SSD Kingston NV3, 500GB, M.2 2280, PCIe 4.0 x4, NVMe - SNV3S/500G",
-      "preco": 749.99,
+      "preco": 839.99,
       "link": "https://www.kabum.com.br/produto/621161",
       "vendedor": "KaBuM!",
       "pontos": 1,
-      "obs": "Vendido e entregue pela própria KaBuM! (preço à vista no Pix), então pontua 1 ponto por real (use o cupom LIVELO). Os mais baratos na KaBuM! são de parceiros (ex.: Hadesinfo R$ 660,33), que não pontuam."
+      "obs": "Vendido e entregue pela própria KaBuM! (Pix, 27/11), então pontua 1 ponto por real (use o cupom LIVELO). Os mais baratos na KaBuM! são de parceiros (ex.: Hadesinfo, hoje esgotado), que não pontuam."
     },
     {
       "loja": "Magalu",
@@ -125,7 +125,7 @@
       "link": "https://www.buscape.com.br/lead?oid=1524429672",
       "vendedor": null,
       "pontos": 1,
-      "obs": "2 pts/real em itens vendidos e entregues pela Magalu (campanha de hoje até 12h); 1 pt/real no marketplace. Preço visto no Buscapé; vendedor não conferido (Magalu bloqueia a leitura)."
+      "obs": "2 pts/real em itens vendidos e entregues pela Magalu (4 em eletroportáteis, até 30/11); 1 pt/real no marketplace (aqui o vendedor é o parceiro oliststore). Preço visto no Buscapé; vendedor não conferido (Magalu bloqueia a leitura)."
     }
   ],
   "historico": [
@@ -309,7 +309,7 @@
       "p": 654.55,
       "l": "Amazon",
       "lojas": 2,
-      "m": 657.44
+      "m": 679.77
     }
   ],
   "mesesFonte": "Amazon (gráfico do Keepa, lido ponto a ponto)",

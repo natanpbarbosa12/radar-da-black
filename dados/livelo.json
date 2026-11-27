@@ -16,7 +16,7 @@
       "normal": 2,
       "pontos": 4,
       "promocao": true,
-      "regra": "Campanha Pink Friday/Novembro válida da 00h às 12h de 27/11: 4 pontos por real em eletroportáteis (demais formas de pagamento) e 2 por real nos demais produtos, em itens vendidos e entregues pela Magalu; 1 ponto por real no marketplace. Até 10 pts/real com cartão BB.",
+      "regra": "Campanha de 27/11 (12h01) a 30/11/2026: 4 pontos por real em eletroportáteis e 2 por real nos demais produtos vendidos e entregues pela Magalu; 1 ponto por real no marketplace.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/magalu/MZL"
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "loja": "Electrolux",
-      "pontos": 6,
+      "pontos": 1,
       "normal": 1,
       "clube": 1,
-      "promocao": true,
-      "regra": "Campanha válida da 00h às 12h de 27/11/2026: 6 pontos por real em produtos vendidos e entregues pela Electrolux. Fora da campanha, 1 ponto por real.",
+      "promocao": false,
+      "regra": "A campanha de 6 pontos por real (até 12h de 27/11) terminou. Hoje a Electrolux dá 1 ponto por real. Pontos em até 30 dias após o recebimento.",
       "link": "https://www.livelo.com.br/juntar-pontos/parceiros/electrolux/ELX"
     },
     {
